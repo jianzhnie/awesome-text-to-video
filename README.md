@@ -1,11 +1,9 @@
 <div align="center">
-
 # Awesome-Text-To-Video [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 </div>
 
 <div align="center">
-
 [中文](README_zh.md) | English
 </div>
 
@@ -201,6 +199,7 @@ In addition, this AI video creator generates a storyboard based on your input sp
 -  Text-To-4D Dynamic Scene Generation, Uriel Singer et al. [[Paper](https://arxiv.org/abs/2301.11280)] [[Project](https://make-a-video3d.github.io/)]
 
 ### 2022
+
 -  Tune-A-Video: One-Shot Tuning of Image Diffusion Models for Text-to-Video Generation, Jay Zhangjie Wu et al. [[Paper](https://arxiv.org/abs/2212.11565)] [[Project](https://tuneavideo.github.io/)] [[Code](https://github.com/showlab/Tune-A-Video)]
 -  MagicVideo: Efficient Video Generation With Latent Diffusion Models, Daquan Zhou et al. [[Paper](https://arxiv.org/abs/2211.11018)] [[Project](https://magicvideo.github.io/#)]
 -  Phenaki: Variable Length Video Generation From Open Domain Textual Description, Ruben Villegas et al. [[Paper](https://arxiv.org/abs/2210.02399)]
