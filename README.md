@@ -144,7 +144,7 @@ You can use GliaCloud to seamlessly create professional-looking videos from exis
 
 You can then preview and edit this script if required before generating an HD-quality video file ready to upload to your website or social media channels.
 
-## [Synths Video](https://synths.video/)
+### [Synths Video](https://synths.video/)
 
 <div align="center">
 <img src="https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2021/11/synths-video-AI.jpg?q=50&fit=crop&w=1500&dpr=1.5" width="600px"></img>
@@ -160,7 +160,7 @@ Just write your blog post as usual and then upload the file to Synths Video, and
 
 
 
-##  [Pictory](https://pictory.ai/)
+###  [Pictory](https://pictory.ai/)
 
 <div align="center">
 <img src="https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2021/11/pictory-video-generator.jpg?q=50&fit=crop&w=1500&dpr=1.5" width="600px"></img>
@@ -184,7 +184,7 @@ Simply sign up, paste your text, select the relevant industry, choose a language
 
 You can use Designs.ai to resize your videos for Facebook, Instagram, Twitter, or TikTok to get the most out of your marketing strategies on social media platforms. This AI-empowered tool also enables you to create logos, banners, and voiceovers in a few minutes.
 
-##  [Wisecut](https://www.wisecut.video/)
+###  [Wisecut](https://www.wisecut.video/)
 
 <div align="center">
 <img src="https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2021/11/wisecut-video-generator.jpg?q=50&fit=crop&w=1500&dpr=1.5" width="600px"></img>
