@@ -13,13 +13,6 @@
 ## Introduction
 Want to easily create funny videos from any description? You should then experiment with AI video generation tools. Unquestionably, AI is the future. AI video generators make it easy to make videos from any text. In only a few minutes, you can create high-level videos from text with a robotic presenter using an AI video maker.
 
-| Pro Tips                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1. By using these [text-to-image Stable Diffusion prompts](https://mpost.io/best-100-stable-diffusion-prompts-the-most-beautiful-ai-text-to-image-prompts/), you can easily generate high-quality artwork without having to spend a lot of time brainstorming ideas. This can save you time and effort while still producing impressive results.                                                                                        |
-| 2. These [AI photo editors](https://mpost.io/best-ai-photo-editors/) come with various features such as automatic background removal, color correction, and object recognition. They can help you producing high-quality images that stand out.                                                                                                                                                                                         |
-| 3. The [AI logo maker](https://mpost.io/5-best-free-ai-logo-makers-of-2023-class-up-your-business-with-an-artificially-intelligent-designer/) uses advanced algorithms to generate unique and creative designs that are tailored to the specific needs of each client. It also offers a wide range of customization options, ensuring that the final product is both visually stunning and perfectly aligned with the brand’s identity. |
-| 4. The report showcases the [top AI music startups](https://mpost.io/best-music-ai-startups/) that are revolutionizing the music industry with their innovative technologies and solutions. These startups are expected to play a significant role in shaping the future of music and entertainment.                                                                                                                                    |
-| 5. These [free Stable Diffusion image generation](https://mpost.io/top-9-free-stable-diffusion-image-generation-resources/) resources offer a wide range of options, from creating memes to generating charts and graphs. With these tools, you can easily create engaging content that will keep your audience coming back for more.                                                                                                   |
 
 ## Text To Video Generators
 
@@ -35,7 +28,7 @@ What I want to recommend most among AI video generators is [DeepBrain’s AI Stu
 - Enter your AI video script. It also has a function called ChatGPT, so it can automatically generate scripts.
 - Create your AI video and then download, stream, or translate it.
 
-### Stable Diffusion Videos
+### [Stable Diffusion Videos](https://replicate.com/nateraw/stable-diffusion-videos)
 
 <div align="center">
 <img src="https://mpost.io/wp-content/uploads/image-51-32-1024x611.jpg" width="500px"></img>
