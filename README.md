@@ -1,9 +1,13 @@
+
 <div align="center">
+
 # Awesome-Text-To-Video [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 </div>
 
+
 <div align="center">
+
 [中文](README_zh.md) | English
 </div>
 
