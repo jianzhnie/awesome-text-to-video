@@ -12,6 +12,34 @@
 </div>
 
 
+## Table of Contents
+
+- [Awesome-Text-To-Video ](#awesome-text-to-video-)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Text To Video Generators](#text-to-video-generators)
+    - [DeepBrain AI](#deepbrain-ai)
+    - [Stable Diffusion Videos](#stable-diffusion-videos)
+    - [Deforum Stable Diffusion](#deforum-stable-diffusion)
+    - [Make-A-Video](#make-a-video)
+    - [VEED.io](#veedio)
+    - [Lumen5](#lumen5)
+    - [Designs.AI](#designsai)
+    - [Synthesia.io](#synthesiaio)
+    - [InVideo.io](#invideoio)
+    - [GliaCloud](#gliacloud)
+    - [Synths Video](#synths-video)
+    - [Pictory](#pictory)
+    - [Designs.ai](#designsai-1)
+    - [Wisecut](#wisecut)
+  - [Text to Video Papers](#text-to-video-papers)
+    - [2023](#2023)
+    - [2022](#2022)
+    - [Befor 2021](#befor-2021)
+  - [Contributing](#contributing)
+  - [License](#license)
+
+
 ## Introduction
 Want to easily create funny videos from any description? You should then experiment with AI video generation tools. Unquestionably, AI is the future. AI video generators make it easy to make videos from any text. In only a few minutes, you can create high-level videos from text with a robotic presenter using an AI video maker.
 
@@ -234,4 +262,4 @@ Our purpose is to make this repo even better. If you are interested in contribut
 
 ## License
 
-`Awesome-Prompt-Dataset` is released under the Apache 2.0 license.
+`Awesome-Text-Video` is released under the Apache 2.0 license.
