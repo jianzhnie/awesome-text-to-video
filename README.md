@@ -7,7 +7,6 @@
 
 
 <div align="center">
-
 [中文](README_zh.md) | English
 </div>
 
@@ -19,6 +18,8 @@
   - [Introduction](#introduction)
   - [Text To Video Generators](#text-to-video-generators)
     - [DeepBrain AI](#deepbrain-ai)
+    - [Runway AI](#runway-ai)
+    - [Kaiber AI](#kaiber-ai)
     - [Stable Diffusion Videos](#stable-diffusion-videos)
     - [Deforum Stable Diffusion](#deforum-stable-diffusion)
     - [Make-A-Video](#make-a-video)
@@ -32,6 +33,7 @@
     - [Pictory](#pictory)
     - [Designs.ai](#designsai-1)
     - [Wisecut](#wisecut)
+    - [Fliki AI](#fliki-ai)
   - [Text to Video Papers](#text-to-video-papers)
     - [2023](#2023)
     - [2022](#2022)
@@ -61,6 +63,30 @@ What I want to recommend most among AI video generators is [DeepBrain’s AI Stu
 - Select your AI presenter first (AI Studios provides more than 12 avatars for your AI films; it supports 80+ TTS languages and native AI avatars).
 - Enter your AI video script. It also has a function called ChatGPT, so it can automatically generate scripts.
 - Create your AI video and then download, stream, or translate it.
+
+The use of the best AI video generators has revolutionized the way businesses create marketing content
+
+### [Runway AI](https://runwayml.com/)
+
+Runway AI is an innovative set of resources for video editors that taps into the potential of AI. It comes equipped with a variety of powerful features, such as:
+
+- **Green screen tools:** The background can be edited out of any video.
+- **Erase and replace:** Choose any frame from a movie (such as a tossed ball in a game of catch) and have Runway swap it out with anything else.
+- **Infinite image:** Create a picture using AI and then use it to fill up more space than it would in the original.
+
+Video editors will find these AI tools revolutionary. Even a novice may use it to execute complex video editing tasks in a matter of seconds. Nevertheless, Runway AI has even more in store. The Gen-1 and [Gen-2](https://dataconomy.com/blog/2023/03/21/what-is-runway-ai-gen-2-text-to-video-ai/) enhancements are a quantum leap forward for video editing.
+
+It is one of the best AI video generators for using artificial intelligence’s cutting edge tech. You can try it for free by clicking [here](https://runwayml.com/).
+
+### [Kaiber AI](https://www.kaiber.ai/)
+
+Kaiser AI is a platform that allows you to generate high-quality videos using artificial intelligence. They produce AI videos for artists like Linkin Park, Kid Cudi, and Mike Shinoda, and more.
+
+You can choose from a variety of templates, customize the characters, backgrounds, and dialogues, and let Kaiber AI video do the rest. You can also upload your own scripts and voiceovers, and Kaiber AI video will match them with the best visuals and animations.
+
+![Are you looking for the best AI video generators? We explained the most popular in 2023, like Synthesia, Kaiber, Runway, and more. Keep reading!](https://dataconomy.com/wp-content/uploads/2023/04/Best-AI-video-generators-2.jpg)
+
+It is one of the best AI video generators in the market. If you want to learn more about Kaiber AI and see some examples of what you can create with it, visit their [website](https://www.kaiber.ai/). You can also sign up for a free trial and start creating your own videos in minutes. It is one of the best AI video generators for engaging videos.
 
 ### [Stable Diffusion Videos](https://replicate.com/nateraw/stable-diffusion-videos)
 
@@ -224,6 +250,14 @@ You can use Designs.ai to resize your videos for Facebook, Instagram, Twitter, o
 Wisecut is an AI video editing tool designed to ease the video creation process. You can use it to remove long pauses, add background music, and include subtitles to create engaging videos. This tool also empowers you to reach a broader audience by leveraging its auto-translation feature.
 
 In addition, this AI video creator generates a storyboard based on your input speech, giving you the opportunity to easily edit your video by editing the text. You can use this AI-powered video editor for your YouTube videos, vlogs, or online courses. All in all, Wisecut enables you to [edit your videos like a pro](https://www.makeuseof.com/tag/8-tips-editing-videos-like-pro/).
+
+### [Fliki AI](https://fliki.ai/)
+
+Fliki is a tool that converts text into audio and video in under a minute, utilizing artificially intelligent voices.
+
+With just a few simple steps, Fliki can transform your blog into narrated videos, like Lumen5, podcasts, or audiobooks. 850+ voices are available on Fliki, including 77+ languages and 100+ regional dialects.
+
+It is one of the best AI video generators for content creation. Click [here](https://fliki.ai/) and try Fliki AI.
 
 ## Text to Video Papers
 
