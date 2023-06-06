@@ -37,7 +37,7 @@
   - [Text to Video Papers](#text-to-video-papers)
     - [2023](#2023)
     - [2022](#2022)
-    - [Befor 2021](#befor-2021)
+    - [Before 2021](#befor-2021)
   - [Contributing](#contributing)
   - [License](#license)
 
