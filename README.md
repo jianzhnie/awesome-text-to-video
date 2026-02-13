@@ -34,6 +34,7 @@
     - [Designs.ai](#designsai-1)
     - [Wisecut](#wisecut)
     - [Fliki AI](#fliki-ai)
+    - [TubePrompter](#tubeprompter)
   - [Text to Video Papers](#text-to-video-papers)
     - [2023](#2023)
     - [2022](#2022)
@@ -258,6 +259,14 @@ Fliki is a tool that converts text into audio and video in under a minute, utili
 With just a few simple steps, Fliki can transform your blog into narrated videos, like Lumen5, podcasts, or audiobooks. 850+ voices are available on Fliki, including 77+ languages and 100+ regional dialects.
 
 It is one of the best AI video generators for content creation. Click [here](https://fliki.ai/) and try Fliki AI.
+
+### [TubePrompter](https://tubeprompter.com/)
+
+TubePrompter is a free tool that converts existing videos into optimized text-to-video prompts. It analyzes YouTube, TikTok, and Instagram videos using computer vision to extract camera movements, color grading, lighting, and composition details, then generates prompts optimized for generators like Sora, Midjourney, Runway, and Veo.
+
+- Supports 8+ AI video generators (Sora, Veo, Midjourney, Runway, etc.)
+- Uses frame analysis, optical flow, and CLIP-based style classification
+- Free to use with no account required
 
 ## Text to Video Papers
 
