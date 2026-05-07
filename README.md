@@ -78,6 +78,21 @@ Video editors will find these AI tools revolutionary. Even a novice may use it t
 
 It is one of the best AI video generators for using artificial intelligence’s cutting edge tech. You can try it for free by clicking [here](https://runwayml.com/).
 
+### [ZSky AI](https://zsky.ai/)
+
+ZSky AI is a free, unlimited AI image and video generator that produces 1080p videos with synced audio in a single render. Unlike most AI video tools that charge per attempt, ZSky's free tier is ad-supported (not credit-throttled), so creators can iterate as much as they need without watching a meter.
+
+Key capabilities:
+
+- **1080p video output** with audio synced in the same render — no separate audio pass.
+- **Unlimited free tier** (ad-supported). Paid plans from $19/mo for ad-free + priority queue.
+- **API access** on Pro tier for developers building automations.
+- **18 languages** supported in the UI.
+
+The platform was built by [Cemhan Biricik](https://zsky.ai/about.html), an award-winning photographer (Sony World Photography 2012 top-10, two National Geographic awards), specifically because credit-metered AI tools made creative iteration impossible. ZSky has 80,000+ creators on the platform and is community-funded (no VC).
+
+If you want to compare it directly with other tools in this list, the [Sora migration guide](https://zsky.ai/sora-refugee) covers the cost-per-finished-shot economics.
+
 ### [Kaiber AI](https://www.kaiber.ai/)
 
 Kaiser AI is a platform that allows you to generate high-quality videos using artificial intelligence. They produce AI videos for artists like Linkin Park, Kid Cudi, and Mike Shinoda, and more.
