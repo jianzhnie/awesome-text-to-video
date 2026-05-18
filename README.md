@@ -34,6 +34,7 @@
     - [Designs.ai](#designsai-1)
     - [Wisecut](#wisecut)
     - [Fliki AI](#fliki-ai)
+    - [Seedance 2.0 AI Video](#seedance-20-ai-video)
   - [Text to Video Papers](#text-to-video-papers)
     - [2023](#2023)
     - [2022](#2022)
@@ -258,6 +259,18 @@ Fliki is a tool that converts text into audio and video in under a minute, utili
 With just a few simple steps, Fliki can transform your blog into narrated videos, like Lumen5, podcasts, or audiobooks. 850+ voices are available on Fliki, including 77+ languages and 100+ regional dialects.
 
 It is one of the best AI video generators for content creation. Click [here](https://fliki.ai/) and try Fliki AI.
+
+### [Seedance 2.0 AI Video](https://seedance2aivideo.app/)
+
+Seedance 2.0 AI Video is a free online AI video generator for creating cinematic videos from text prompts and reference images. Built on ByteDance's Seedance model, it delivers native audio-video generation, lifelike lip-sync in 8+ languages, character consistency, multi-shot storytelling, and video-to-video editing.
+
+- **Text to Video:** Generate cinematic AI videos from any text prompt with one click.
+- **Image to Video:** Animate reference images with consistent character motion.
+- **Native Audio Sync:** Produce videos with synchronized audio and realistic lip movement.
+- **Multi-shot Storytelling:** Create narrative video sequences with character consistency across shots.
+- **Free tier available:** Start with free credits; no technical expertise required.
+
+It is one of the best AI video generators for social content, marketing creatives, and product demos. Click [here](https://seedance2aivideo.app/) and try Seedance 2.0 AI Video.
 
 ## Text to Video Papers
 
