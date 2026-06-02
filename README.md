@@ -34,6 +34,7 @@
     - [Designs.ai](#designsai-1)
     - [Wisecut](#wisecut)
     - [Fliki AI](#fliki-ai)
+    - [Gemini Omni](#gemini-omni)
   - [Text to Video Papers](#text-to-video-papers)
     - [2023](#2023)
     - [2022](#2022)
@@ -258,6 +259,19 @@ Fliki is a tool that converts text into audio and video in under a minute, utili
 With just a few simple steps, Fliki can transform your blog into narrated videos, like Lumen5, podcasts, or audiobooks. 850+ voices are available on Fliki, including 77+ languages and 100+ regional dialects.
 
 It is one of the best AI video generators for content creation. Click [here](https://fliki.ai/) and try Fliki AI.
+
+### [Gemini Omni](https://gemini-omni.pro/)
+
+Gemini Omni is a free online AI video generator powered by Google's omni-modal model, enabling creators to combine text, images, video, and audio in a single prompt to produce cinematic videos with native synced audio.
+
+Key features include:
+
+- **Multimodal input**: Combine text, image, video, and audio in one prompt to create complex scenes.
+- **Native audio sync**: Automatically synchronize narration and visuals for cohesive storytelling.
+- **In-chat conversational editing**: Modify scenes and adjust pacing without leaving the interface.
+- **Character consistency**: Maintain stable appearances and styles across shots.
+
+Free users can generate 720P watermarked videos; subscribers unlock 1080P and 4K downloads without watermark. It is an excellent AI video generator for social content, marketing creatives, and product demos. Try it [here](https://gemini-omni.pro/).
 
 ## Text to Video Papers
 
