@@ -52,6 +52,10 @@ Here, we discuss some of the best AI-powered text-to-video tools that will make 
 
 ## Text To Video Generators
 
+### [TWZRD Agent Intel](https://intel.twzrd.xyz)
+
+Trust scoring for AI agent wallets on Solana. Verify agent identity before x402 micropayments (e.g. purchasing video generation compute). Free MCP endpoint: `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}`
+
 ### [DeepBrain AI](https://www.deepbrain.io/)
 
 <div align="center">
