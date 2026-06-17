@@ -6,8 +6,6 @@
 
 A curated, visually-organized list of **Text-to-Video (T2V)** products, open-source models, research papers, datasets, and benchmarks.
 
-[中文](README_zh.md) | English
-
 </div>
 
 ---
@@ -64,6 +62,13 @@ Key trends:
 | 🧑‍💼 **Synthesia** | Synthesia | Corporate training / avatars | 1080p | 100+ avatars, 130+ languages | [synthesia.io](https://www.synthesia.io) |
 | 🎤 **DeepBrain AI** | DeepBrain AI | Hyper-realistic avatars | 1080p | PPT-to-video, chroma key, native AI anchors | [deepbrain.io](https://www.deepbrain.io) |
 | 🎥 **HeyGen** | HeyGen | AI avatars / translation | 1080p | 100+ avatars, multilingual voice clone, video translation | [heygen.com](https://www.heygen.com/) |
+| 🏢 **Colossyan** | Colossyan | Corporate training / e-learning | 1080p | SCORM export, branching quizzes, dual-avatar scenes | [colossyan.com](https://www.colossyan.com/) |
+| ⚡ **Elai.io** | Elai | Document-to-video automation | 1080p | URL/PPTX-to-video, 100+ languages, ~1.5 min rendering | [elai.io](https://elai.io/) |
+| 🖼️ **D-ID** | D-ID | Talking photos / short outreach | 1080p | Animate any photo, live streaming API, cheapest entry | [d-id.com](https://www.d-id.com/) |
+| 📺 **Hour One** | Hour One | Enterprise presentations | 1080p | Broadcast-ready virtual presenters, clean UI | [hourone.ai](https://hourone.ai/) |
+| 🛒 **Creatify** | Creatify | UGC-style ad generation | 1080p | E-commerce focused, ad performance tracking | [creatify.ai](https://creatify.ai/) |
+| ✂️ **InVideo AI** | InVideo | Social media / marketing | 1080p | 5000+ templates, AI script-to-video workflow | [invideo.io](https://invideo.io/) |
+| 🎩 **Magic Hour** | Magic Hour | Multi-format creative suite | 1080p | Face swap, talking photos, headshots, clothes swapper | [magichour.ai](https://magichour.ai/) |
 | ⚠️ ~~**Sora / Sora 2**~~ | ~~OpenAI~~ | ~~Photorealism~~ | ~~1080p–8K~~ | **Consumer app shut down March 2026** | ~~[openai.com/sora](https://openai.com/sora)~~ |
 
 ### Featured Product Cards
@@ -99,6 +104,20 @@ Key trends:
   <a href="https://www.seedance.tv">Try Seedance →</a>
 </td>
 </tr>
+<tr>
+<td width="50%" align="center">
+  <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&auto=format&fit=crop" width="100%">
+  <h3>Colossyan</h3>
+  <p>SCORM-compliant corporate training with branching quizzes, dual-avatar conversations, and 80+ languages.</p>
+  <a href="https://www.colossyan.com/">Try Colossyan →</a>
+</td>
+<td width="50%" align="center">
+  <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&auto=format&fit=crop" width="100%">
+  <h3>Magic Hour</h3>
+  <p>Creative multi-format suite: face swap, talking photos, headshots, and clothes swapper for social content.</p>
+  <a href="https://magichour.ai/">Try Magic Hour →</a>
+</td>
+</tr>
 </table>
 
 </div>
@@ -129,6 +148,11 @@ Key trends:
 | **Stable Video Diffusion** | <img src="https://opengraph.githubassets.com/1/Stability-AI/generative-models" width="160"> | Stability AI | — | — | Image-to-video / video foundation model |
 | **AnimateDiff** | <img src="https://opengraph.githubassets.com/1/guoyww/AnimateDiff" width="160"> | Tsinghua / CUHK | — | — | Animate personalized T2I models without tuning |
 | **Latte** | <img src="https://opengraph.githubassets.com/1/Vchitect/Latte" width="160"> | Shanghai AI Lab / NTU | — | — | Early DiT-based latent diffusion for video |
+| **SkyReels V1 / V2** | <img src="https://opengraph.githubassets.com/1/SkyworkAI/SkyReels-V2" width="160"> | SkyworkAI | 1.3B / 14B | — | Human-centric V1; V2 uses diffusion-forcing for infinite-length film |
+| **MAGI-1** | <img src="https://opengraph.githubassets.com/1/SandAI-org/MAGI-1" width="160"> | Sand AI | 4.5B / 24B | — | Autoregressive chunk-based generation, up to 4M tokens context |
+| **Waver 1.0** | <img src="https://opengraph.githubassets.com/1/FoundationVision/Waver" width="160"> | ByteDance | 12B | — | Unified T2V/I2V/T2I, 1080p, Cascade Refiner |
+| **VideoCrafter2** | <img src="https://opengraph.githubassets.com/1/AILab-CVC/VideoCrafter" width="160"> | Tencent AI Lab / CUHK | — | — | High-quality T2V/I2V diffusion models |
+| **ModelScope T2V** | <img src="https://opengraph.githubassets.com/1/ali-vilab/VGen" width="160"> | Alibaba / DAMO | — | — | Early open diffusion T2V model (UNet3D) |
 
 </div>
 
@@ -142,6 +166,11 @@ Quick repository links:
 [![Open-Sora-Plan](https://img.shields.io/badge/GitHub-PKU--YuanGroup%2FOpen--Sora--Plan-blue?logo=github)](https://github.com/PKU-YuanGroup/Open-Sora-Plan)
 [![Mochi](https://img.shields.io/badge/GitHub-genmoai%2Fmochi-blue?logo=github)](https://github.com/genmoai/mochi)
 [![Step-Video](https://img.shields.io/badge/GitHub-stepfun--ai%2FStep--Video--T2V-blue?logo=github)](https://github.com/stepfun-ai/Step-Video-T2V)
+[![SkyReels](https://img.shields.io/badge/GitHub-SkyworkAI%2FSkyReels--V2-blue?logo=github)](https://github.com/SkyworkAI/SkyReels-V2)
+[![MAGI-1](https://img.shields.io/badge/GitHub-SandAI--org%2FMAGI--1-blue?logo=github)](https://github.com/SandAI-org/MAGI-1)
+[![Waver](https://img.shields.io/badge/GitHub-FoundationVision%2FWaver-blue?logo=github)](https://github.com/FoundationVision/Waver)
+[![VideoCrafter](https://img.shields.io/badge/GitHub-AILab--CVC%2FVideoCrafter-blue?logo=github)](https://github.com/AILab-CVC/VideoCrafter)
+[![VGen](https://img.shields.io/badge/GitHub-ali--vilab%2FVGen-blue?logo=github)](https://github.com/ali-vilab/VGen)
 
 ---
 
@@ -149,6 +178,13 @@ Quick repository links:
 
 ### 2026
 
+- **Efficient Video Diffusion Models: Advancements and Challenges**, Shitong Shao. [[Paper](https://arxiv.org/abs/2604.15911)]
+  - First comprehensive survey focused on efficient video diffusion: step distillation, efficient attention, model compression, caching/trajectory optimization.
+- **Controllable Video Generation: A Survey** [[Paper](https://arxiv.org/abs/2507.16869)]
+  - Systematic review of pose-guided, structure-controlled, and other conditional video generation methods.
+- **Survey of Video Diffusion Models: Foundations, Implementations, and Applications**, Yimu Wang et al. [[Paper](https://arxiv.org/abs/2504.16081)]
+  - Comprehensive taxonomy of diffusion-based video generation, evaluation metrics, industry solutions, and training engineering.
+- **UNIC: Unified In-Context Video Editing** [[Paper](https://arxiv.org/abs/2506.04216)]
 - **Runway Gen-4.5 Technical Report** — Runway (2026) [[Runway Help](https://help.runwayml.com/hc/en-us/articles/37327109429011-Creating-with-Gen-4-Video)]
 - **ByteDance Seedance 2.0** — Global launch April 2026 [[Overview](https://resource.digen.ai/bytedance-seedance-2-0-global-release-2026/)]
 - **LTX-2.3: Native 4K Video + Audio Generation** — Lightricks (March 2026) [[Project](https://github.com/Lightricks/LTX-Video)]
@@ -172,10 +208,12 @@ Quick repository links:
 - **MUG-V 10B: High-efficiency Training Pipeline for Large Video Generation Models** [[Paper](https://arxiv.org/abs/2510.17519)]
 - **VBench-2.0: Advancing Video Generation Benchmark Suite for Intrinsic Faithfulness** [[Paper](https://arxiv.org/abs/2503.21755)] [[Code](https://github.com/Vchitect/VBench)]
 - **Kandinsky 5.0: A Family of Foundation Models for Image and Video Generation** [[Paper](https://arxiv.org/abs/2511.14993)]
+- **ARLON: Boosting Diffusion Transformers with Autoregressive Models for Long Video Generation** [[Paper](https://arxiv.org/abs/2410.20502)]
 
 ### 2024
 
 - **Sora: A Review on Background, Technology, Limitations, and Opportunities of Large Vision Models**, Yixin Liu et al. [[Paper](https://arxiv.org/abs/2402.17177)]
+- **VideoCrafter2: Overcoming Data Limitations for High-Quality Video Diffusion Models**, Haoxin Chen et al. [[Paper](https://arxiv.org/abs/2401.09047)] [[Code](https://github.com/AILab-CVC/VideoCrafter)]
 - **CogVideoX: Text-to-Video Diffusion Models with An Expert Transformer**, Zhuoyi Yang et al. [[Paper](https://arxiv.org/abs/2408.06072)] [[Code](https://github.com/THUDM/CogVideo)]
 - **Latte: Latent Diffusion Transformer for Video Generation**, Xin Ma et al. [[Paper](https://arxiv.org/abs/2401.03048)] [[Code](https://github.com/Vchitect/Latte)]
 - **VideoTetris: Towards Compositional Text-to-Video Generation** [[Paper](https://arxiv.org/abs/2406.04277)]
@@ -188,6 +226,7 @@ Quick repository links:
 ### 2023
 
 - **Stable Video Diffusion: Scaling Latent Video Diffusion Models to Large Datasets**, Andreas Blattmann et al. [[Paper](https://arxiv.org/abs/2311.15127)]
+- **ModelScope Text-to-Video Technical Report**, Jiayu Wang et al. [[Paper](https://arxiv.org/abs/2308.06571)]
 - **AnimateDiff: Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning**, Yuwei Guo et al. [[Paper](https://arxiv.org/abs/2307.04725)] [[Code](https://github.com/guoyww/AnimateDiff)]
 - **Scalable Diffusion Models with Transformers (DiT)**, William Peebles & Saining Xie. [[Paper](https://arxiv.org/abs/2212.09748)] — Foundation for diffusion-transformer architectures used in Sora and successors.
 - **Video Generation Models as World Simulators**, OpenAI (Sora technical report). [[Report](https://openai.com/index/video-generation-models-as-world-simulators/)]
@@ -272,6 +311,13 @@ This list was compiled and updated using information from the following sources:
 - [Krea AI](https://www.krea.ai)
 - [ByteDance Seedance 2.0 Global Release: 2026 Launch Guide](https://resource.digen.ai/bytedance-seedance-2-0-global-release-2026/)
 - [Seedance 2.0 Review: ByteDance Tops AI Video in 2026](https://www.buildfastwithai.com/blogs/seedance-2-bytedance-ai-video-2026)
+- [Colossyan](https://www.colossyan.com/)
+- [Elai.io](https://elai.io/)
+- [D-ID](https://www.d-id.com/)
+- [Hour One](https://hourone.ai/)
+- [Creatify](https://creatify.ai/)
+- [InVideo AI](https://invideo.io/)
+- [Magic Hour](https://magichour.ai/)
 - [HunyuanVideo GitHub](https://github.com/Tencent-Hunyuan/HunyuanVideo)
 - [Wan 2.1 GitHub](https://github.com/Wan-Video/Wan2.1)
 - [CogVideo GitHub](https://github.com/THUDM/CogVideo)
@@ -280,6 +326,11 @@ This list was compiled and updated using information from the following sources:
 - [LTX-Video GitHub](https://github.com/Lightricks/LTX-Video)
 - [Mochi GitHub](https://github.com/genmoai/mochi)
 - [Step-Video-T2V GitHub](https://github.com/stepfun-ai/Step-Video-T2V)
+- [SkyReels-V2 GitHub](https://github.com/SkyworkAI/SkyReels-V2)
+- [MAGI-1 GitHub](https://github.com/SandAI-org/MAGI-1)
+- [Waver GitHub](https://github.com/FoundationVision/Waver)
+- [VideoCrafter GitHub](https://github.com/AILab-CVC/VideoCrafter)
+- [VGen GitHub](https://github.com/ali-vilab/VGen)
 - [AnimateDiff GitHub](https://github.com/guoyww/AnimateDiff)
 - [Latte GitHub](https://github.com/Vchitect/Latte)
 - [VBench GitHub](https://github.com/Vchitect/VBench)
