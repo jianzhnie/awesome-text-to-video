@@ -14,10 +14,15 @@ A curated, visually-organized list of **Text-to-Video (T2V)** products, open-sou
 
 - [What's New](#whats-new)
 - [Commercial Text-to-Video Products](#commercial-text-to-video-products)
-  - [Closed-Source Platforms](#closed-source-platforms)
+  - [Generative Text-to-Video Models](#generative-text-to-video-models)
+  - [AI Avatar / Presenter Tools](#ai-avatar--presenter-tools)
+  - [All-in-One Creative Platforms](#all-in-one-creative-platforms)
+  - [Discontinued / Historical](#discontinued--historical)
   - [Featured Product Cards](#featured-product-cards)
   - [Related Tools](#related-tools)
+  - [How to Choose](#how-to-choose)
 - [Open-Source Models & Toolkits](#open-source-models--toolkits)
+  - [Quick Start](#quick-start)
 - [Research Papers](#research-papers)
   - [2026](#2026)
   - [2025](#2025)
@@ -35,6 +40,8 @@ A curated, visually-organized list of **Text-to-Video (T2V)** products, open-sou
 ## What's New
 
 > **2026 Update**: The T2V landscape has shifted dramatically. OpenAI discontinued the consumer Sora app in early 2026, while open-source models (Wan 2.7, HunyuanVideo 1.5, LTX-2.3) and commercial alternatives (Runway Gen-4.5, Seedance 2.0, Kling 3.0, Veo 3.1) now dominate.
+>
+> *Data collected as of June 2026. Prices, features, and availability change quickly — always check the official website before making a decision.*
 
 Key trends:
 - **Native 4K** and synchronized audio are becoming standard.
@@ -48,6 +55,8 @@ Key trends:
 
 ### Closed-Source Platforms
 
+#### Generative Text-to-Video Models
+
 | Product | Maker | Best For | Max Output | Highlights | Link |
 |---------|-------|----------|------------|------------|------|
 | 🎬 **Runway Gen-4 / Gen-4.5** | RunwayML | Professional creators | 1080p (4K upscale) | `@reference` consistency, world-class physics, Aleph editing | [runwayml.com](https://runwayml.com) |
@@ -57,8 +66,14 @@ Key trends:
 | ✨ **Luma Dream Machine** | Luma AI | Action / sports / physics | 4K | Realistic motion blur, fluid dynamics | [lumalabs.ai](https://lumalabs.ai) |
 | 🎭 **Pika 2.5 / 3.0** | Pika Labs | Social / stylized content | 2K | Fast, cheap, strong style transfer | [pika.art](https://pika.art) |
 | 🌀 **Hailuo AI** | MiniMax | Realistic humans / prompt adherence | 1080p, 10 s | Strong physical realism, #1 in China | [hailuoai.video](https://hailuoai.video) |
-| 🛠️ **Krea AI** | Krea | Model-agnostic access | Varies | Unified UI for Kling, Hailuo, Luma, Runway, Pika | [krea.ai](https://www.krea.ai) |
-| 🔮 **Gemini Omni** | Gemini Omni | Multimodal prompting | 720p–4K | Text/image/video/audio in one prompt, native audio sync | [gemini-omni.pro](https://gemini-omni.pro/) |
+| 🎬 **PixVerse V6** | PixVerse | Anime / stylized content | 1080p, 15 s | Character consistency engine, 20+ camera controls, native audio | [pixverse.ai](https://pixverse.ai/) |
+| 🎥 **Vidu Q1/Q2** | Shengshu / Tsinghua | Highly consistent T2V | 1080p, 16 s | U-ViT backbone, subject consistency, 1080p generation | [vidu.com](https://www.vidu.com/) |
+| 🔬 **Lumiere** | Google DeepMind | Research T2V / I2V / editing | 720p | Space-time U-Net, single-pass temporal generation | [lumiere-video.github.io](https://lumiere-video.github.io/) |
+
+#### AI Avatar / Presenter Tools
+
+| Product | Maker | Best For | Max Output | Highlights | Link |
+|---------|-------|----------|------------|------------|------|
 | 🧑‍💼 **Synthesia** | Synthesia | Corporate training / avatars | 1080p | 100+ avatars, 130+ languages | [synthesia.io](https://www.synthesia.io) |
 | 🎤 **DeepBrain AI** | DeepBrain AI | Hyper-realistic avatars | 1080p | PPT-to-video, chroma key, native AI anchors | [deepbrain.io](https://www.deepbrain.io) |
 | 🎥 **HeyGen** | HeyGen | AI avatars / translation | 1080p | 100+ avatars, multilingual voice clone, video translation | [heygen.com](https://www.heygen.com/) |
@@ -66,18 +81,25 @@ Key trends:
 | ⚡ **Elai.io** | Elai | Document-to-video automation | 1080p | URL/PPTX-to-video, 100+ languages, ~1.5 min rendering | [elai.io](https://elai.io/) |
 | 🖼️ **D-ID** | D-ID | Talking photos / short outreach | 1080p | Animate any photo, live streaming API, cheapest entry | [d-id.com](https://www.d-id.com/) |
 | 📺 **Hour One** | Hour One | Enterprise presentations | 1080p | Broadcast-ready virtual presenters, clean UI | [hourone.ai](https://hourone.ai/) |
-| 🛒 **Creatify** | Creatify | UGC-style ad generation | 1080p | E-commerce focused, ad performance tracking | [creatify.ai](https://creatify.ai/) |
-| ✂️ **InVideo AI** | InVideo | Social media / marketing | 1080p | 5000+ templates, AI script-to-video workflow | [invideo.io](https://invideo.io/) |
-| 🎩 **Magic Hour** | Magic Hour | Multi-format creative suite | 1080p | Face swap, talking photos, headshots, clothes swapper | [magichour.ai](https://magichour.ai/) |
-| 🎬 **PixVerse V6** | PixVerse | Anime / stylized content | 1080p, 15 s | Character consistency engine, 20+ camera controls, native audio | [pixverse.ai](https://pixverse.ai/) |
-| 🌀 **Morphic / Morph Studio** | Morph Studio | All-in-one creative platform | Varies | 15+ models, canvas editing, custom model training | [morphic.com](https://www.morphic.com/) |
-| 🎭 **Hedra** | Hedra | Talking / singing characters | 1080p | Text + image → expressive avatar videos with lip sync | [hedra.com](https://www.hedra.com/) |
 | 🧑‍🏫 **Vidnoz AI** | Vidnoz | Budget avatar videos / training | 1080p | Cheap avatar generation, multilingual voiceovers | [vidnoz.com](https://www.vidnoz.com/) |
 | 🎨 **Steve.AI** | Steve.AI | Animated explainer videos | 4K | Multiple animation styles, character library | [steve.ai](https://www.steve.ai/) |
-| 🎥 **Vidu Q1/Q2** | Shengshu / Tsinghua | Highly consistent T2V | 1080p, 16 s | U-ViT backbone, subject consistency, 1080p generation | [vidu.com](https://www.vidu.com/) |
-| 🔬 **Lumiere** | Google DeepMind | Research T2V / I2V / editing | 720p | Space-time U-Net, single-pass temporal generation | [lumiere-video.github.io](https://lumiere-video.github.io/) |
-| ⚠️ ~~**Haiper**~~ | ~~Haiper~~ | ~~Fast creator clips~~ | ~~1080p~~ | **Consumer product shut down in 2026** | ~~[haiper.ai](https://haiper.ai/)~~ |
+
+#### All-in-One Creative Platforms
+
+| Product | Maker | Best For | Max Output | Highlights | Link |
+|---------|-------|----------|------------|------------|------|
+| 🛠️ **Krea AI** | Krea | Model-agnostic access | Varies | Unified UI for Kling, Hailuo, Luma, Runway, Pika | [krea.ai](https://www.krea.ai) |
+| 🌀 **Morphic / Morph Studio** | Morph Studio | All-in-one creative platform | Varies | 15+ models, canvas editing, custom model training | [morphic.com](https://www.morphic.com/) |
+| ✂️ **InVideo AI** | InVideo | Social media / marketing | 1080p | 5000+ templates, AI script-to-video workflow | [invideo.io](https://invideo.io/) |
+| 🎩 **Magic Hour** | Magic Hour | Multi-format creative suite | 1080p | Face swap, talking photos, headshots, clothes swapper | [magichour.ai](https://magichour.ai/) |
+| 🛒 **Creatify** | Creatify | UGC-style ad generation | 1080p | E-commerce focused, ad performance tracking | [creatify.ai](https://creatify.ai/) |
+
+#### Discontinued / Historical
+
+| Product | Maker | Best For | Max Output | Highlights | Link |
+|---------|-------|----------|------------|------------|------|
 | ⚠️ ~~**Sora / Sora 2**~~ | ~~OpenAI~~ | ~~Photorealism~~ | ~~1080p–8K~~ | **Consumer app shut down March 2026** | ~~[openai.com/sora](https://openai.com/sora)~~ |
+| ⚠️ ~~**Haiper**~~ | ~~Haiper~~ | ~~Fast creator clips~~ | ~~1080p~~ | **Consumer product shut down in 2026** | ~~[haiper.ai](https://haiper.ai/)~~ |
 
 ### Featured Product Cards
 
@@ -92,7 +114,7 @@ Key trends:
   <a href="https://runwayml.com">Try Runway →</a>
 </td>
 <td width="50%" align="center">
-  <img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=600&auto=format&fit=crop" width="100%">
+  <img src="https://images.unsplash.com/photo-1514525253440-b393452e3723?w=600&auto=format&fit=crop" width="100%">
   <h3>Kling 3.0</h3>
   <p>Best-in-class motion quality, 66 free credits/day, and strong temporal consistency for cinematic content.</p>
   <a href="https://klingai.com">Try Kling →</a>
@@ -128,7 +150,7 @@ Key trends:
 </tr>
 <tr>
 <td width="50%" align="center">
-  <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop" width="100%">
+  <img src="https://images.unsplash.com/photo-1563089145-599997674d42?w=600&auto=format&fit=crop" width="100%">
   <h3>PixVerse V6</h3>
   <p>Specialized in anime and stylized content with character consistency, 20+ camera controls, and native audio.</p>
   <a href="https://pixverse.ai/">Try PixVerse →</a>
@@ -153,56 +175,99 @@ Key trends:
 
 ---
 
+### How to Choose
+
+| Your Goal | Recommended Tool | Why |
+|-----------|------------------|-----|
+| Professional filmmaking / VFX | **Runway Gen-4.5** | Best creative control, reference consistency, Aleph editing |
+| Best motion realism on a budget | **Kling 3.0** | Top-tier motion, generous free tier, native audio |
+| 4K broadcast / cinematic scenes | **Veo 3.1** | Native 4K, scene extension, lip-sync audio |
+| Multi-shot storytelling | **Seedance 2.0** | Unified audio-video generation, timeline prompting |
+| Anime / stylized content | **PixVerse V6** | Character consistency, camera controls, native audio |
+| Corporate training / LMS | **Synthesia / Colossyan** | SCORM, avatars, quizzes, multilingual |
+| Avatar marketing videos | **HeyGen / D-ID** | Expressive avatars, fast generation, API access |
+| Real-time creative exploration | **Krea AI** | 64+ models, sub-50ms feedback |
+| Local / open-source deployment | **Wan 2.7 / HunyuanVideo 1.5** | Apache 2.0, consumer GPU friendly |
+
+---
+
 ## Open-Source Models & Toolkits
 
 <div align="center">
 
-| Model | Preview | Org | Size | License | Notes |
-|-------|---------|-----|------|---------|-------|
-| **Wan 2.7** | <img src="https://opengraph.githubassets.com/1/Wan-Video/Wan2.1" width="160"> | Alibaba | 27B (14B active) | Apache 2.0 | MoE DiT; 1.3B runs in ~8 GB VRAM; audio support |
-| **HunyuanVideo 1.5** | <img src="https://opengraph.githubassets.com/1/Tencent-Hunyuan/HunyuanVideo" width="160"> | Tencent | 8.3B | Apache 2.0 | 480p I2V in ~75 s on RTX 4090; bilingual |
-| **LTX-Video / LTX-2.3** | <img src="https://opengraph.githubassets.com/1/Lightricks/LTX-Video" width="160"> | Lightricks | 22B | Apache 2.0* | Native 4K@50fps + stereo audio; ~8 GB VRAM |
-| **CogVideoX** | <img src="https://opengraph.githubassets.com/1/THUDM/CogVideo" width="160"> | THUDM / Zhipu AI | 2B / 5B | Apache 2.0 | Expert transformer; strong ComfyUI/LoRA support |
-| **Open-Sora 2.0** | <img src="https://opengraph.githubassets.com/1/hpcaitech/Open-Sora" width="160"> | HPC-AI Tech | 11B | Apache 2.0 | Full training pipeline; $200k training cost claim |
-| **Open-Sora-Plan 1.3** | <img src="https://opengraph.githubassets.com/1/PKU-YuanGroup/Open-Sora-Plan" width="160"> | PKU-YuanGroup | — | MIT | Open reproduction of Sora capabilities |
-| **Mochi 1** | <img src="https://opengraph.githubassets.com/1/genmoai/mochi" width="160"> | Genmo | 10B | Apache 2.0 | Realistic physics and motion |
-| **Step-Video-T2V** | <img src="https://opengraph.githubassets.com/1/stepfun-ai/Step-Video-T2V" width="160"> | StepFun | — | — | Large open-source T2V model series |
-| **Stable Video Diffusion** | <img src="https://opengraph.githubassets.com/1/Stability-AI/generative-models" width="160"> | Stability AI | — | — | Image-to-video / video foundation model |
-| **AnimateDiff** | <img src="https://opengraph.githubassets.com/1/guoyww/AnimateDiff" width="160"> | Tsinghua / CUHK | — | — | Animate personalized T2I models without tuning |
-| **Latte** | <img src="https://opengraph.githubassets.com/1/Vchitect/Latte" width="160"> | Shanghai AI Lab / NTU | — | — | Early DiT-based latent diffusion for video |
-| **SkyReels V1 / V2** | <img src="https://opengraph.githubassets.com/1/SkyworkAI/SkyReels-V2" width="160"> | SkyworkAI | 1.3B / 14B | — | Human-centric V1; V2 uses diffusion-forcing for infinite-length film |
-| **MAGI-1** | <img src="https://opengraph.githubassets.com/1/SandAI-org/MAGI-1" width="160"> | Sand AI | 4.5B / 24B | — | Autoregressive chunk-based generation, up to 4M tokens context |
-| **Waver 1.0** | <img src="https://opengraph.githubassets.com/1/FoundationVision/Waver" width="160"> | ByteDance | 12B | — | Unified T2V/I2V/T2I, 1080p, Cascade Refiner |
-| **VideoCrafter2** | <img src="https://opengraph.githubassets.com/1/AILab-CVC/VideoCrafter" width="160"> | Tencent AI Lab / CUHK | — | — | High-quality T2V/I2V diffusion models |
-| **ModelScope T2V** | <img src="https://opengraph.githubassets.com/1/ali-vilab/VGen" width="160"> | Alibaba / DAMO | — | — | Early open diffusion T2V model (UNet3D) |
-| **Allegro / Allegro-TI2V** | <img src="https://opengraph.githubassets.com/1/rhymes-ai/Allegro" width="160"> | Rhymes AI | ~3B | Apache 2.0 | 720p, 6 s, Apache 2.0, Diffusers integration |
-| **DynamiCrafter** | <img src="https://opengraph.githubassets.com/1/Doubiiu/DynamiCrafter" width="160"> | CUHK / Tencent AI Lab | — | Apache 2.0 | (Text-)Image-to-video animation from still images |
-| **I2VGen-XL** | <img src="https://opengraph.githubassets.com/1/ali-vilab/i2vgen-xl" width="160"> | Alibaba / DAMO | — | — | High-fidelity image-to-video with semantic understanding |
-| **VideoComposer** | <img src="https://opengraph.githubassets.com/1/ali-vilab/videocomposer" width="160"> | Alibaba / DAMO | — | Apache 2.0 | Compositional video synthesis with motion controllability |
-| **Lumiere (unofficial)** | <img src="https://opengraph.githubassets.com/1/lucidrains/lumiere-pytorch" width="160"> | lucidrains | — | — | PyTorch implementation of Google DeepMind's Lumiere |
+| Model | Preview | Org | Size | License | Min VRAM | Best For |
+|-------|---------|-----|------|---------|----------|----------|
+| **Wan 2.7** | <img src="https://opengraph.githubassets.com/1/Wan-Video/Wan2.1" width="160"> | Alibaba | 27B (14B active) | Apache 2.0 | ~8 GB (1.3B) | Best overall open-source, bilingual, audio support |
+| **HunyuanVideo 1.5** | <img src="https://opengraph.githubassets.com/1/Tencent-Hunyuan/HunyuanVideo" width="160"> | Tencent | 8.3B | Apache 2.0 | ~14 GB | Fast iteration, efficient quality, bilingual |
+| **LTX-Video / LTX-2.3** | <img src="https://opengraph.githubassets.com/1/Lightricks/LTX-Video" width="160"> | Lightricks | 22B | Apache 2.0* | ~8 GB | Real-time / 4K generation with native audio |
+| **CogVideoX** | <img src="https://opengraph.githubassets.com/1/THUDM/CogVideo" width="160"> | THUDM / Zhipu AI | 2B / 5B | Apache 2.0 | ~16 GB | ComfyUI ecosystem, LoRA support, beginners |
+| **Open-Sora 2.0** | <img src="https://opengraph.githubassets.com/1/hpcaitech/Open-Sora" width="160"> | HPC-AI Tech | 11B | Apache 2.0 | ~24 GB | Full training pipeline, commercial-level quality |
+| **Open-Sora-Plan 1.3** | <img src="https://opengraph.githubassets.com/1/PKU-YuanGroup/Open-Sora-Plan" width="160"> | PKU-YuanGroup | — | MIT | Varies | Open reproduction of Sora capabilities |
+| **Mochi 1** | <img src="https://opengraph.githubassets.com/1/genmoai/mochi" width="160"> | Genmo | 10B | Apache 2.0 | ~24 GB | Realistic physics and motion |
+| **Step-Video-T2V** | <img src="https://opengraph.githubassets.com/1/stepfun-ai/Step-Video-T2V" width="160"> | StepFun | — | — | High | Large open-source T2V model series |
+| **Stable Video Diffusion** | <img src="https://opengraph.githubassets.com/1/Stability-AI/generative-models" width="160"> | Stability AI | — | — | ~16 GB | Image-to-video / video foundation model |
+| **AnimateDiff** | <img src="https://opengraph.githubassets.com/1/guoyww/AnimateDiff" width="160"> | Tsinghua / CUHK | — | Apache 2.0 | ~12 GB | Animate personalized T2I models without tuning |
+| **Latte** | <img src="https://opengraph.githubassets.com/1/Vchitect/Latte" width="160"> | Shanghai AI Lab / NTU | — | Apache 2.0 | ~16 GB | Early DiT-based latent diffusion for video |
+| **SkyReels V1 / V2** | <img src="https://opengraph.githubassets.com/1/SkyworkAI/SkyReels-V2" width="160"> | SkyworkAI | 1.3B / 14B | — | ~16 GB | Human-centric V1; V2 uses diffusion-forcing for infinite-length film |
+| **MAGI-1** | <img src="https://opengraph.githubassets.com/1/SandAI-org/MAGI-1" width="160"> | Sand AI | 4.5B / 24B | — | Varies | Autoregressive chunk-based generation, up to 4M tokens context |
+| **Waver 1.0** | <img src="https://opengraph.githubassets.com/1/FoundationVision/Waver" width="160"> | ByteDance | 12B | — | ~24 GB | Unified T2V/I2V/T2I, 1080p, Cascade Refiner |
+| **VideoCrafter2** | <img src="https://opengraph.githubassets.com/1/AILab-CVC/VideoCrafter" width="160"> | Tencent AI Lab / CUHK | — | — | ~16 GB | High-quality T2V/I2V diffusion models |
+| **ModelScope T2V** | <img src="https://opengraph.githubassets.com/1/ali-vilab/VGen" width="160"> | Alibaba / DAMO | — | — | ~16 GB | Early open diffusion T2V model (UNet3D) |
+| **Allegro / Allegro-TI2V** | <img src="https://opengraph.githubassets.com/1/rhymes-ai/Allegro" width="160"> | Rhymes AI | ~3B | Apache 2.0 | ~9 GB (offload) | Apache 2.0 commercial use, Diffusers integration |
+| **DynamiCrafter** | <img src="https://opengraph.githubassets.com/1/Doubiiu/DynamiCrafter" width="160"> | CUHK / Tencent AI Lab | — | Apache 2.0 | ~16 GB | (Text-)Image-to-video animation from still images |
+| **I2VGen-XL** | <img src="https://opengraph.githubassets.com/1/ali-vilab/i2vgen-xl" width="160"> | Alibaba / DAMO | — | — | ~16 GB | High-fidelity image-to-video with semantic understanding |
+| **VideoComposer** | <img src="https://opengraph.githubassets.com/1/ali-vilab/videocomposer" width="160"> | Alibaba / DAMO | — | Apache 2.0 | ~16 GB | Compositional video synthesis with motion controllability |
+| **Lumiere (unofficial)** | <img src="https://opengraph.githubassets.com/1/lucidrains/lumiere-pytorch" width="160"> | lucidrains | — | MIT | N/A | PyTorch implementation of Google DeepMind's Lumiere |
 
 </div>
 
-Quick repository links:
+Quick repository links with stars:
 
-[![Wan](https://img.shields.io/badge/GitHub-Wan--Video%2FWan2.1-blue?logo=github)](https://github.com/Wan-Video/Wan2.1)
-[![HunyuanVideo](https://img.shields.io/badge/GitHub-Tencent--Hunyuan%2FHunyuanVideo-blue?logo=github)](https://github.com/Tencent-Hunyuan/HunyuanVideo)
-[![LTX-Video](https://img.shields.io/badge/GitHub-Lightricks%2FLTX--Video-blue?logo=github)](https://github.com/Lightricks/LTX-Video)
-[![CogVideo](https://img.shields.io/badge/GitHub-THUDM%2FCogVideo-blue?logo=github)](https://github.com/THUDM/CogVideo)
-[![Open-Sora](https://img.shields.io/badge/GitHub-hpcaitech%2FOpen--Sora-blue?logo=github)](https://github.com/hpcaitech/Open-Sora)
-[![Open-Sora-Plan](https://img.shields.io/badge/GitHub-PKU--YuanGroup%2FOpen--Sora--Plan-blue?logo=github)](https://github.com/PKU-YuanGroup/Open-Sora-Plan)
-[![Mochi](https://img.shields.io/badge/GitHub-genmoai%2Fmochi-blue?logo=github)](https://github.com/genmoai/mochi)
-[![Step-Video](https://img.shields.io/badge/GitHub-stepfun--ai%2FStep--Video--T2V-blue?logo=github)](https://github.com/stepfun-ai/Step-Video-T2V)
-[![SkyReels](https://img.shields.io/badge/GitHub-SkyworkAI%2FSkyReels--V2-blue?logo=github)](https://github.com/SkyworkAI/SkyReels-V2)
-[![MAGI-1](https://img.shields.io/badge/GitHub-SandAI--org%2FMAGI--1-blue?logo=github)](https://github.com/SandAI-org/MAGI-1)
-[![Waver](https://img.shields.io/badge/GitHub-FoundationVision%2FWaver-blue?logo=github)](https://github.com/FoundationVision/Waver)
-[![VideoCrafter](https://img.shields.io/badge/GitHub-AILab--CVC%2FVideoCrafter-blue?logo=github)](https://github.com/AILab-CVC/VideoCrafter)
-[![VGen](https://img.shields.io/badge/GitHub-ali--vilab%2FVGen-blue?logo=github)](https://github.com/ali-vilab/VGen)
-[![Allegro](https://img.shields.io/badge/GitHub-rhymes--ai%2FAllegro-blue?logo=github)](https://github.com/rhymes-ai/Allegro)
-[![DynamiCrafter](https://img.shields.io/badge/GitHub-Doubiiu%2FDynamiCrafter-blue?logo=github)](https://github.com/Doubiiu/DynamiCrafter)
-[![I2VGen-XL](https://img.shields.io/badge/GitHub-ali--vilab%2Fi2vgen--xl-blue?logo=github)](https://github.com/ali-vilab/i2vgen-xl)
-[![VideoComposer](https://img.shields.io/badge/GitHub-ali--vilab%2Fvideocomposer-blue?logo=github)](https://github.com/ali-vilab/videocomposer)
-[![Lumiere PyTorch](https://img.shields.io/badge/GitHub-lucidrains%2Flumiere--pytorch-blue?logo=github)](https://github.com/lucidrains/lumiere-pytorch)
+[![Wan](https://img.shields.io/github/stars/Wan-Video/Wan2.1?style=social)](https://github.com/Wan-Video/Wan2.1)
+[![HunyuanVideo](https://img.shields.io/github/stars/Tencent-Hunyuan/HunyuanVideo?style=social)](https://github.com/Tencent-Hunyuan/HunyuanVideo)
+[![LTX-Video](https://img.shields.io/github/stars/Lightricks/LTX-Video?style=social)](https://github.com/Lightricks/LTX-Video)
+[![CogVideo](https://img.shields.io/github/stars/THUDM/CogVideo?style=social)](https://github.com/THUDM/CogVideo)
+[![Open-Sora](https://img.shields.io/github/stars/hpcaitech/Open-Sora?style=social)](https://github.com/hpcaitech/Open-Sora)
+[![Open-Sora-Plan](https://img.shields.io/github/stars/PKU-YuanGroup/Open-Sora-Plan?style=social)](https://github.com/PKU-YuanGroup/Open-Sora-Plan)
+[![Mochi](https://img.shields.io/github/stars/genmoai/mochi?style=social)](https://github.com/genmoai/mochi)
+[![Step-Video](https://img.shields.io/github/stars/stepfun-ai/Step-Video-T2V?style=social)](https://github.com/stepfun-ai/Step-Video-T2V)
+[![SkyReels](https://img.shields.io/github/stars/SkyworkAI/SkyReels-V2?style=social)](https://github.com/SkyworkAI/SkyReels-V2)
+[![MAGI-1](https://img.shields.io/github/stars/SandAI-org/MAGI-1?style=social)](https://github.com/SandAI-org/MAGI-1)
+[![Waver](https://img.shields.io/github/stars/FoundationVision/Waver?style=social)](https://github.com/FoundationVision/Waver)
+[![VideoCrafter](https://img.shields.io/github/stars/AILab-CVC/VideoCrafter?style=social)](https://github.com/AILab-CVC/VideoCrafter)
+[![VGen](https://img.shields.io/github/stars/ali-vilab/VGen?style=social)](https://github.com/ali-vilab/VGen)
+[![Allegro](https://img.shields.io/github/stars/rhymes-ai/Allegro?style=social)](https://github.com/rhymes-ai/Allegro)
+[![DynamiCrafter](https://img.shields.io/github/stars/Doubiiu/DynamiCrafter?style=social)](https://github.com/Doubiiu/DynamiCrafter)
+[![I2VGen-XL](https://img.shields.io/github/stars/ali-vilab/i2vgen-xl?style=social)](https://github.com/ali-vilab/i2vgen-xl)
+[![VideoComposer](https://img.shields.io/github/stars/ali-vilab/videocomposer?style=social)](https://github.com/ali-vilab/videocomposer)
+[![Lumiere PyTorch](https://img.shields.io/github/stars/lucidrains/lumiere-pytorch?style=social)](https://github.com/lucidrains/lumiere-pytorch)
+
+### Quick Start
+
+Get started with the most popular open-source models:
+
+**Wan 2.1**
+```bash
+git clone https://github.com/Wan-Video/Wan2.1
+cd Wan2.1
+pip install -r requirements.txt
+```
+
+**HunyuanVideo 1.5**
+```bash
+git clone https://github.com/Tencent-Hunyuan/HunyuanVideo
+cd HunyuanVideo
+# Follow the official guide for sampling and I2V inference
+```
+
+**CogVideoX**
+```bash
+git clone https://github.com/THUDM/CogVideo
+cd CogVideo
+pip install -r requirements.txt
+```
+
+For detailed inference configs, LoRA fine-tuning, and ComfyUI workflows, see each repository's README.
 
 ---
 
@@ -347,26 +412,19 @@ If you have any questions, feel free to contact [jianzhnie](https://github.com/j
 
 ## References
 
-This list was compiled and updated using information from the following sources:
+This list was compiled and updated using information from the following sources.
+
+### Product Websites
 
 - [OpenAI Sora](https://openai.com/sora)
 - [Google DeepMind Veo](https://deepmind.google/technologies/veo/)
-- [Runway Help: Creating with Gen-4 Video](https://help.runwayml.com/hc/en-us/articles/37327109429011-Creating-with-Gen-4-Video)
-- [Runway Review 2026: Gen-4.5, Aleph, and the Post-Sora Video AI Landscape](https://aiunpacking.com/review/runway/)
+- [Runway](https://runwayml.com) • [Runway Help: Creating with Gen-4 Video](https://help.runwayml.com/hc/en-us/articles/37327109429011-Creating-with-Gen-4-Video) • [Runway Review 2026](https://aiunpacking.com/review/runway/)
 - [Luma Dream Machine](https://lumalabs.ai)
 - [Kling AI](https://klingai.com)
 - [Hailuo AI](https://hailuoai.video)
 - [Pika](https://pika.art)
 - [Krea AI](https://www.krea.ai)
-- [ByteDance Seedance 2.0 Global Release: 2026 Launch Guide](https://resource.digen.ai/bytedance-seedance-2-0-global-release-2026/)
-- [Seedance 2.0 Review: ByteDance Tops AI Video in 2026](https://www.buildfastwithai.com/blogs/seedance-2-bytedance-ai-video-2026)
-- [Colossyan](https://www.colossyan.com/)
-- [Elai.io](https://elai.io/)
-- [D-ID](https://www.d-id.com/)
-- [Hour One](https://hourone.ai/)
-- [Creatify](https://creatify.ai/)
-- [InVideo AI](https://invideo.io/)
-- [Magic Hour](https://magichour.ai/)
+- [ByteDance Seedance](https://www.seedance.tv) • [Seedance 2.0 Global Release Guide](https://resource.digen.ai/bytedance-seedance-2-0-global-release-2026/) • [Seedance 2.0 Review](https://www.buildfastwithai.com/blogs/seedance-2-bytedance-ai-video-2026)
 - [PixVerse](https://pixverse.ai/)
 - [Morphic / Morph Studio](https://www.morphic.com/)
 - [Hedra](https://www.hedra.com/)
@@ -374,25 +432,45 @@ This list was compiled and updated using information from the following sources:
 - [Steve.AI](https://www.steve.ai/)
 - [Vidu](https://www.vidu.com/)
 - [Lumiere Project Page](https://lumiere-video.github.io/)
-- [HunyuanVideo GitHub](https://github.com/Tencent-Hunyuan/HunyuanVideo)
-- [Wan 2.1 GitHub](https://github.com/Wan-Video/Wan2.1)
-- [CogVideo GitHub](https://github.com/THUDM/CogVideo)
-- [Open-Sora GitHub](https://github.com/hpcaitech/Open-Sora)
-- [Open-Sora-Plan GitHub](https://github.com/PKU-YuanGroup/Open-Sora-Plan)
-- [LTX-Video GitHub](https://github.com/Lightricks/LTX-Video)
-- [Mochi GitHub](https://github.com/genmoai/mochi)
-- [Step-Video-T2V GitHub](https://github.com/stepfun-ai/Step-Video-T2V)
-- [SkyReels-V2 GitHub](https://github.com/SkyworkAI/SkyReels-V2)
-- [MAGI-1 GitHub](https://github.com/SandAI-org/MAGI-1)
-- [Waver GitHub](https://github.com/FoundationVision/Waver)
-- [VideoCrafter GitHub](https://github.com/AILab-CVC/VideoCrafter)
-- [VGen GitHub](https://github.com/ali-vilab/VGen)
-- [Allegro GitHub](https://github.com/rhymes-ai/Allegro)
-- [DynamiCrafter GitHub](https://github.com/Doubiiu/DynamiCrafter)
-- [I2VGen-XL GitHub](https://github.com/ali-vilab/i2vgen-xl)
-- [VideoComposer GitHub](https://github.com/ali-vilab/videocomposer)
-- [Lumiere PyTorch GitHub](https://github.com/lucidrains/lumiere-pytorch)
-- [AnimateDiff GitHub](https://github.com/guoyww/AnimateDiff)
-- [Latte GitHub](https://github.com/Vchitect/Latte)
-- [VBench GitHub](https://github.com/Vchitect/VBench)
+- [Synthesia](https://www.synthesia.io)
+- [HeyGen](https://www.heygen.com/)
+- [DeepBrain AI](https://www.deepbrain.io)
+- [Colossyan](https://www.colossyan.com/)
+- [Elai.io](https://elai.io/)
+- [D-ID](https://www.d-id.com/)
+- [Hour One](https://hourone.ai/)
+- [Creatify](https://creatify.ai/)
+- [InVideo AI](https://invideo.io/)
+- [Magic Hour](https://magichour.ai/)
+
+### Open-Source Repositories
+
+- [Wan 2.1](https://github.com/Wan-Video/Wan2.1)
+- [HunyuanVideo](https://github.com/Tencent-Hunyuan/HunyuanVideo)
+- [CogVideo](https://github.com/THUDM/CogVideo)
+- [Open-Sora](https://github.com/hpcaitech/Open-Sora)
+- [Open-Sora-Plan](https://github.com/PKU-YuanGroup/Open-Sora-Plan)
+- [LTX-Video](https://github.com/Lightricks/LTX-Video)
+- [Mochi](https://github.com/genmoai/mochi)
+- [Step-Video-T2V](https://github.com/stepfun-ai/Step-Video-T2V)
+- [SkyReels-V2](https://github.com/SkyworkAI/SkyReels-V2)
+- [MAGI-1](https://github.com/SandAI-org/MAGI-1)
+- [Waver](https://github.com/FoundationVision/Waver)
+- [VideoCrafter](https://github.com/AILab-CVC/VideoCrafter)
+- [VGen / ModelScope T2V](https://github.com/ali-vilab/VGen)
+- [Allegro](https://github.com/rhymes-ai/Allegro)
+- [DynamiCrafter](https://github.com/Doubiiu/DynamiCrafter)
+- [I2VGen-XL](https://github.com/ali-vilab/i2vgen-xl)
+- [VideoComposer](https://github.com/ali-vilab/videocomposer)
+- [Lumiere PyTorch](https://github.com/lucidrains/lumiere-pytorch)
+- [AnimateDiff](https://github.com/guoyww/AnimateDiff)
+- [Latte](https://github.com/Vchitect/Latte)
+
+### Datasets, Benchmarks & Surveys
+
+- [VBench](https://github.com/Vchitect/VBench)
+- [T2V-CompBench](https://github.com/KaiyueSun98/T2V-CompBench)
+- [T2VTextBench](https://arxiv.org/abs/2505.04946)
+- [ChronoMagic-Bench](https://github.com/PKU-YuanGroup/ChronoMagic-Bench)
+- [VideoEval](https://github.com/FlagOpen/FlagEval/tree/master/video)
 - arXiv papers cited in the [Research Papers](#research-papers) section.
