@@ -63,6 +63,7 @@ Key trends:
 | 🔮 **Gemini Omni** | Gemini Omni | Multimodal prompting | 720p–4K | Text/image/video/audio in one prompt, native audio sync | [gemini-omni.pro](https://gemini-omni.pro/) |
 | 🧑‍💼 **Synthesia** | Synthesia | Corporate training / avatars | 1080p | 100+ avatars, 130+ languages | [synthesia.io](https://www.synthesia.io) |
 | 🎤 **DeepBrain AI** | DeepBrain AI | Hyper-realistic avatars | 1080p | PPT-to-video, chroma key, native AI anchors | [deepbrain.io](https://www.deepbrain.io) |
+| 🎥 **HeyGen** | HeyGen | AI avatars / translation | 1080p | 100+ avatars, multilingual voice clone, video translation | [heygen.com](https://www.heygen.com/) |
 | ⚠️ ~~**Sora / Sora 2**~~ | ~~OpenAI~~ | ~~Photorealism~~ | ~~1080p–8K~~ | **Consumer app shut down March 2026** | ~~[openai.com/sora](https://openai.com/sora)~~ |
 
 ### Featured Product Cards
@@ -107,6 +108,7 @@ Key trends:
 | Tool | What it does | Link |
 |------|--------------|------|
 | **TubePrompter** | Converts existing videos into optimized text-to-video prompts for Sora, Veo, Runway, etc. | [tubeprompter.com](https://tubeprompter.com/) |
+| **Vadoo AI** | AI shorts automation platform for faceless channels and social clips. | [vadoo.tv](https://vadoo.tv/) |
 
 ---
 
