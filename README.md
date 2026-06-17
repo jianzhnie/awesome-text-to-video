@@ -18,6 +18,7 @@ A curated, visually-organized list of **Text-to-Video (T2V)** products, open-sou
 - [Commercial Text-to-Video Products](#commercial-text-to-video-products)
   - [Closed-Source Platforms](#closed-source-platforms)
   - [Featured Product Cards](#featured-product-cards)
+  - [Related Tools](#related-tools)
 - [Open-Source Models & Toolkits](#open-source-models--toolkits)
 - [Research Papers](#research-papers)
   - [2026](#2026)
@@ -59,6 +60,7 @@ Key trends:
 | 🎭 **Pika 2.5 / 3.0** | Pika Labs | Social / stylized content | 2K | Fast, cheap, strong style transfer | [pika.art](https://pika.art) |
 | 🌀 **Hailuo AI** | MiniMax | Realistic humans / prompt adherence | 1080p, 10 s | Strong physical realism, #1 in China | [hailuoai.video](https://hailuoai.video) |
 | 🛠️ **Krea AI** | Krea | Model-agnostic access | Varies | Unified UI for Kling, Hailuo, Luma, Runway, Pika | [krea.ai](https://www.krea.ai) |
+| 🔮 **Gemini Omni** | Gemini Omni | Multimodal prompting | 720p–4K | Text/image/video/audio in one prompt, native audio sync | [gemini-omni.pro](https://gemini-omni.pro/) |
 | 🧑‍💼 **Synthesia** | Synthesia | Corporate training / avatars | 1080p | 100+ avatars, 130+ languages | [synthesia.io](https://www.synthesia.io) |
 | 🎤 **DeepBrain AI** | DeepBrain AI | Hyper-realistic avatars | 1080p | PPT-to-video, chroma key, native AI anchors | [deepbrain.io](https://www.deepbrain.io) |
 | ⚠️ ~~**Sora / Sora 2**~~ | ~~OpenAI~~ | ~~Photorealism~~ | ~~1080p–8K~~ | **Consumer app shut down March 2026** | ~~[openai.com/sora](https://openai.com/sora)~~ |
@@ -99,6 +101,12 @@ Key trends:
 </table>
 
 </div>
+
+### Related Tools
+
+| Tool | What it does | Link |
+|------|--------------|------|
+| **TubePrompter** | Converts existing videos into optimized text-to-video prompts for Sora, Veo, Runway, etc. | [tubeprompter.com](https://tubeprompter.com/) |
 
 ---
 
