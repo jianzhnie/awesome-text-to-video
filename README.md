@@ -1,299 +1,276 @@
-
 <div align="center">
+
+![Text-to-Video Banner](https://images.unsplash.com/photo-1485846234645-a62644f84728?w=1200&auto=format&fit=crop)
 
 # Awesome-Text-To-Video [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-</div>
+A curated, visually-organized list of **Text-to-Video (T2V)** products, open-source models, research papers, datasets, and benchmarks.
 
-
-<div align="center">
 [中文](README_zh.md) | English
+
 </div>
 
+---
 
 ## Table of Contents
 
-- [Awesome-Text-To-Video ](#awesome-text-to-video-)
-  - [Table of Contents](#table-of-contents)
-  - [Introduction](#introduction)
-  - [Text To Video Generators](#text-to-video-generators)
-    - [DeepBrain AI](#deepbrain-ai)
-    - [Runway AI](#runway-ai)
-    - [Kaiber AI](#kaiber-ai)
-    - [Stable Diffusion Videos](#stable-diffusion-videos)
-    - [Deforum Stable Diffusion](#deforum-stable-diffusion)
-    - [Make-A-Video](#make-a-video)
-    - [VEED.io](#veedio)
-    - [Lumen5](#lumen5)
-    - [Designs.AI](#designsai)
-    - [Synthesia.io](#synthesiaio)
-    - [InVideo.io](#invideoio)
-    - [GliaCloud](#gliacloud)
-    - [Synths Video](#synths-video)
-    - [Pictory](#pictory)
-    - [Designs.ai](#designsai-1)
-    - [Wisecut](#wisecut)
-    - [Fliki AI](#fliki-ai)
-  - [Text to Video Papers](#text-to-video-papers)
-    - [2023](#2023)
-    - [2022](#2022)
-    - [Before 2021](#befor-2021)
-  - [Contributing](#contributing)
-  - [License](#license)
+- [What's New](#whats-new)
+- [Commercial Text-to-Video Products](#commercial-text-to-video-products)
+  - [Closed-Source Platforms](#closed-source-platforms)
+  - [Featured Product Cards](#featured-product-cards)
+- [Open-Source Models & Toolkits](#open-source-models--toolkits)
+- [Research Papers](#research-papers)
+  - [2026](#2026)
+  - [2025](#2025)
+  - [2024](#2024)
+  - [2023](#2023)
+  - [2022](#2022)
+  - [Before 2021](#before-2021)
+- [Datasets & Benchmarks](#datasets--benchmarks)
+- [Contributing](#contributing)
+- [License](#license)
+- [References](#references)
 
+---
 
-## Introduction
-Want to easily create funny videos from any description? You should then experiment with AI video generation tools. Unquestionably, AI is the future. AI video generators make it easy to make videos from any text. In only a few minutes, you can create high-level videos from text with a robotic presenter using an AI video maker.
+## What's New
 
-Luckily for us, AI tools are a thing now. Artificial intelligence video generators are next level; they automate video creation and editing without compromising on quality.
+> **2026 Update**: The T2V landscape has shifted dramatically. OpenAI discontinued the consumer Sora app in early 2026, while open-source models (Wan 2.7, HunyuanVideo 1.5, LTX-2.3) and commercial alternatives (Runway Gen-4.5, Seedance 2.0, Kling 3.0, Veo 3.1) now dominate.
 
-Here, we discuss some of the best AI-powered text-to-video tools that will make your life easier. Soon, you'll be making engaging videos for your business or personal use in just a few clicks.
+Key trends:
+- **Native 4K** and synchronized audio are becoming standard.
+- **Open-source models** now rival closed commercial systems.
+- **Multi-shot storytelling** and character consistency are the new battlegrounds.
+- **Inference acceleration** (sliding tile attention, token carving, caching) makes local generation feasible.
 
+---
 
-## Text To Video Generators
+## Commercial Text-to-Video Products
 
-### [DeepBrain AI](https://www.deepbrain.io/)
+### Closed-Source Platforms
 
-<div align="center">
-<img src="https://mpost.io/wp-content/uploads/image-90-39-1024x613.jpg" width="600px"></img>
-</div>
+| Product | Maker | Best For | Max Output | Highlights | Link |
+|---------|-------|----------|------------|------------|------|
+| 🎬 **Runway Gen-4 / Gen-4.5** | RunwayML | Professional creators | 1080p (4K upscale) | `@reference` consistency, world-class physics, Aleph editing | [runwayml.com](https://runwayml.com) |
+| 🐉 **Kling 3.0** | Kuaishou | Motion-heavy / cinematic | 1080p, 15 s | Best-in-class motion, generous free tier | [klingai.com](https://klingai.com) |
+| 🔍 **Veo 3 / Veo 3.1** | Google DeepMind | 4K broadcast production | Native 4K | Scene extension, native audio + lip-sync | [deepmind.google](https://deepmind.google/technologies/veo/) |
+| 🌱 **Seedance 2.0** | ByteDance | Multi-shot storytelling | 2K, 60 s multi-shot | 12 mixed inputs, native audio-video joint gen | [seedance.tv](https://www.seedance.tv) |
+| ✨ **Luma Dream Machine** | Luma AI | Action / sports / physics | 4K | Realistic motion blur, fluid dynamics | [lumalabs.ai](https://lumalabs.ai) |
+| 🎭 **Pika 2.5 / 3.0** | Pika Labs | Social / stylized content | 2K | Fast, cheap, strong style transfer | [pika.art](https://pika.art) |
+| 🌀 **Hailuo AI** | MiniMax | Realistic humans / prompt adherence | 1080p, 10 s | Strong physical realism, #1 in China | [hailuoai.video](https://hailuoai.video) |
+| 🛠️ **Krea AI** | Krea | Model-agnostic access | Varies | Unified UI for Kling, Hailuo, Luma, Runway, Pika | [krea.ai](https://www.krea.ai) |
+| 🧑‍💼 **Synthesia** | Synthesia | Corporate training / avatars | 1080p | 100+ avatars, 130+ languages | [synthesia.io](https://www.synthesia.io) |
+| 🎤 **DeepBrain AI** | DeepBrain AI | Hyper-realistic avatars | 1080p | PPT-to-video, chroma key, native AI anchors | [deepbrain.io](https://www.deepbrain.io) |
+| ⚠️ ~~**Sora / Sora 2**~~ | ~~OpenAI~~ | ~~Photorealism~~ | ~~1080p–8K~~ | **Consumer app shut down March 2026** | ~~[openai.com/sora](https://openai.com/sora)~~ |
 
-What I want to recommend most among AI video generators is [DeepBrain’s AI Studios,](https://www.deepbrain.io/) which has a hyperrealistic Avatar. It has superior quality among the AI video SaaS. You can simply produce a video by typing a script. Creating AI video is much easier because it has a chroma key function and a ppt to video function. You can try making it for free.
-
-- Select your AI presenter first (AI Studios provides more than 12 avatars for your AI films; it supports 80+ TTS languages and native AI avatars).
-- Enter your AI video script. It also has a function called ChatGPT, so it can automatically generate scripts.
-- Create your AI video and then download, stream, or translate it.
-
-The use of the best AI video generators has revolutionized the way businesses create marketing content
-
-### [Runway AI](https://runwayml.com/)
-
-Runway AI is an innovative set of resources for video editors that taps into the potential of AI. It comes equipped with a variety of powerful features, such as:
-
-- **Green screen tools:** The background can be edited out of any video.
-- **Erase and replace:** Choose any frame from a movie (such as a tossed ball in a game of catch) and have Runway swap it out with anything else.
-- **Infinite image:** Create a picture using AI and then use it to fill up more space than it would in the original.
-
-Video editors will find these AI tools revolutionary. Even a novice may use it to execute complex video editing tasks in a matter of seconds. Nevertheless, Runway AI has even more in store. The Gen-1 and [Gen-2](https://dataconomy.com/blog/2023/03/21/what-is-runway-ai-gen-2-text-to-video-ai/) enhancements are a quantum leap forward for video editing.
-
-It is one of the best AI video generators for using artificial intelligence’s cutting edge tech. You can try it for free by clicking [here](https://runwayml.com/).
-
-### [Kaiber AI](https://www.kaiber.ai/)
-
-Kaiser AI is a platform that allows you to generate high-quality videos using artificial intelligence. They produce AI videos for artists like Linkin Park, Kid Cudi, and Mike Shinoda, and more.
-
-You can choose from a variety of templates, customize the characters, backgrounds, and dialogues, and let Kaiber AI video do the rest. You can also upload your own scripts and voiceovers, and Kaiber AI video will match them with the best visuals and animations.
-
-![Are you looking for the best AI video generators? We explained the most popular in 2023, like Synthesia, Kaiber, Runway, and more. Keep reading!](https://dataconomy.com/wp-content/uploads/2023/04/Best-AI-video-generators-2.jpg)
-
-It is one of the best AI video generators in the market. If you want to learn more about Kaiber AI and see some examples of what you can create with it, visit their [website](https://www.kaiber.ai/). You can also sign up for a free trial and start creating your own videos in minutes. It is one of the best AI video generators for engaging videos.
-
-### [Stable Diffusion Videos](https://replicate.com/nateraw/stable-diffusion-videos)
+### Featured Product Cards
 
 <div align="center">
-<img src="https://mpost.io/wp-content/uploads/image-51-32-1024x611.jpg" width="600px"></img>
+
+<table>
+<tr>
+<td width="50%" align="center">
+  <img src="https://images.unsplash.com/photo-1536240478700-b869070f9279?w=600&auto=format&fit=crop" width="100%">
+  <h3>Runway Gen-4.5</h3>
+  <p>Ranked #1 on Artificial Analysis T2V benchmark (1,247 Elo). Native text-to-video with character-locking <code>@reference</code>.</p>
+  <a href="https://runwayml.com">Try Runway →</a>
+</td>
+<td width="50%" align="center">
+  <img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=600&auto=format&fit=crop" width="100%">
+  <h3>Kling 3.0</h3>
+  <p>Best-in-class motion quality, 66 free credits/day, and strong temporal consistency for cinematic content.</p>
+  <a href="https://klingai.com">Try Kling →</a>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+  <img src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=600&auto=format&fit=crop" width="100%">
+  <h3>Veo 3.1</h3>
+  <p>First true native 4K T2V model with scene extension to 60+ seconds and synchronized lip-sync audio.</p>
+  <a href="https://deepmind.google/technologies/veo/">Try Veo →</a>
+</td>
+<td width="50%" align="center">
+  <img src="https://images.unsplash.com/photo-1515634928627-2a4e0dae3ddf?w=600&auto=format&fit=crop" width="100%">
+  <h3>Seedance 2.0</h3>
+  <p>ByteDance's multi-shot native audio-video generator. Up to 12 mixed inputs, 60 fps, timeline prompting.</p>
+  <a href="https://www.seedance.tv">Try Seedance →</a>
+</td>
+</tr>
+</table>
+
 </div>
 
+---
 
-[Stable Diffusion Videos](https://replicate.com/nateraw/stable-diffusion-videos) is a free online text-to-video AI generator to make videos from prompts. It is a text-to-video AI generator that uses the Stable Diffusion algorithm to generate videos from text prompts. It is a free online text-to-video AI generator to make videos from prompts. It is a text-to-video AI generator that uses the Stable Diffusion algorithm to generate videos from text prompts.
-
-### [Deforum Stable Diffusion](https://replicate.com/deforum/deforum_stable_diffusion)
+## Open-Source Models & Toolkits
 
 <div align="center">
-<img src="https://mpost.io/wp-content/uploads/image-51-33-1024x589.jpg" width="600px"></img>
+
+| Model | Preview | Org | Size | License | Notes |
+|-------|---------|-----|------|---------|-------|
+| **Wan 2.7** | <img src="https://opengraph.githubassets.com/1/Wan-Video/Wan2.1" width="160"> | Alibaba | 27B (14B active) | Apache 2.0 | MoE DiT; 1.3B runs in ~8 GB VRAM; audio support |
+| **HunyuanVideo 1.5** | <img src="https://opengraph.githubassets.com/1/Tencent-Hunyuan/HunyuanVideo" width="160"> | Tencent | 8.3B | Apache 2.0 | 480p I2V in ~75 s on RTX 4090; bilingual |
+| **LTX-Video / LTX-2.3** | <img src="https://opengraph.githubassets.com/1/Lightricks/LTX-Video" width="160"> | Lightricks | 22B | Apache 2.0* | Native 4K@50fps + stereo audio; ~8 GB VRAM |
+| **CogVideoX** | <img src="https://opengraph.githubassets.com/1/THUDM/CogVideo" width="160"> | THUDM / Zhipu AI | 2B / 5B | Apache 2.0 | Expert transformer; strong ComfyUI/LoRA support |
+| **Open-Sora 2.0** | <img src="https://opengraph.githubassets.com/1/hpcaitech/Open-Sora" width="160"> | HPC-AI Tech | 11B | Apache 2.0 | Full training pipeline; $200k training cost claim |
+| **Open-Sora-Plan 1.3** | <img src="https://opengraph.githubassets.com/1/PKU-YuanGroup/Open-Sora-Plan" width="160"> | PKU-YuanGroup | — | MIT | Open reproduction of Sora capabilities |
+| **Mochi 1** | <img src="https://opengraph.githubassets.com/1/genmoai/mochi" width="160"> | Genmo | 10B | Apache 2.0 | Realistic physics and motion |
+| **Step-Video-T2V** | <img src="https://opengraph.githubassets.com/1/stepfun-ai/Step-Video-T2V" width="160"> | StepFun | — | — | Large open-source T2V model series |
+| **Stable Video Diffusion** | <img src="https://opengraph.githubassets.com/1/Stability-AI/generative-models" width="160"> | Stability AI | — | — | Image-to-video / video foundation model |
+| **AnimateDiff** | <img src="https://opengraph.githubassets.com/1/guoyww/AnimateDiff" width="160"> | Tsinghua / CUHK | — | — | Animate personalized T2I models without tuning |
+| **Latte** | <img src="https://opengraph.githubassets.com/1/Vchitect/Latte" width="160"> | Shanghai AI Lab / NTU | — | — | Early DiT-based latent diffusion for video |
+
 </div>
 
-Another one text-to-video AI generator [Deforum](https://replicate.com/deforum/deforum_stable_diffusion) generates animations by constructing frames that take their forefathers into consideration. Using Deforum SD, it is now simpler than ever to produce coherent films and animations from Stable Diffusion outputs.
-### [Make-A-Video](https://makeavideo.studio/)
-
-<div align="center">
-<img src="https://mpost.io/wp-content/uploads/image-51-31-1024x619.jpg" width="600px"></img>
-</div>
-
-[Make-A-Video](https://makeavideo.studio/) a new AI text-t-video generator from Meta makes amusing short films with just a few phrases.
-
-The research, which was created to enable text-to-video generation, is based on recent developments in text-to-image generating technology. In addition to text, photographs and other videos can also be used to make movies. Although a time axis has been added, this is still the same diffusion.
-
-Using images and descriptions, the system learns how the world appears and how it is typically described. Unlabeled movies are also used to help students comprehend how the world operates.
-
-With just a few words or lines of text, you may use this information to create funny, original videos that will help you bring your imagination to life.
-
-### [VEED.io](https://www.veed.io/)
-
-<div align="center">
-<img src="https://mpost.io/wp-content/uploads/image-51-30-1024x551.jpg" width="600px"></img>
-</div>
-
-
-With the help of [VEED.io](https://www.veed.io/)‘s robust A.I. technology and user-friendly interface, you can quickly produce great videos online. It can be used as a video editor to chop, crop, add subtitles, and more, or to convert any text into videos.
-
-Here’s how it functions:
-
-- Choose a stock video or upload your own
-- You can edit the video by adding text, photos, etc.
-- Download and export the movie
-
-
-
-### [Lumen5](https://lumen5.com/)
-
-
-<div align="center">
-<img src="https://mpost.io/wp-content/uploads/image-51-29-1024x606.jpg" width="600px"></img>
-</div>
-
-A fantastic online tool for producing AI films is [Lumen5](https://lumen5.com/). For the purpose of producing quality video material, more than 800,000 users use Lumen5. The best thing about it is how simple it is to use and how little expertise in video editing is required. Artificial intelligence can let you quickly generate videos from scratch or from scratch in a matter of minutes.
-
-Here’s how it functions:
-
-- Type a script or text here.
-- Based on the screenplay, Lumen5 will automatically select the ideal audio and images.
-- You can upload your own text, music, and logos.
-- Download and distribute the movie
-
-### [Designs.AI](https://designs.ai/)
-
-<div align="center">
-<img src="https://mpost.io/wp-content/uploads/image-51-28-1024x665.jpg" width="600px"></img>
-</div>
-
-
-You may convert your blog entries and articles into interesting movies with the help of the amazing AI-powered content creation tool called [Design.AI](https://designs.ai/). It can also help you swiftly design logos, films, and banners.
-
-Here’s how it functions:
-
-- Insert your text or script first.
-- Choose an industry.
-- Choose a voice you prefer and a style of video.
-- The AI will immediately produce a video preview after this. After that, you can modify your video and add text and music to make it more visually appealing.
-
-### [Synthesia.io](https://www.synthesia.io/)
-
-
-<div align="center">
-<img src="https://mpost.io/wp-content/uploads/image-51-27.jpg" width="600px"></img>
-</div>
-
-
-One of the amazing AI video generators is [Synthesia](https://www.synthesia.io/), which makes it simple to make realistic AI videos in a matter of minutes. Synthesia is an AI video creator that uses advanced [natural language processing](https://www.makeuseof.com/what-is-natural-language-processing-and-how-does-it-work/) (NLP) and machine learning algorithms to create high-quality videos from text in over 50 languages without any actors, cameras, or mics. Syhthesia is a great option if you want to make budget-friendly videos that appear professional. To build your own AI video, follow these three simple steps.
-
-- Select your AI presenter first (Synthesia provides more than 40 avatars for your AI films; alternatively, you can make your own avatar).
-- Enter your AI video script secondly.
-- Third, create your AI video and then download, stream, or translate it.
-
-### [InVideo.io](https://invideo.io/)
-
-<div align="center">
-<img src="https://mpost.io/wp-content/uploads/image-51-26.jpg" width="600px"></img>
-</div>
-
-
-You can convert text into videos using the effective video editing program [InVideo](https://invideo.io/). You can use more than 5000 layouts, iStock media, a music library, filters, and other features.
-
-For simple video conversion of text-based information, InVideo provides more than 50 AI-powered themes. From their library of 5000+ configurable templates, you may make all different types of videos, including video commercials, promos, YouTube videos, intros, and more.
-
-You must choose any template or theme and type any text when creating videos. That’s it; you can quickly create an incredible AI video with that script. You can add media, such as audio, video, text, and more.
-
-### [GliaCloud](https://www.gliacloud.com/en/)
-
-You can use GliaCloud to seamlessly create professional-looking videos from existing text content in minutes. There’s no need for special equipment or prior knowledge of video editing software. Simply upload your article or post the URL, and it will automatically create an engaging video.
-
-You can then preview and edit this script if required before generating an HD-quality video file ready to upload to your website or social media channels.
-
-### [Synths Video](https://synths.video/)
-
-<div align="center">
-<img src="https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2021/11/synths-video-AI.jpg?q=50&fit=crop&w=1500&dpr=1.5" width="600px"></img>
-</div>
-
-
-
-Are you looking for a new way to engage your audience? You can use Synths Video to turn any blog post into an engaging video with just a few clicks. You can even choose to add a human avatar from over 40 selections.
-
-This tool leverages AI to generate natural-looking lip movement based on the words of your text. And because everything is automated, you don’t have to worry about anything technical—no editing experience required.
-
-Just write your blog post as usual and then upload the file to Synths Video, and it will convert it into an engaging video that you can upload directly to YouTube.
-
-
-
-###  [Pictory](https://pictory.ai/)
-
-<div align="center">
-<img src="https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2021/11/pictory-video-generator.jpg?q=50&fit=crop&w=1500&dpr=1.5" width="600px"></img>
-</div>
-
-Ever wish you could easily convert long-form video or text content into short, shareable videos for social media? You can easily do that with Pictory.
-
-Sign up, upload your text or long-form video, and Pictory will turn it into a short, engaging visual story that will be perfect for sharing on Facebook, Instagram, or Twitter.
-
-This tool will help you save time with video creation, increase your company’s visibility, and significantly reduce the burden of maintaining an active social media presence.
-
-### [Designs.ai](https://designs.ai/)
-
-<div align="center">
-<img src="https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2021/11/designsai-video-generator.jpg?q=50&fit=crop&w=1500&dpr=1.5" width="600px"></img>
-</div>
-
-Designs.ai leverages artificial intelligence to generate professional videos automatically, quickly, and easily.
-
-Simply sign up, paste your text, select the relevant industry, choose a language, and select a voice for the voiceover. The result will be a compelling attention-grabbing message, all while telling your story with powerful audio and visuals. Plus, you can get the same results in over 20 languages.
-
-You can use Designs.ai to resize your videos for Facebook, Instagram, Twitter, or TikTok to get the most out of your marketing strategies on social media platforms. This AI-empowered tool also enables you to create logos, banners, and voiceovers in a few minutes.
-
-###  [Wisecut](https://www.wisecut.video/)
-
-<div align="center">
-<img src="https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2021/11/wisecut-video-generator.jpg?q=50&fit=crop&w=1500&dpr=1.5" width="600px"></img>
-</div>
-
-
-Wisecut is an AI video editing tool designed to ease the video creation process. You can use it to remove long pauses, add background music, and include subtitles to create engaging videos. This tool also empowers you to reach a broader audience by leveraging its auto-translation feature.
-
-In addition, this AI video creator generates a storyboard based on your input speech, giving you the opportunity to easily edit your video by editing the text. You can use this AI-powered video editor for your YouTube videos, vlogs, or online courses. All in all, Wisecut enables you to [edit your videos like a pro](https://www.makeuseof.com/tag/8-tips-editing-videos-like-pro/).
-
-### [Fliki AI](https://fliki.ai/)
-
-Fliki is a tool that converts text into audio and video in under a minute, utilizing artificially intelligent voices.
-
-With just a few simple steps, Fliki can transform your blog into narrated videos, like Lumen5, podcasts, or audiobooks. 850+ voices are available on Fliki, including 77+ languages and 100+ regional dialects.
-
-It is one of the best AI video generators for content creation. Click [here](https://fliki.ai/) and try Fliki AI.
-
-## Text to Video Papers
+Quick repository links:
+
+[![Wan](https://img.shields.io/badge/GitHub-Wan--Video%2FWan2.1-blue?logo=github)](https://github.com/Wan-Video/Wan2.1)
+[![HunyuanVideo](https://img.shields.io/badge/GitHub-Tencent--Hunyuan%2FHunyuanVideo-blue?logo=github)](https://github.com/Tencent-Hunyuan/HunyuanVideo)
+[![LTX-Video](https://img.shields.io/badge/GitHub-Lightricks%2FLTX--Video-blue?logo=github)](https://github.com/Lightricks/LTX-Video)
+[![CogVideo](https://img.shields.io/badge/GitHub-THUDM%2FCogVideo-blue?logo=github)](https://github.com/THUDM/CogVideo)
+[![Open-Sora](https://img.shields.io/badge/GitHub-hpcaitech%2FOpen--Sora-blue?logo=github)](https://github.com/hpcaitech/Open-Sora)
+[![Open-Sora-Plan](https://img.shields.io/badge/GitHub-PKU--YuanGroup%2FOpen--Sora--Plan-blue?logo=github)](https://github.com/PKU-YuanGroup/Open-Sora-Plan)
+[![Mochi](https://img.shields.io/badge/GitHub-genmoai%2Fmochi-blue?logo=github)](https://github.com/genmoai/mochi)
+[![Step-Video](https://img.shields.io/badge/GitHub-stepfun--ai%2FStep--Video--T2V-blue?logo=github)](https://github.com/stepfun-ai/Step-Video-T2V)
+
+---
+
+## Research Papers
+
+### 2026
+
+- **Runway Gen-4.5 Technical Report** — Runway (2026) [[Runway Help](https://help.runwayml.com/hc/en-us/articles/37327109429011-Creating-with-Gen-4-Video)]
+- **ByteDance Seedance 2.0** — Global launch April 2026 [[Overview](https://resource.digen.ai/bytedance-seedance-2-0-global-release-2026/)]
+- **LTX-2.3: Native 4K Video + Audio Generation** — Lightricks (March 2026) [[Project](https://github.com/Lightricks/LTX-Video)]
+- **Wan 2.7: Mixture-of-Experts Video Generation** — Alibaba (April 2026) [[arXiv](https://arxiv.org/abs/2503.20314)] [[Code](https://github.com/Wan-Video/Wan2.1)]
+
+### 2025
+
+- **Bridging Text and Video Generation: A Survey**, Nilay Kumar et al. [[Paper](https://arxiv.org/abs/2510.04999)]
+  - Comprehensive survey on T2V evolution, DiT architectures, datasets, training recipes, and benchmarks.
+- **Wan: Open and Advanced Large-Scale Video Generative Models**, Alibaba. [[Paper](https://arxiv.org/abs/2503.20314)] [[Code](https://github.com/Wan-Video/Wan2.1)]
+- **Training a Commercial-Level Video Generation Model in $200k** (Open-Sora 2.0) [[Paper](https://arxiv.org/abs/2503.09642)] [[Code](https://github.com/hpcaitech/Open-Sora)]
+- **Step-Video-T2V Technical Report: The Practice, Challenges, and Future of Video Foundation Model**, Guoqing Ma et al. [[Paper](https://arxiv.org/abs/2502.10248)] [[Code](https://github.com/stepfun-ai/Step-Video-T2V)]
+- **HunyuanVideo: A Systematic Framework For Large Video Generative Models**, Weijie Kong et al. [[Paper](https://arxiv.org/abs/2412.03603)] [[Code](https://github.com/Tencent-Hunyuan/HunyuanVideo)]
+- **Fast Video Generation with Sliding Tile Attention**, Peiyuan Zhang et al. [[Paper](https://arxiv.org/abs/2502.04507)]
+- **Training-Free Efficient Video Generation via Dynamic Token Carving** [[Paper](https://arxiv.org/abs/2505.16864)]
+- **FastCar: Cache Attentive Replay for Fast Auto-Regressive Video Generation on the Edge** [[Paper](https://arxiv.org/abs/2505.14709)]
+- **On-Device Sora: Enabling Training-Free Diffusion-Based Text-to-Video Generation for Mobile Devices** [[Paper](https://arxiv.org/abs/2502.04363)]
+- **SkyReels-A2: Compose Anything in Video Diffusion Transformers** [[Paper](https://arxiv.org/abs/2504.02436)]
+- **MotionCanvas: Cinematic Shot Design with Controllable Image-to-Video Generation** [[Paper](https://arxiv.org/abs/2502.04299)]
+- **EasyControl: Adding Efficient and Flexible Control for Diffusion Transformer** [[Paper](https://arxiv.org/abs/2503.07027)]
+- **MUG-V 10B: High-efficiency Training Pipeline for Large Video Generation Models** [[Paper](https://arxiv.org/abs/2510.17519)]
+- **VBench-2.0: Advancing Video Generation Benchmark Suite for Intrinsic Faithfulness** [[Paper](https://arxiv.org/abs/2503.21755)] [[Code](https://github.com/Vchitect/VBench)]
+- **Kandinsky 5.0: A Family of Foundation Models for Image and Video Generation** [[Paper](https://arxiv.org/abs/2511.14993)]
+
+### 2024
+
+- **Sora: A Review on Background, Technology, Limitations, and Opportunities of Large Vision Models**, Yixin Liu et al. [[Paper](https://arxiv.org/abs/2402.17177)]
+- **CogVideoX: Text-to-Video Diffusion Models with An Expert Transformer**, Zhuoyi Yang et al. [[Paper](https://arxiv.org/abs/2408.06072)] [[Code](https://github.com/THUDM/CogVideo)]
+- **Latte: Latent Diffusion Transformer for Video Generation**, Xin Ma et al. [[Paper](https://arxiv.org/abs/2401.03048)] [[Code](https://github.com/Vchitect/Latte)]
+- **VideoTetris: Towards Compositional Text-to-Video Generation** [[Paper](https://arxiv.org/abs/2406.04277)]
+- **MagicTime: Time-lapse Video Generation Models as Metamorphic Simulators** [[Paper](https://arxiv.org/abs/2404.05014)]
+- **T2V-CompBench: A Comprehensive Benchmark for Compositional Text-to-Video Generation** [[Paper](https://arxiv.org/abs/2407.14505)]
+- **CPA: Camera-pose-awareness Diffusion Transformer for Video Generation** [[Paper](https://arxiv.org/abs/2412.01429)]
+- **Open-Sora: Democratizing Efficient Video Production for All** [[Project](https://github.com/hpcaitech/Open-Sora)]
+- **Open-Sora-Plan: Open-Source Reproduction of Sora** [[Project](https://github.com/PKU-YuanGroup/Open-Sora-Plan)]
 
 ### 2023
--  Text-To-4D Dynamic Scene Generation, Uriel Singer et al. [[Paper](https://arxiv.org/abs/2301.11280)] [[Project](https://make-a-video3d.github.io/)]
+
+- **Stable Video Diffusion: Scaling Latent Video Diffusion Models to Large Datasets**, Andreas Blattmann et al. [[Paper](https://arxiv.org/abs/2311.15127)]
+- **AnimateDiff: Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning**, Yuwei Guo et al. [[Paper](https://arxiv.org/abs/2307.04725)] [[Code](https://github.com/guoyww/AnimateDiff)]
+- **Scalable Diffusion Models with Transformers (DiT)**, William Peebles & Saining Xie. [[Paper](https://arxiv.org/abs/2212.09748)] — Foundation for diffusion-transformer architectures used in Sora and successors.
+- **Video Generation Models as World Simulators**, OpenAI (Sora technical report). [[Report](https://openai.com/index/video-generation-models-as-world-simulators/)]
+- **Text-To-4D Dynamic Scene Generation**, Uriel Singer et al. [[Paper](https://arxiv.org/abs/2301.11280)] [[Project](https://make-a-video3d.github.io/)]
 
 ### 2022
 
--  Tune-A-Video: One-Shot Tuning of Image Diffusion Models for Text-to-Video Generation, Jay Zhangjie Wu et al. [[Paper](https://arxiv.org/abs/2212.11565)] [[Project](https://tuneavideo.github.io/)] [[Code](https://github.com/showlab/Tune-A-Video)]
--  MagicVideo: Efficient Video Generation With Latent Diffusion Models, Daquan Zhou et al. [[Paper](https://arxiv.org/abs/2211.11018)] [[Project](https://magicvideo.github.io/#)]
--  Phenaki: Variable Length Video Generation From Open Domain Textual Description, Ruben Villegas et al. [[Paper](https://arxiv.org/abs/2210.02399)]
--  Imagen Video: High Definition Video Generation with Diffusion Models, Jonathan Ho et al. [[Paper](https://arxiv.org/abs/2210.02303v1)] [[Project](https://imagen.research.google/video/)]
--  Text-driven Video Prediction, Xue Song et al. [[Paper](https://arxiv.org/abs/2210.02872)]
--  Make-A-Video: Text-to-Video Generation without Text-Video Data, Uriel Singer et al. [[Paper](https://arxiv.org/abs/2209.14792)] [[Project](https://makeavideo.studio/)] [[Short read](https://www.louisbouchard.ai/make-a-video/)] [[Code](https://github.com/lucidrains/make-a-video-pytorch)]
-- StoryDALL-E: Adapting Pretrained Text-to-Image Transformers for Story Continuation, Adyasha Maharana et al. [[Paper](https://arxiv.org/abs/2209.06192)] [[Code](https://github.com/adymaharana/storydalle)]
-- Word-Level Fine-Grained Story Visualization, Bowen Li et al. [[Paper](https://arxiv.org/abs/2208.02341)] [[Code](https://github.com/mrlibw/Word-Level-Story-Visualization)]
--  CogVideo: Large-scale Pretraining for Text-to-Video Generation via Transformers, Wenyi Hong et al. [[Paper](https://arxiv.org/abs/2205.15868)] [[Code](https://github.com/THUDM/CogVideo)]
-- Show Me What and Tell Me How: Video Synthesis via Multimodal Conditioning, Yogesh Balaji et al. [[Paper](https://arxiv.org/abs/2203.02573)] [[Code](https://github.com/snap-research/MMVID)] [Project](https://snap-research.github.io/MMVID/)
--  Video Diffusion Models, Jonathan Ho et al. [[Paper](https://arxiv.org/abs/2204.03458)] [[Project](https://video-diffusion.github.io/)]
+- **Tune-A-Video: One-Shot Tuning of Image Diffusion Models for Text-to-Video Generation**, Jay Zhangjie Wu et al. [[Paper](https://arxiv.org/abs/2212.11565)] [[Project](https://tuneavideo.github.io/)] [[Code](https://github.com/showlab/Tune-A-Video)]
+- **MagicVideo: Efficient Video Generation With Latent Diffusion Models**, Daquan Zhou et al. [[Paper](https://arxiv.org/abs/2211.11018)] [[Project](https://magicvideo.github.io/)]
+- **Phenaki: Variable Length Video Generation From Open Domain Textual Description**, Ruben Villegas et al. [[Paper](https://arxiv.org/abs/2210.02399)]
+- **Imagen Video: High Definition Video Generation with Diffusion Models**, Jonathan Ho et al. [[Paper](https://arxiv.org/abs/2210.02303)] [[Project](https://imagen.research.google/video/)]
+- **Text-driven Video Prediction**, Xue Song et al. [[Paper](https://arxiv.org/abs/2210.02872)]
+- **Make-A-Video: Text-to-Video Generation without Text-Video Data**, Uriel Singer et al. [[Paper](https://arxiv.org/abs/2209.14792)] [[Project](https://makeavideo.studio/)] [[Code](https://github.com/lucidrains/make-a-video-pytorch)]
+- **StoryDALL-E: Adapting Pretrained Text-to-Image Transformers for Story Continuation**, Adyasha Maharana et al. [[Paper](https://arxiv.org/abs/2209.06192)] [[Code](https://github.com/adymaharana/storydalle)]
+- **Word-Level Fine-Grained Story Visualization**, Bowen Li et al. [[Paper](https://arxiv.org/abs/2208.02341)] [[Code](https://github.com/mrlibw/Word-Level-Story-Visualization)]
+- **CogVideo: Large-scale Pretraining for Text-to-Video Generation via Transformers**, Wenyi Hong et al. [[Paper](https://arxiv.org/abs/2205.15868)] [[Code](https://github.com/THUDM/CogVideo)]
+- **Show Me What and Tell Me How: Video Synthesis via Multimodal Conditioning**, Yogesh Balaji et al. [[Paper](https://arxiv.org/abs/2203.02573)] [[Code](https://github.com/snap-research/MMVID)] [[Project](https://snap-research.github.io/MMVID/)]
+- **Video Diffusion Models**, Jonathan Ho et al. [[Paper](https://arxiv.org/abs/2204.03458)] [[Project](https://video-diffusion.github.io/)]
 
-### Befor 2021
-- Transcript to Video: Efficient Clip Sequencing from Texts, Ligong Han et al. [[Paper](https://arxiv.org/pdf/2107.11851.pdf)] [[Project](http://www.xiongyu.me/projects/transcript2video/)]
--   GODIVA: Generating Open-DomaIn Videos from nAtural Descriptions, Chenfei Wu et al. [[Paper](https://arxiv.org/pdf/2104.14806.pdf)]
--   Text2Video: Text-driven Talking-head Video Synthesis with Phonetic Dictionary, Sibo Zhang et al. [[Paper](https://arxiv.org/pdf/2104.14631.pdf)]
--  TiVGAN: Text to Image to Video Generation With Step-by-Step Evolutionary Generator, DOYEON KIM et al. [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9171240)]
-- Conditional GAN with Discriminative Filter Generation for Text-to-Video Synthesis, Yogesh Balaji et al. [[Paper](https://www.ijcai.org/Proceedings/2019/0276.pdf)] [[Code](https://github.com/minrq/CGAN_Text2Video)]
-- IRC-GAN: Introspective Recurrent Convolutional GAN for Text-to-video Generation, Kangle Deng et al. [[Paper](https://www.ijcai.org/Proceedings/2019/0307.pdf)]
-- StoryGAN: A Sequential Conditional GAN for Story Visualization, Yitong Li et al. [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/12233https://openaccess.thecvf.com/content_CVPR_2019/html/Li_StoryGAN_A_Sequential_Conditional_GAN_for_Story_Visualization_CVPR_2019_paper.html)] [[Code](https://github.com/yitong91/StoryGAN?utm_source=catalyzex.com)]
-- Video Generation From Text, Yitong Li et al. [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/12233)]
-- To create what you tell: Generating videos from captions, Yingwei Pan et al. [[Paper](https://dl.acm.org/doi/pdf/10.1145/3123266.3127905)]
+### Before 2021
 
+- **Transcript to Video: Efficient Clip Sequencing from Texts**, Ligong Han et al. [[Paper](https://arxiv.org/abs/2107.11851)] [[Project](http://www.xiongyu.me/projects/transcript2video/)]
+- **GODIVA: Generating Open-DomaIn Videos from nAtural Descriptions**, Chenfei Wu et al. [[Paper](https://arxiv.org/abs/2104.14806)]
+- **Text2Video: Text-driven Talking-head Video Synthesis with Phonetic Dictionary**, Sibo Zhang et al. [[Paper](https://arxiv.org/abs/2104.14631)]
+- **TiVGAN: Text to Image to Video Generation With Step-by-Step Evolutionary Generator**, Doyeon Kim et al. [[Paper](https://ieeexplore.ieee.org/document/9171240)]
+- **Conditional GAN with Discriminative Filter Generation for Text-to-Video Synthesis**, Yogesh Balaji et al. [[Paper](https://www.ijcai.org/Proceedings/2019/0276.pdf)] [[Code](https://github.com/minrq/CGAN_Text2Video)]
+- **IRC-GAN: Introspective Recurrent Convolutional GAN for Text-to-video Generation**, Kangle Deng et al. [[Paper](https://www.ijcai.org/Proceedings/2019/0307.pdf)]
+- **StoryGAN: A Sequential Conditional GAN for Story Visualization**, Yitong Li et al. [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/12233)] [[Code](https://github.com/yitong91/StoryGAN)]
+- **Video Generation From Text**, Yitong Li et al. [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/12233)]
+- **To create what you tell: Generating videos from captions**, Yingwei Pan et al. [[Paper](https://dl.acm.org/doi/10.1145/3123266.3127905)]
+
+---
+
+## Datasets & Benchmarks
+
+### Datasets
+
+| Dataset | Scale | Highlights | Link |
+|---------|-------|------------|------|
+| **WebVid-10M** | 10.7M clips | Large-scale text-video pairs scraped from the web | [m-bain/webvid](https://github.com/m-bain/webvid) |
+| **InternVid** | 7M+ clips | High-quality video-text dataset with multimodal annotations | [OpenGVLab/InternVid](https://github.com/OpenGVLab/InternVid) |
+| **HD-VILA-100M** | 100M clips | High-resolution long-form videos with dense captions | [microsoft/HQD](https://github.com/microsoft/HQD) |
+| **Panda-70M** | 70M clips | Large dataset of high-quality video-caption pairs | [snap-research/Panda-70M](https://github.com/snap-research/Panda-70M) |
+| **VidProM** | — | Large prompt-gallery dataset for video generation | [VidProM](https://vidprom.github.io/) |
+
+### Benchmarks
+
+| Benchmark | Focus | Link |
+|-----------|-------|------|
+| **VBench / VBench-2.0** | Comprehensive video generation evaluation suite | [Vchitect/VBench](https://github.com/Vchitect/VBench) |
+| **T2V-CompBench** | Compositional text-to-video generation | [T2V-CompBench](https://github.com/Karine-Huang/T2V-CompBench) |
+| **VideoEval** | Low-cost evaluation of video foundation models | [VideoEval](https://github.com/FlagOpen/FlagEval/tree/master/video) |
+
+---
 
 ## Contributing
 
-Our purpose is to make this repo even better. If you are interested in contributing, please refer to HERE for instructions in contribution. If you have any question, please feel free to contact [jianzhnie](https://github.com/jianzhnie).
+Contributions are welcome! Please open a pull request to add new products, papers, models, datasets, or benchmarks. Keep entries concise and include both a paper link and a code/project link when available.
+
+If you have any questions, feel free to contact [jianzhnie](https://github.com/jianzhnie).
+
+---
 
 ## License
 
-`Awesome-Text-Video` is released under the Apache 2.0 license.
+`Awesome-Text-To-Video` is released under the Apache 2.0 license.
+
+---
+
+## References
+
+This list was compiled and updated using information from the following sources:
+
+- [OpenAI Sora](https://openai.com/sora)
+- [Google DeepMind Veo](https://deepmind.google/technologies/veo/)
+- [Runway Help: Creating with Gen-4 Video](https://help.runwayml.com/hc/en-us/articles/37327109429011-Creating-with-Gen-4-Video)
+- [Runway Review 2026: Gen-4.5, Aleph, and the Post-Sora Video AI Landscape](https://aiunpacking.com/review/runway/)
+- [Luma Dream Machine](https://lumalabs.ai)
+- [Kling AI](https://klingai.com)
+- [Hailuo AI](https://hailuoai.video)
+- [Pika](https://pika.art)
+- [Krea AI](https://www.krea.ai)
+- [ByteDance Seedance 2.0 Global Release: 2026 Launch Guide](https://resource.digen.ai/bytedance-seedance-2-0-global-release-2026/)
+- [Seedance 2.0 Review: ByteDance Tops AI Video in 2026](https://www.buildfastwithai.com/blogs/seedance-2-bytedance-ai-video-2026)
+- [HunyuanVideo GitHub](https://github.com/Tencent-Hunyuan/HunyuanVideo)
+- [Wan 2.1 GitHub](https://github.com/Wan-Video/Wan2.1)
+- [CogVideo GitHub](https://github.com/THUDM/CogVideo)
+- [Open-Sora GitHub](https://github.com/hpcaitech/Open-Sora)
+- [Open-Sora-Plan GitHub](https://github.com/PKU-YuanGroup/Open-Sora-Plan)
+- [LTX-Video GitHub](https://github.com/Lightricks/LTX-Video)
+- [Mochi GitHub](https://github.com/genmoai/mochi)
+- [Step-Video-T2V GitHub](https://github.com/stepfun-ai/Step-Video-T2V)
+- [AnimateDiff GitHub](https://github.com/guoyww/AnimateDiff)
+- [Latte GitHub](https://github.com/Vchitect/Latte)
+- [VBench GitHub](https://github.com/Vchitect/VBench)
+- arXiv papers cited in the [Research Papers](#research-papers) section.
