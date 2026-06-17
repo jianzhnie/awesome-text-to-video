@@ -69,6 +69,14 @@ Key trends:
 | 🛒 **Creatify** | Creatify | UGC-style ad generation | 1080p | E-commerce focused, ad performance tracking | [creatify.ai](https://creatify.ai/) |
 | ✂️ **InVideo AI** | InVideo | Social media / marketing | 1080p | 5000+ templates, AI script-to-video workflow | [invideo.io](https://invideo.io/) |
 | 🎩 **Magic Hour** | Magic Hour | Multi-format creative suite | 1080p | Face swap, talking photos, headshots, clothes swapper | [magichour.ai](https://magichour.ai/) |
+| 🎬 **PixVerse V6** | PixVerse | Anime / stylized content | 1080p, 15 s | Character consistency engine, 20+ camera controls, native audio | [pixverse.ai](https://pixverse.ai/) |
+| 🌀 **Morphic / Morph Studio** | Morph Studio | All-in-one creative platform | Varies | 15+ models, canvas editing, custom model training | [morphic.com](https://www.morphic.com/) |
+| 🎭 **Hedra** | Hedra | Talking / singing characters | 1080p | Text + image → expressive avatar videos with lip sync | [hedra.com](https://www.hedra.com/) |
+| 🧑‍🏫 **Vidnoz AI** | Vidnoz | Budget avatar videos / training | 1080p | Cheap avatar generation, multilingual voiceovers | [vidnoz.com](https://www.vidnoz.com/) |
+| 🎨 **Steve.AI** | Steve.AI | Animated explainer videos | 4K | Multiple animation styles, character library | [steve.ai](https://www.steve.ai/) |
+| 🎥 **Vidu Q1/Q2** | Shengshu / Tsinghua | Highly consistent T2V | 1080p, 16 s | U-ViT backbone, subject consistency, 1080p generation | [vidu.com](https://www.vidu.com/) |
+| 🔬 **Lumiere** | Google DeepMind | Research T2V / I2V / editing | 720p | Space-time U-Net, single-pass temporal generation | [lumiere-video.github.io](https://lumiere-video.github.io/) |
+| ⚠️ ~~**Haiper**~~ | ~~Haiper~~ | ~~Fast creator clips~~ | ~~1080p~~ | **Consumer product shut down in 2026** | ~~[haiper.ai](https://haiper.ai/)~~ |
 | ⚠️ ~~**Sora / Sora 2**~~ | ~~OpenAI~~ | ~~Photorealism~~ | ~~1080p–8K~~ | **Consumer app shut down March 2026** | ~~[openai.com/sora](https://openai.com/sora)~~ |
 
 ### Featured Product Cards
@@ -118,6 +126,20 @@ Key trends:
   <a href="https://magichour.ai/">Try Magic Hour →</a>
 </td>
 </tr>
+<tr>
+<td width="50%" align="center">
+  <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop" width="100%">
+  <h3>PixVerse V6</h3>
+  <p>Specialized in anime and stylized content with character consistency, 20+ camera controls, and native audio.</p>
+  <a href="https://pixverse.ai/">Try PixVerse →</a>
+</td>
+<td width="50%" align="center">
+  <img src="https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?w=600&auto=format&fit=crop" width="100%">
+  <h3>Morphic / Morph Studio</h3>
+  <p>All-in-one creative platform with 15+ models, canvas-based editing, and custom model training for teams.</p>
+  <a href="https://www.morphic.com/">Try Morphic →</a>
+</td>
+</tr>
 </table>
 
 </div>
@@ -153,6 +175,11 @@ Key trends:
 | **Waver 1.0** | <img src="https://opengraph.githubassets.com/1/FoundationVision/Waver" width="160"> | ByteDance | 12B | — | Unified T2V/I2V/T2I, 1080p, Cascade Refiner |
 | **VideoCrafter2** | <img src="https://opengraph.githubassets.com/1/AILab-CVC/VideoCrafter" width="160"> | Tencent AI Lab / CUHK | — | — | High-quality T2V/I2V diffusion models |
 | **ModelScope T2V** | <img src="https://opengraph.githubassets.com/1/ali-vilab/VGen" width="160"> | Alibaba / DAMO | — | — | Early open diffusion T2V model (UNet3D) |
+| **Allegro / Allegro-TI2V** | <img src="https://opengraph.githubassets.com/1/rhymes-ai/Allegro" width="160"> | Rhymes AI | ~3B | Apache 2.0 | 720p, 6 s, Apache 2.0, Diffusers integration |
+| **DynamiCrafter** | <img src="https://opengraph.githubassets.com/1/Doubiiu/DynamiCrafter" width="160"> | CUHK / Tencent AI Lab | — | Apache 2.0 | (Text-)Image-to-video animation from still images |
+| **I2VGen-XL** | <img src="https://opengraph.githubassets.com/1/ali-vilab/i2vgen-xl" width="160"> | Alibaba / DAMO | — | — | High-fidelity image-to-video with semantic understanding |
+| **VideoComposer** | <img src="https://opengraph.githubassets.com/1/ali-vilab/videocomposer" width="160"> | Alibaba / DAMO | — | Apache 2.0 | Compositional video synthesis with motion controllability |
+| **Lumiere (unofficial)** | <img src="https://opengraph.githubassets.com/1/lucidrains/lumiere-pytorch" width="160"> | lucidrains | — | — | PyTorch implementation of Google DeepMind's Lumiere |
 
 </div>
 
@@ -171,6 +198,11 @@ Quick repository links:
 [![Waver](https://img.shields.io/badge/GitHub-FoundationVision%2FWaver-blue?logo=github)](https://github.com/FoundationVision/Waver)
 [![VideoCrafter](https://img.shields.io/badge/GitHub-AILab--CVC%2FVideoCrafter-blue?logo=github)](https://github.com/AILab-CVC/VideoCrafter)
 [![VGen](https://img.shields.io/badge/GitHub-ali--vilab%2FVGen-blue?logo=github)](https://github.com/ali-vilab/VGen)
+[![Allegro](https://img.shields.io/badge/GitHub-rhymes--ai%2FAllegro-blue?logo=github)](https://github.com/rhymes-ai/Allegro)
+[![DynamiCrafter](https://img.shields.io/badge/GitHub-Doubiiu%2FDynamiCrafter-blue?logo=github)](https://github.com/Doubiiu/DynamiCrafter)
+[![I2VGen-XL](https://img.shields.io/badge/GitHub-ali--vilab%2Fi2vgen--xl-blue?logo=github)](https://github.com/ali-vilab/i2vgen-xl)
+[![VideoComposer](https://img.shields.io/badge/GitHub-ali--vilab%2Fvideocomposer-blue?logo=github)](https://github.com/ali-vilab/videocomposer)
+[![Lumiere PyTorch](https://img.shields.io/badge/GitHub-lucidrains%2Flumiere--pytorch-blue?logo=github)](https://github.com/lucidrains/lumiere-pytorch)
 
 ---
 
@@ -185,6 +217,7 @@ Quick repository links:
 - **Survey of Video Diffusion Models: Foundations, Implementations, and Applications**, Yimu Wang et al. [[Paper](https://arxiv.org/abs/2504.16081)]
   - Comprehensive taxonomy of diffusion-based video generation, evaluation metrics, industry solutions, and training engineering.
 - **UNIC: Unified In-Context Video Editing** [[Paper](https://arxiv.org/abs/2506.04216)]
+- **BRITE: A Benchmark for Reliable and Interpretable T2V Evaluation on Implausible Scenarios** [[Paper](https://arxiv.org/abs/2605.00873)]
 - **Runway Gen-4.5 Technical Report** — Runway (2026) [[Runway Help](https://help.runwayml.com/hc/en-us/articles/37327109429011-Creating-with-Gen-4-Video)]
 - **ByteDance Seedance 2.0** — Global launch April 2026 [[Overview](https://resource.digen.ai/bytedance-seedance-2-0-global-release-2026/)]
 - **LTX-2.3: Native 4K Video + Audio Generation** — Lightricks (March 2026) [[Project](https://github.com/Lightricks/LTX-Video)]
@@ -209,9 +242,16 @@ Quick repository links:
 - **VBench-2.0: Advancing Video Generation Benchmark Suite for Intrinsic Faithfulness** [[Paper](https://arxiv.org/abs/2503.21755)] [[Code](https://github.com/Vchitect/VBench)]
 - **Kandinsky 5.0: A Family of Foundation Models for Image and Video Generation** [[Paper](https://arxiv.org/abs/2511.14993)]
 - **ARLON: Boosting Diffusion Transformers with Autoregressive Models for Long Video Generation** [[Paper](https://arxiv.org/abs/2410.20502)]
+- **T2VTextBench: A Human Evaluation Benchmark for Textual Control in Video Generation Models** [[Paper](https://arxiv.org/abs/2505.04946)]
+- **A Survey of AI-Generated Video Evaluation** [[Paper](https://arxiv.org/abs/2410.19884)]
 
 ### 2024
 
+- **Movie Gen: A Cast of Media Foundation Models**, Meta. [[Paper](https://arxiv.org/abs/2410.13720)]
+- **Lumiere: A Space-Time Diffusion Model for Video Generation**, Google DeepMind. [[Paper](https://arxiv.org/abs/2401.12945)] [[Project](https://lumiere-video.github.io/)] [[Code](https://github.com/lucidrains/lumiere-pytorch)]
+- **Vidu: A Highly Consistent, Dynamic and Skilled Text-to-Video Generator with Diffusion Models**, Shengshu / Tsinghua. [[Paper](https://arxiv.org/abs/2405.04233)] [[Code](https://github.com/shengshu-ai/vidu-skills)]
+- **Allegro: Open the Black Box of Commercial-Level Video Generation Model**, Rhymes AI. [[Paper](https://arxiv.org/abs/2410.15458)] [[Code](https://github.com/rhymes-ai/Allegro)]
+- **DynamiCrafter: Animating Open-domain Images with Video Diffusion Priors**, CUHK / Tencent AI Lab. [[Paper](https://arxiv.org/abs/2310.08465)] [[Code](https://github.com/Doubiiu/DynamiCrafter)]
 - **Sora: A Review on Background, Technology, Limitations, and Opportunities of Large Vision Models**, Yixin Liu et al. [[Paper](https://arxiv.org/abs/2402.17177)]
 - **VideoCrafter2: Overcoming Data Limitations for High-Quality Video Diffusion Models**, Haoxin Chen et al. [[Paper](https://arxiv.org/abs/2401.09047)] [[Code](https://github.com/AILab-CVC/VideoCrafter)]
 - **CogVideoX: Text-to-Video Diffusion Models with An Expert Transformer**, Zhuoyi Yang et al. [[Paper](https://arxiv.org/abs/2408.06072)] [[Code](https://github.com/THUDM/CogVideo)]
@@ -227,6 +267,7 @@ Quick repository links:
 
 - **Stable Video Diffusion: Scaling Latent Video Diffusion Models to Large Datasets**, Andreas Blattmann et al. [[Paper](https://arxiv.org/abs/2311.15127)]
 - **ModelScope Text-to-Video Technical Report**, Jiayu Wang et al. [[Paper](https://arxiv.org/abs/2308.06571)]
+- **I2VGen-XL: High-Quality Image-to-Video Synthesis via Cascaded Diffusion Models**, Alibaba / DAMO. [[Paper](https://arxiv.org/abs/2311.04145)] [[Code](https://github.com/ali-vilab/i2vgen-xl)]
 - **AnimateDiff: Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning**, Yuwei Guo et al. [[Paper](https://arxiv.org/abs/2307.04725)] [[Code](https://github.com/guoyww/AnimateDiff)]
 - **Scalable Diffusion Models with Transformers (DiT)**, William Peebles & Saining Xie. [[Paper](https://arxiv.org/abs/2212.09748)] — Foundation for diffusion-transformer architectures used in Sora and successors.
 - **Video Generation Models as World Simulators**, OpenAI (Sora technical report). [[Report](https://openai.com/index/video-generation-models-as-world-simulators/)]
@@ -270,6 +311,11 @@ Quick repository links:
 | **InternVid** | 7M+ clips | High-quality video-text dataset with multimodal annotations | [OpenGVLab/InternVid](https://github.com/OpenGVLab/InternVid) |
 | **HD-VILA-100M** | 100M clips | High-resolution long-form videos with dense captions | [microsoft/HQD](https://github.com/microsoft/HQD) |
 | **Panda-70M** | 70M clips | Large dataset of high-quality video-caption pairs | [snap-research/Panda-70M](https://github.com/snap-research/Panda-70M) |
+| **Vript** | 420K clips | Ultra-detailed captions (~145 words), shot type and camera movement | [Vript](https://github.com/mbzuai-oryx/Vript) |
+| **MiraData** | 798K clips | Long-duration videos (avg 72s), 1080p, 318-word captions | [MiraData](https://github.com/mira-space/MiraData) |
+| **OpenVid-1M** | 1M clips | High-quality, diverse scenarios, ~98-word captions | [OpenVid-1M](https://github.com/NJU-PCALAB/OpenVid-1M) |
+| **CI-VID** | 1M clips / 717K seqs | Coherent interleaved text-video dataset | [CI-VID](https://github.com/I2-Multimedia-Lab/CI-VID) |
+| **HD-VG-130M** | 130M clips | High-definition, watermark-free video-text pairs | [HD-VG-130M](https://github.com/daooshee/HD-VG-130M) |
 | **VidProM** | — | Large prompt-gallery dataset for video generation | [VidProM](https://vidprom.github.io/) |
 
 ### Benchmarks
@@ -277,7 +323,10 @@ Quick repository links:
 | Benchmark | Focus | Link |
 |-----------|-------|------|
 | **VBench / VBench-2.0** | Comprehensive video generation evaluation suite | [Vchitect/VBench](https://github.com/Vchitect/VBench) |
-| **T2V-CompBench** | Compositional text-to-video generation | [T2V-CompBench](https://github.com/Karine-Huang/T2V-CompBench) |
+| **T2V-CompBench** | Compositional text-to-video generation | [T2V-CompBench](https://github.com/KaiyueSun98/T2V-CompBench) |
+| **T2VTextBench** | Human evaluation of textual control in video generation | [T2VTextBench](https://github.com/T2VTextBench/T2VTextBench) |
+| **ChronoMagic-Bench** | Metamorphic / time-lapse text-to-video evaluation | [ChronoMagic-Bench](https://github.com/PKU-YuanGroup/ChronoMagic-Bench) |
+| **BRITE** | Reliable T2V evaluation on implausible scenarios | [arXiv:2605.00873](https://arxiv.org/abs/2605.00873) |
 | **VideoEval** | Low-cost evaluation of video foundation models | [VideoEval](https://github.com/FlagOpen/FlagEval/tree/master/video) |
 
 ---
@@ -318,6 +367,13 @@ This list was compiled and updated using information from the following sources:
 - [Creatify](https://creatify.ai/)
 - [InVideo AI](https://invideo.io/)
 - [Magic Hour](https://magichour.ai/)
+- [PixVerse](https://pixverse.ai/)
+- [Morphic / Morph Studio](https://www.morphic.com/)
+- [Hedra](https://www.hedra.com/)
+- [Vidnoz AI](https://www.vidnoz.com/)
+- [Steve.AI](https://www.steve.ai/)
+- [Vidu](https://www.vidu.com/)
+- [Lumiere Project Page](https://lumiere-video.github.io/)
 - [HunyuanVideo GitHub](https://github.com/Tencent-Hunyuan/HunyuanVideo)
 - [Wan 2.1 GitHub](https://github.com/Wan-Video/Wan2.1)
 - [CogVideo GitHub](https://github.com/THUDM/CogVideo)
@@ -331,6 +387,11 @@ This list was compiled and updated using information from the following sources:
 - [Waver GitHub](https://github.com/FoundationVision/Waver)
 - [VideoCrafter GitHub](https://github.com/AILab-CVC/VideoCrafter)
 - [VGen GitHub](https://github.com/ali-vilab/VGen)
+- [Allegro GitHub](https://github.com/rhymes-ai/Allegro)
+- [DynamiCrafter GitHub](https://github.com/Doubiiu/DynamiCrafter)
+- [I2VGen-XL GitHub](https://github.com/ali-vilab/i2vgen-xl)
+- [VideoComposer GitHub](https://github.com/ali-vilab/videocomposer)
+- [Lumiere PyTorch GitHub](https://github.com/lucidrains/lumiere-pytorch)
 - [AnimateDiff GitHub](https://github.com/guoyww/AnimateDiff)
 - [Latte GitHub](https://github.com/Vchitect/Latte)
 - [VBench GitHub](https://github.com/Vchitect/VBench)
