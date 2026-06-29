@@ -93,6 +93,7 @@ Key trends:
 | ✂️ **InVideo AI** | InVideo | Social media / marketing | 1080p | 5000+ templates, AI script-to-video workflow | [invideo.io](https://invideo.io/) |
 | 🎩 **Magic Hour** | Magic Hour | Multi-format creative suite | 1080p | Face swap, talking photos, headshots, clothes swapper | [magichour.ai](https://magichour.ai/) |
 | 🛒 **Creatify** | Creatify | UGC-style ad generation | 1080p | E-commerce focused, ad performance tracking | [creatify.ai](https://creatify.ai/) |
+| 🎞️ **cv.cm/v (Cloud Clipboard AI Studio)** | Cloud Clipboard | Queue-free Seedance access + free credits | 2K, multi-shot | Queue-free full-power Seedance 2.0, image gen (gpt-image-2 / Seedream), node-graph canvas, drama agent, REST API, 100 free credits, no signup | [cv.cm/v](https://cv.cm/v) |
 
 #### Discontinued / Historical
 
