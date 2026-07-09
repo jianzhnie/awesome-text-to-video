@@ -91,6 +91,7 @@ Key trends:
 | 🛠️ **Krea AI** | Krea | Model-agnostic access | Varies | Unified UI for Kling, Hailuo, Luma, Runway, Pika | [krea.ai](https://www.krea.ai) |
 | 🌀 **Morphic / Morph Studio** | Morph Studio | All-in-one creative platform | Varies | 15+ models, canvas editing, custom model training | [morphic.com](https://www.morphic.com/) |
 | ✂️ **InVideo AI** | InVideo | Social media / marketing | 1080p | 5000+ templates, AI script-to-video workflow | [invideo.io](https://invideo.io/) |
+| 🎬 **YumCut** | YumCut | Self-hosted vertical shorts | 9:16 | Script, voice, visuals, captions, and automation API | [yumcut.com](https://yumcut.com/) · [GitHub](https://github.com/IgorShadurin/app.yumcut.com) |
 | 🎩 **Magic Hour** | Magic Hour | Multi-format creative suite | 1080p | Face swap, talking photos, headshots, clothes swapper | [magichour.ai](https://magichour.ai/) |
 | 🛒 **Creatify** | Creatify | UGC-style ad generation | 1080p | E-commerce focused, ad performance tracking | [creatify.ai](https://creatify.ai/) |
 
