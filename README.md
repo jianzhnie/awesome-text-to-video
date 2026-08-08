@@ -93,6 +93,7 @@ Key trends:
 | ✂️ **InVideo AI** | InVideo | Social media / marketing | 1080p | 5000+ templates, AI script-to-video workflow | [invideo.io](https://invideo.io/) |
 | 🎩 **Magic Hour** | Magic Hour | Multi-format creative suite | 1080p | Face swap, talking photos, headshots, clothes swapper | [magichour.ai](https://magichour.ai/) |
 | 🛒 **Creatify** | Creatify | UGC-style ad generation | 1080p | E-commerce focused, ad performance tracking | [creatify.ai](https://creatify.ai/) |
+| 🎞️ **Vivideo** | Vivideo | Model-agnostic short-video creation | Varies | Unified access to multiple T2V/I2V models, synced audio, text- and image-to-video | [vivideo.ai](https://vivideo.ai) |
 
 #### Discontinued / Historical
 
