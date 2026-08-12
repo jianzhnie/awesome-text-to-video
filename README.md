@@ -96,6 +96,7 @@ Key trends:
 | 🛒 **Creatify** | Creatify | UGC-style ad generation | 1080p | E-commerce focused, ad performance tracking | [creatify.ai](https://creatify.ai/) |
 | 🎞️ **Vivideo** | Vivideo | Model-agnostic short-video creation | Varies | Unified access to multiple T2V/I2V models, synced audio, text- and image-to-video | [vivideo.ai](https://vivideo.ai) |
 | 🎞️ **cv.cm/v (Cloud Clipboard AI Studio)** | Cloud Clipboard | Seedance-based video workflows | Varies | Queue-free Seedance 2.0, image generation, canvas, and short-drama agent | [cv.cm/v](https://cv.cm/v) |
+| 🎞️ **Pixo** | Pixo | Story-driven / storyboard-to-film | Varies | Story idea → storyboard → scene-by-scene generation → finished video, agent-assisted editing | [pixo.video](https://pixo.video/) |
 
 #### Discontinued / Historical
 
