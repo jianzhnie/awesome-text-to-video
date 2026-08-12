@@ -201,52 +201,31 @@ Key trends:
 
 <div align="center">
 
-| Model | Preview | Org | Size | License | Min VRAM | Best For |
-|-------|---------|-----|------|---------|----------|----------|
-| **Wan 2.2** | <img src="https://opengraph.githubassets.com/1/Wan-Video/Wan2.2" width="160"> | Alibaba | 27B (14B active) / 5B | Apache 2.0 | 24 GB (5B) | Open T2V/I2V, MoE models, speech-to-video support |
-| **HunyuanVideo 1.5** | <img src="https://opengraph.githubassets.com/1/Tencent-Hunyuan/HunyuanVideo" width="160"> | Tencent | 8.3B | Apache 2.0 | ~14 GB | Fast iteration, efficient quality, bilingual |
-| **LTX-Video / LTX-2.3** | <img src="https://opengraph.githubassets.com/1/Lightricks/LTX-Video" width="160"> | Lightricks | 22B | Apache 2.0* | ~8 GB | Real-time / 4K generation with native audio |
-| **CogVideoX** | <img src="https://opengraph.githubassets.com/1/THUDM/CogVideo" width="160"> | THUDM / Zhipu AI | 2B / 5B | Apache 2.0 | ~16 GB | ComfyUI ecosystem, LoRA support, beginners |
-| **Open-Sora 2.0** | <img src="https://opengraph.githubassets.com/1/hpcaitech/Open-Sora" width="160"> | HPC-AI Tech | 11B | Apache 2.0 | ~24 GB | Full training pipeline, commercial-level quality |
-| **Open-Sora-Plan 1.3** | <img src="https://opengraph.githubassets.com/1/PKU-YuanGroup/Open-Sora-Plan" width="160"> | PKU-YuanGroup | — | MIT | Varies | Open reproduction of Sora capabilities |
-| **Mochi 1** | <img src="https://opengraph.githubassets.com/1/genmoai/mochi" width="160"> | Genmo | 10B | Apache 2.0 | ~24 GB | Realistic physics and motion |
-| **Step-Video-T2V** | <img src="https://opengraph.githubassets.com/1/stepfun-ai/Step-Video-T2V" width="160"> | StepFun | — | — | High | Large open-source T2V model series |
-| **Stable Video Diffusion** | <img src="https://opengraph.githubassets.com/1/Stability-AI/generative-models" width="160"> | Stability AI | — | — | ~16 GB | Image-to-video / video foundation model |
-| **AnimateDiff** | <img src="https://opengraph.githubassets.com/1/guoyww/AnimateDiff" width="160"> | Tsinghua / CUHK | — | Apache 2.0 | ~12 GB | Animate personalized T2I models without tuning |
-| **Latte** | <img src="https://opengraph.githubassets.com/1/Vchitect/Latte" width="160"> | Shanghai AI Lab / NTU | — | Apache 2.0 | ~16 GB | Early DiT-based latent diffusion for video |
-| **SkyReels V1 / V2** | <img src="https://opengraph.githubassets.com/1/SkyworkAI/SkyReels-V2" width="160"> | SkyworkAI | 1.3B / 14B | — | ~16 GB | Human-centric V1; V2 uses diffusion-forcing for infinite-length film |
-| **MAGI-1** | <img src="https://opengraph.githubassets.com/1/SandAI-org/MAGI-1" width="160"> | Sand AI | 4.5B / 24B | — | Varies | Autoregressive chunk-based generation, up to 4M tokens context |
-| **Waver 1.0** | <img src="https://opengraph.githubassets.com/1/FoundationVision/Waver" width="160"> | ByteDance | 12B | — | ~24 GB | Unified T2V/I2V/T2I, 1080p, Cascade Refiner |
-| **VideoCrafter2** | <img src="https://opengraph.githubassets.com/1/AILab-CVC/VideoCrafter" width="160"> | Tencent AI Lab / CUHK | — | — | ~16 GB | High-quality T2V/I2V diffusion models |
-| **ModelScope T2V** | <img src="https://opengraph.githubassets.com/1/ali-vilab/VGen" width="160"> | Alibaba / DAMO | — | — | ~16 GB | Early open diffusion T2V model (UNet3D) |
-| **Allegro / Allegro-TI2V** | <img src="https://opengraph.githubassets.com/1/rhymes-ai/Allegro" width="160"> | Rhymes AI | ~3B | Apache 2.0 | ~9 GB (offload) | Apache 2.0 commercial use, Diffusers integration |
-| **DynamiCrafter** | <img src="https://opengraph.githubassets.com/1/Doubiiu/DynamiCrafter" width="160"> | CUHK / Tencent AI Lab | — | Apache 2.0 | ~16 GB | (Text-)Image-to-video animation from still images |
-| **I2VGen-XL** | <img src="https://opengraph.githubassets.com/1/ali-vilab/i2vgen-xl" width="160"> | Alibaba / DAMO | — | — | ~16 GB | High-fidelity image-to-video with semantic understanding |
-| **VideoComposer** | <img src="https://opengraph.githubassets.com/1/ali-vilab/videocomposer" width="160"> | Alibaba / DAMO | — | Apache 2.0 | ~16 GB | Compositional video synthesis with motion controllability |
-| **Lumiere (unofficial)** | <img src="https://opengraph.githubassets.com/1/lucidrains/lumiere-pytorch" width="160"> | lucidrains | — | MIT | N/A | PyTorch implementation of Google DeepMind's Lumiere |
+| Model | Preview | Org | Size | Code | Min VRAM | Best For |
+|-------|---------|-----|------|------|----------|----------|
+| **Wan 2.2** | <img src="https://opengraph.githubassets.com/1/Wan-Video/Wan2.2" width="160"> | Alibaba | 27B (14B active) / 5B | [![Wan](https://img.shields.io/github/stars/Wan-Video/Wan2.2?style=social)](https://github.com/Wan-Video/Wan2.2) | 24 GB (5B) | Open T2V/I2V, MoE models, speech-to-video support |
+| **HunyuanVideo 1.5** | <img src="https://opengraph.githubassets.com/1/Tencent-Hunyuan/HunyuanVideo" width="160"> | Tencent | 8.3B | [![HunyuanVideo](https://img.shields.io/github/stars/Tencent-Hunyuan/HunyuanVideo?style=social)](https://github.com/Tencent-Hunyuan/HunyuanVideo) | ~14 GB | Fast iteration, efficient quality, bilingual |
+| **LTX-Video / LTX-2.3** | <img src="https://opengraph.githubassets.com/1/Lightricks/LTX-Video" width="160"> | Lightricks | 22B | [![LTX-Video](https://img.shields.io/github/stars/Lightricks/LTX-Video?style=social)](https://github.com/Lightricks/LTX-Video) | ~8 GB | Real-time / 4K generation with native audio |
+| **CogVideoX** | <img src="https://opengraph.githubassets.com/1/THUDM/CogVideo" width="160"> | THUDM / Zhipu AI | 2B / 5B | [![CogVideo](https://img.shields.io/github/stars/THUDM/CogVideo?style=social)](https://github.com/THUDM/CogVideo) | ~16 GB | ComfyUI ecosystem, LoRA support, beginners |
+| **Open-Sora 2.0** | <img src="https://opengraph.githubassets.com/1/hpcaitech/Open-Sora" width="160"> | HPC-AI Tech | 11B | [![Open-Sora](https://img.shields.io/github/stars/hpcaitech/Open-Sora?style=social)](https://github.com/hpcaitech/Open-Sora) | ~24 GB | Full training pipeline, commercial-level quality |
+| **Open-Sora-Plan 1.3** | <img src="https://opengraph.githubassets.com/1/PKU-YuanGroup/Open-Sora-Plan" width="160"> | PKU-YuanGroup | — | [![Open-Sora-Plan](https://img.shields.io/github/stars/PKU-YuanGroup/Open-Sora-Plan?style=social)](https://github.com/PKU-YuanGroup/Open-Sora-Plan) | Varies | Open reproduction of Sora capabilities |
+| **Mochi 1** | <img src="https://opengraph.githubassets.com/1/genmoai/mochi" width="160"> | Genmo | 10B | [![Mochi](https://img.shields.io/github/stars/genmoai/mochi?style=social)](https://github.com/genmoai/mochi) | ~24 GB | Realistic physics and motion |
+| **Step-Video-T2V** | <img src="https://opengraph.githubassets.com/1/stepfun-ai/Step-Video-T2V" width="160"> | StepFun | — | [![Step-Video](https://img.shields.io/github/stars/stepfun-ai/Step-Video-T2V?style=social)](https://github.com/stepfun-ai/Step-Video-T2V) | High | Large open-source T2V model series |
+| **Stable Video Diffusion** | <img src="https://opengraph.githubassets.com/1/Stability-AI/generative-models" width="160"> | Stability AI | — | [![Stable Video Diffusion](https://img.shields.io/github/stars/Stability-AI/generative-models?style=social)](https://github.com/Stability-AI/generative-models) | ~16 GB | Image-to-video / video foundation model |
+| **AnimateDiff** | <img src="https://opengraph.githubassets.com/1/guoyww/AnimateDiff" width="160"> | Tsinghua / CUHK | — | [![AnimateDiff](https://img.shields.io/github/stars/guoyww/AnimateDiff?style=social)](https://github.com/guoyww/AnimateDiff) | ~12 GB | Animate personalized T2I models without tuning |
+| **Latte** | <img src="https://opengraph.githubassets.com/1/Vchitect/Latte" width="160"> | Shanghai AI Lab / NTU | — | [![Latte](https://img.shields.io/github/stars/Vchitect/Latte?style=social)](https://github.com/Vchitect/Latte) | ~16 GB | Early DiT-based latent diffusion for video |
+| **SkyReels V1 / V2** | <img src="https://opengraph.githubassets.com/1/SkyworkAI/SkyReels-V2" width="160"> | SkyworkAI | 1.3B / 14B | [![SkyReels](https://img.shields.io/github/stars/SkyworkAI/SkyReels-V2?style=social)](https://github.com/SkyworkAI/SkyReels-V2) | ~16 GB | Human-centric V1; V2 uses diffusion-forcing for infinite-length film |
+| **MAGI-1** | <img src="https://opengraph.githubassets.com/1/SandAI-org/MAGI-1" width="160"> | Sand AI | 4.5B / 24B | [![MAGI-1](https://img.shields.io/github/stars/SandAI-org/MAGI-1?style=social)](https://github.com/SandAI-org/MAGI-1) | Varies | Autoregressive chunk-based generation, up to 4M tokens context |
+| **Waver 1.0** | <img src="https://opengraph.githubassets.com/1/FoundationVision/Waver" width="160"> | ByteDance | 12B | [![Waver](https://img.shields.io/github/stars/FoundationVision/Waver?style=social)](https://github.com/FoundationVision/Waver) | ~24 GB | Unified T2V/I2V/T2I, 1080p, Cascade Refiner |
+| **VideoCrafter2** | <img src="https://opengraph.githubassets.com/1/AILab-CVC/VideoCrafter" width="160"> | Tencent AI Lab / CUHK | — | [![VideoCrafter](https://img.shields.io/github/stars/AILab-CVC/VideoCrafter?style=social)](https://github.com/AILab-CVC/VideoCrafter) | ~16 GB | High-quality T2V/I2V diffusion models |
+| **ModelScope T2V** | <img src="https://opengraph.githubassets.com/1/ali-vilab/VGen" width="160"> | Alibaba / DAMO | — | [![VGen](https://img.shields.io/github/stars/ali-vilab/VGen?style=social)](https://github.com/ali-vilab/VGen) | ~16 GB | Early open diffusion T2V model (UNet3D) |
+| **Allegro / Allegro-TI2V** | <img src="https://opengraph.githubassets.com/1/rhymes-ai/Allegro" width="160"> | Rhymes AI | ~3B | [![Allegro](https://img.shields.io/github/stars/rhymes-ai/Allegro?style=social)](https://github.com/rhymes-ai/Allegro) | ~9 GB (offload) | Apache 2.0 commercial use, Diffusers integration |
+| **DynamiCrafter** | <img src="https://opengraph.githubassets.com/1/Doubiiu/DynamiCrafter" width="160"> | CUHK / Tencent AI Lab | — | [![DynamiCrafter](https://img.shields.io/github/stars/Doubiiu/DynamiCrafter?style=social)](https://github.com/Doubiiu/DynamiCrafter) | ~16 GB | (Text-)Image-to-video animation from still images |
+| **I2VGen-XL** | <img src="https://opengraph.githubassets.com/1/ali-vilab/i2vgen-xl" width="160"> | Alibaba / DAMO | — | [![I2VGen-XL](https://img.shields.io/github/stars/ali-vilab/i2vgen-xl?style=social)](https://github.com/ali-vilab/i2vgen-xl) | ~16 GB | High-fidelity image-to-video with semantic understanding |
+| **VideoComposer** | <img src="https://opengraph.githubassets.com/1/ali-vilab/videocomposer" width="160"> | Alibaba / DAMO | — | [![VideoComposer](https://img.shields.io/github/stars/ali-vilab/videocomposer?style=social)](https://github.com/ali-vilab/videocomposer) | ~16 GB | Compositional video synthesis with motion controllability |
+| **Lumiere (unofficial)** | <img src="https://opengraph.githubassets.com/1/lucidrains/lumiere-pytorch" width="160"> | lucidrains | — | [![Lumiere PyTorch](https://img.shields.io/github/stars/lucidrains/lumiere-pytorch?style=social)](https://github.com/lucidrains/lumiere-pytorch) | N/A | PyTorch implementation of Google DeepMind's Lumiere |
 
 </div>
-
-Quick repository links with stars:
-
-[![Wan](https://img.shields.io/github/stars/Wan-Video/Wan2.2?style=social)](https://github.com/Wan-Video/Wan2.2)
-[![HunyuanVideo](https://img.shields.io/github/stars/Tencent-Hunyuan/HunyuanVideo?style=social)](https://github.com/Tencent-Hunyuan/HunyuanVideo)
-[![LTX-Video](https://img.shields.io/github/stars/Lightricks/LTX-Video?style=social)](https://github.com/Lightricks/LTX-Video)
-[![CogVideo](https://img.shields.io/github/stars/THUDM/CogVideo?style=social)](https://github.com/THUDM/CogVideo)
-[![Open-Sora](https://img.shields.io/github/stars/hpcaitech/Open-Sora?style=social)](https://github.com/hpcaitech/Open-Sora)
-[![Open-Sora-Plan](https://img.shields.io/github/stars/PKU-YuanGroup/Open-Sora-Plan?style=social)](https://github.com/PKU-YuanGroup/Open-Sora-Plan)
-[![Mochi](https://img.shields.io/github/stars/genmoai/mochi?style=social)](https://github.com/genmoai/mochi)
-[![Step-Video](https://img.shields.io/github/stars/stepfun-ai/Step-Video-T2V?style=social)](https://github.com/stepfun-ai/Step-Video-T2V)
-[![SkyReels](https://img.shields.io/github/stars/SkyworkAI/SkyReels-V2?style=social)](https://github.com/SkyworkAI/SkyReels-V2)
-[![MAGI-1](https://img.shields.io/github/stars/SandAI-org/MAGI-1?style=social)](https://github.com/SandAI-org/MAGI-1)
-[![Waver](https://img.shields.io/github/stars/FoundationVision/Waver?style=social)](https://github.com/FoundationVision/Waver)
-[![VideoCrafter](https://img.shields.io/github/stars/AILab-CVC/VideoCrafter?style=social)](https://github.com/AILab-CVC/VideoCrafter)
-[![VGen](https://img.shields.io/github/stars/ali-vilab/VGen?style=social)](https://github.com/ali-vilab/VGen)
-[![Allegro](https://img.shields.io/github/stars/rhymes-ai/Allegro?style=social)](https://github.com/rhymes-ai/Allegro)
-[![DynamiCrafter](https://img.shields.io/github/stars/Doubiiu/DynamiCrafter?style=social)](https://github.com/Doubiiu/DynamiCrafter)
-[![I2VGen-XL](https://img.shields.io/github/stars/ali-vilab/i2vgen-xl?style=social)](https://github.com/ali-vilab/i2vgen-xl)
-[![VideoComposer](https://img.shields.io/github/stars/ali-vilab/videocomposer?style=social)](https://github.com/ali-vilab/videocomposer)
-[![Lumiere PyTorch](https://img.shields.io/github/stars/lucidrains/lumiere-pytorch?style=social)](https://github.com/lucidrains/lumiere-pytorch)
 
 ### Quick Start
 
