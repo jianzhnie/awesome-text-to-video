@@ -397,7 +397,7 @@ For detailed inference configs, LoRA fine-tuning, and ComfyUI workflows, see eac
 | **ChronoMagic-Bench** | Metamorphic / time-lapse text-to-video evaluation | [ChronoMagic-Bench](https://github.com/PKU-YuanGroup/ChronoMagic-Bench) |
 | **BRITE** | Reliable T2V evaluation on implausible scenarios | [arXiv:2605.00873](https://arxiv.org/abs/2605.00873) |
 | **VideoEval** | Low-cost evaluation of video foundation models | [VideoEval](https://github.com/FlagOpen/FlagEval/tree/master/video) |
-| **VideoScore2** | Think-before-you-score reward model / metric for generated video: visual quality, T2V alignment & physical consistency with chain-of-thought (ships VideoScore-Bench-v2) | [TIGER-AI-Lab/VideoScore2](https://github.com/TIGER-AI-Lab/VideoScore2) |
+| **VideoScore2** | Think-before-you-score reward model / metric for generated video: visual quality, T2V alignment & physical consistency with chain-of-thought (ships VideoScore-Bench-v2) | [Paper](https://arxiv.org/abs/2509.22799) · [Code](https://github.com/TIGER-AI-Lab/VideoScore2) |
 
 ---
 
