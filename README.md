@@ -39,7 +39,7 @@ A curated, visually-organized list of **Text-to-Video (T2V)** products, open-sou
 
 ## What's New
 
-> **2026 Update**: The T2V landscape has shifted dramatically. OpenAI discontinued the consumer Sora app in early 2026, while open-source models (Wan 2.7, HunyuanVideo 1.5, LTX-2.3) and commercial alternatives (Runway Gen-4.5, Seedance 2.0, Kling 3.0, Veo 3.1) now dominate.
+> **2026 Update**: The T2V landscape has shifted dramatically. OpenAI discontinued the consumer Sora app in early 2026, while open-source models (Wan 2.2, HunyuanVideo 1.5, LTX-2.3) and commercial alternatives (Runway Gen-4.5, Seedance 2.0, Kling 3.0, Veo 3.1) now dominate.
 >
 > *Data collected as of June 2026. Prices, features, and availability change quickly — always check the official website before making a decision.*
 
@@ -187,7 +187,7 @@ Key trends:
 | Corporate training / LMS | **Synthesia / Colossyan** | SCORM, avatars, quizzes, multilingual |
 | Avatar marketing videos | **HeyGen / D-ID** | Expressive avatars, fast generation, API access |
 | Real-time creative exploration | **Krea AI** | 64+ models, sub-50ms feedback |
-| Local / open-source deployment | **Wan 2.7 / HunyuanVideo 1.5** | Apache 2.0, consumer GPU friendly |
+| Local / open-source deployment | **Wan 2.2 / HunyuanVideo 1.5** | Apache 2.0; Wan 2.2 offers a 5B model for 24 GB GPUs |
 
 ---
 
@@ -197,7 +197,7 @@ Key trends:
 
 | Model | Preview | Org | Size | License | Min VRAM | Best For |
 |-------|---------|-----|------|---------|----------|----------|
-| **Wan 2.7** | <img src="https://opengraph.githubassets.com/1/Wan-Video/Wan2.1" width="160"> | Alibaba | 27B (14B active) | Apache 2.0 | ~8 GB (1.3B) | Best overall open-source, bilingual, audio support |
+| **Wan 2.2** | <img src="https://opengraph.githubassets.com/1/Wan-Video/Wan2.2" width="160"> | Alibaba | 27B (14B active) / 5B | Apache 2.0 | 24 GB (5B) | Open T2V/I2V, MoE models, speech-to-video support |
 | **HunyuanVideo 1.5** | <img src="https://opengraph.githubassets.com/1/Tencent-Hunyuan/HunyuanVideo" width="160"> | Tencent | 8.3B | Apache 2.0 | ~14 GB | Fast iteration, efficient quality, bilingual |
 | **LTX-Video / LTX-2.3** | <img src="https://opengraph.githubassets.com/1/Lightricks/LTX-Video" width="160"> | Lightricks | 22B | Apache 2.0* | ~8 GB | Real-time / 4K generation with native audio |
 | **CogVideoX** | <img src="https://opengraph.githubassets.com/1/THUDM/CogVideo" width="160"> | THUDM / Zhipu AI | 2B / 5B | Apache 2.0 | ~16 GB | ComfyUI ecosystem, LoRA support, beginners |
@@ -223,7 +223,7 @@ Key trends:
 
 Quick repository links with stars:
 
-[![Wan](https://img.shields.io/github/stars/Wan-Video/Wan2.1?style=social)](https://github.com/Wan-Video/Wan2.1)
+[![Wan](https://img.shields.io/github/stars/Wan-Video/Wan2.2?style=social)](https://github.com/Wan-Video/Wan2.2)
 [![HunyuanVideo](https://img.shields.io/github/stars/Tencent-Hunyuan/HunyuanVideo?style=social)](https://github.com/Tencent-Hunyuan/HunyuanVideo)
 [![LTX-Video](https://img.shields.io/github/stars/Lightricks/LTX-Video?style=social)](https://github.com/Lightricks/LTX-Video)
 [![CogVideo](https://img.shields.io/github/stars/THUDM/CogVideo?style=social)](https://github.com/THUDM/CogVideo)
@@ -246,10 +246,10 @@ Quick repository links with stars:
 
 Get started with the most popular open-source models:
 
-**Wan 2.1**
+**Wan 2.2**
 ```bash
-git clone https://github.com/Wan-Video/Wan2.1
-cd Wan2.1
+git clone https://github.com/Wan-Video/Wan2.2
+cd Wan2.2
 pip install -r requirements.txt
 ```
 
@@ -286,12 +286,12 @@ For detailed inference configs, LoRA fine-tuning, and ComfyUI workflows, see eac
 - **Runway Gen-4.5 Technical Report** — Runway (2026) [[Runway Help](https://help.runwayml.com/hc/en-us/articles/37327109429011-Creating-with-Gen-4-Video)]
 - **ByteDance Seedance 2.0** — Global launch April 2026 [[Overview](https://resource.digen.ai/bytedance-seedance-2-0-global-release-2026/)]
 - **LTX-2.3: Native 4K Video + Audio Generation** — Lightricks (March 2026) [[Project](https://github.com/Lightricks/LTX-Video)]
-- **Wan 2.7: Mixture-of-Experts Video Generation** — Alibaba (April 2026) [[arXiv](https://arxiv.org/abs/2503.20314)] [[Code](https://github.com/Wan-Video/Wan2.1)]
 
 ### 2025
 
 - **Bridging Text and Video Generation: A Survey**, Nilay Kumar et al. [[Paper](https://arxiv.org/abs/2510.04999)]
   - Comprehensive survey on T2V evolution, DiT architectures, datasets, training recipes, and benchmarks.
+- **Wan 2.2: Mixture-of-Experts Video Generation** — Alibaba (July 2025) [[Project](https://github.com/Wan-Video/Wan2.2)]
 - **Wan: Open and Advanced Large-Scale Video Generative Models**, Alibaba. [[Paper](https://arxiv.org/abs/2503.20314)] [[Code](https://github.com/Wan-Video/Wan2.1)]
 - **Training a Commercial-Level Video Generation Model in $200k** (Open-Sora 2.0) [[Paper](https://arxiv.org/abs/2503.09642)] [[Code](https://github.com/hpcaitech/Open-Sora)]
 - **Step-Video-T2V Technical Report: The Practice, Challenges, and Future of Video Foundation Model**, Guoqing Ma et al. [[Paper](https://arxiv.org/abs/2502.10248)] [[Code](https://github.com/stepfun-ai/Step-Video-T2V)]
