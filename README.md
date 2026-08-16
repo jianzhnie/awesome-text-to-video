@@ -97,6 +97,7 @@ Key trends:
 | 🎞️ **Vivideo** | Vivideo | Model-agnostic short-video creation | Varies | Unified access to multiple T2V/I2V models, synced audio, text- and image-to-video | [vivideo.ai](https://vivideo.ai) |
 | 🎞️ **cv.cm/v (Cloud Clipboard AI Studio)** | Cloud Clipboard | Seedance-based video workflows | Varies | Queue-free Seedance 2.0, image generation, canvas, and short-drama agent | [cv.cm/v](https://cv.cm/v) |
 | 🎞️ **Pixo** | Pixo | Story-driven / storyboard-to-film | Varies | Story idea → storyboard → scene-by-scene generation → finished video, agent-assisted editing | [pixo.video](https://pixo.video/) |
+| 📝 **videos.social** | videos.social | Content marketers / faceless drafts | Varies | Editable draft from blogs, PDFs, and prompts (script, scenes, voiceover); 1 free render; 1 credit = 1 render | [videos.social](https://videos.social/?utm_source=awesome-text-to-video&utm_medium=directory&utm_campaign=listing-wave-c) |
 
 #### Discontinued / Historical
 
@@ -428,6 +429,7 @@ This list was compiled and updated using information from the following sources.
 - [Creatify](https://creatify.ai/)
 - [InVideo AI](https://invideo.io/)
 - [Magic Hour](https://magichour.ai/)
+- [videos.social](https://videos.social/)
 
 ### Open-Source Repositories
 
