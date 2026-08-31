@@ -97,6 +97,7 @@ Key trends:
 | 🎞️ **Vivideo** | Vivideo | Model-agnostic short-video creation | Varies | Unified access to multiple T2V/I2V models, synced audio, text- and image-to-video | [vivideo.ai](https://vivideo.ai) |
 | 🎞️ **cv.cm/v (Cloud Clipboard AI Studio)** | Cloud Clipboard | Seedance-based video workflows | Varies | Queue-free Seedance 2.0, image generation, canvas, and short-drama agent | [cv.cm/v](https://cv.cm/v) |
 | 🎞️ **Pixo** | Pixo | Story-driven / storyboard-to-film | Varies | Story idea → storyboard → scene-by-scene generation → finished video, agent-assisted editing | [pixo.video](https://pixo.video/) |
+| 📣 **Advibly** | Advibly | On-brand ad creative (UGC / image / video) | Varies | Brand + product context drives generation; UGC and talking-actor ads, carousels, voiceover and music; agent-native via MCP | [advibly.com](https://advibly.com) |
 
 #### Discontinued / Historical
 
