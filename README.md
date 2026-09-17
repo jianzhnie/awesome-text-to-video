@@ -69,6 +69,7 @@ Key trends:
 | 🎬 **PixVerse V6** | PixVerse | Anime / stylized content | 1080p, 15 s | Character consistency engine, 20+ camera controls, native audio | [pixverse.ai](https://pixverse.ai/) |
 | 🎥 **Vidu Q1/Q2** | Shengshu / Tsinghua | Highly consistent T2V | 1080p, 16 s | U-ViT backbone, subject consistency, 1080p generation | [vidu.com](https://www.vidu.com/) |
 | 🔬 **Lumiere** | Google DeepMind | Research T2V / I2V / editing | 720p | Space-time U-Net, single-pass temporal generation | [lumiere-video.github.io](https://lumiere-video.github.io/) |
+| 🎞️ **Seele TV** | Seele AI | Cinematic sequence workflows | Varies by selected model | Visual references, shot-level camera direction, and continuity-oriented video creation | [seele.tv](https://seele.tv) |
 
 #### AI Avatar / Presenter Tools
 
