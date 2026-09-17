@@ -268,6 +268,8 @@ For detailed inference configs, LoRA fine-tuning, and ComfyUI workflows, see eac
 
 - **Efficient Video Diffusion Models: Advancements and Challenges**, Shitong Shao. [[Paper](https://arxiv.org/abs/2604.15911)]
   - First comprehensive survey focused on efficient video diffusion: step distillation, efficient attention, model compression, caching/trajectory optimization.
+- **Partition the Support, Reconstruct the Residual: Training-Free Sparse Attention for Video Generation and World Models**, Pardis Taghavi, Reza Langari, and Gaurav Pandey. [[Paper](https://arxiv.org/abs/2608.18484)] [[Project](https://pardistaghavi.github.io/SparsePR-website/)]
+  - Training-free sparse attention using response-coupled partitioning and probe-fitted residual reconstruction, evaluated across four video generation and world models.
 - **Controllable Video Generation: A Survey** [[Paper](https://arxiv.org/abs/2507.16869)]
   - Systematic review of pose-guided, structure-controlled, and other conditional video generation methods.
 - **Survey of Video Diffusion Models: Foundations, Implementations, and Applications**, Yimu Wang et al. [[Paper](https://arxiv.org/abs/2504.16081)]
