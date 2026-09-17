@@ -1,138 +1,119 @@
-# Listing review policy & reviewer checklist
+# 清单收录审查策略与检查清单
 
-What to look for when reviewing a PR against a curated list (awesome-list, README
-directory, docs index), and how to handle each common case.
+审查一份提交到 curated 清单(awesome-list、README 目录、文档索引)的 PR 时该看什么,
+以及每种常见情况如何处理。
 
-## What a good entry looks like
+## 一个合格条目长什么样
 
-1. **Lands in the right section.** A prompt tool belongs under *Related Tools*, not
-   in the *Generative Models* table. Placement is a real review criterion — a
-   correctly-written entry in the wrong table is still a change request.
-2. **Matches the table's column shape.** Read the header row of the target table
-   and match it exactly. A row pasted into a 6-column table as 2 columns renders
-   as a broken line.
-3. **Matches the table's naming style.** Most tables bold the product name
-   (`| **Name** |`). A bare linked name (`| [name](url) |`) stands out.
-4. **Concise and specific.** One sentence on what it does; not marketing copy.
-   Cut adjectives that carry no information ("powerful", "revolutionary",
-   "cutting-edge").
-5. **Links resolve and are canonical.** Prefer the product's own domain or its
-   repository. No tracking parameters. No URL shorteners.
-6. **Not a duplicate.** Check the whole README, not just the target table — the
-   same product often appears in a models table *and* a references list.
+1. **落在正确章节。** 提示词工具属于 *Related Tools*,不该放进 *Generative Models* 表。
+   条目放错表,即使写得再规范,也仍然是一条修改意见。
+2. **与目标表格的列结构一致。** 先读目标表的表头行,严格对齐。把一行 2 列的内容塞进
+   6 列表格,渲染出来就是断行。
+3. **与表格的命名风格一致。** 多数表会把产品名加粗(`| **名称** |`)。裸链接名
+   (`| [名称](url) |`)会很扎眼。
+4. **简洁且具体。** 一句话说清它做什么,不是营销文案。删掉不携带信息的形容词
+   ("强大""革命性""前沿")。
+5. **链接有效且规范。** 优先产品自身域名或其代码仓库。不带追踪参数,不用短链。
+6. **不重复。** 检查整个 README,不要只看目标表——同一个产品常常同时出现在模型表和
+   参考资料列表里。
 
-## Reviewer checklist
+## 审查清单
 
-Run this against every PR. The first four are automatable (`scripts/triage.sh`);
-the rest need eyes.
+对每个 PR 跑一遍。前四项可自动检查(`scripts/triage.sh`),其余需要人工看。
 
-| # | Check | Automated? |
+| # | 检查项 | 可自动? |
 | --- | --- | --- |
-| 1 | Links resolve (no 404/410, no unreachable hosts) | ✅ |
-| 2 | No tracking / affiliate / UTM parameters in added links | ✅ |
-| 3 | Only documentation files touched (no CI, manifest, lockfile) | ✅ |
-| 4 | Mergeable against base; draft state | ✅ |
-| 5 | Lands in the correct section | ❌ |
-| 6 | Table row matches the column count and naming style | ❌ |
-| 7 | Not already present elsewhere in the README | ❌ |
-| 8 | Site is the official product, not a reseller/proxy of one already listed | ❌ |
-| 9 | Claimed specs match what the linked page actually says | ❌ |
-| 10 | Free of undisclosed paid-placement signals | ❌ |
+| 1 | 链接可达(无 404/410,无不可达主机) | ✅ |
+| 2 | 新增链接不含追踪/联盟/UTM 参数 | ✅ |
+| 3 | 只改动了文档文件(未碰 CI、清单、锁文件) | ✅ |
+| 4 | 相对 base 可合并;是否 draft | ✅ |
+| 5 | 是否落在正确章节 | ❌ |
+| 6 | 表格行与列数、命名风格是否一致 | ❌ |
+| 7 | README 其他位置是否已存在同一产品 | ❌ |
+| 8 | 该站是官方产品,还是已在清单中的产品的代理/转售站 | ❌ |
+| 9 | 声称的参数与链接页面实际描述是否一致 | ❌ |
+| 10 | 是否藏有未披露的付费收录信号 | ❌ |
 
-## The audit patterns
+## 审计模式
 
-These are the recurring shapes worth recognising. Each is real, drawn from actual
-listing PRs.
+以下是值得认识的反复出现的形态。每一条都是真实的,取自实际的列表类 PR。
 
-### Tracking / affiliate parameters
+### 追踪 / 联盟参数
 
-**Looks like:** `https://example.com/?utm_source=awesome-list&utm_medium=directory&utm_campaign=listing-wave-c`
+**长这样:** `https://example.com/?utm_source=awesome-list&utm_medium=directory&utm_campaign=listing-wave-c`
 
-**Why it matters:** it is a fingerprint of paid directory placement driven by an
-agency, not an organic recommendation. `utm_campaign=listing-wave-*` and similar
-in particular means the submitter is being paid per listing. Even when the entry
-is legitimate, the parameter leaks referrer data and signals an arrangement the
-list does not disclose.
+**为什么要紧:** 这是代理商投放的付费目录收录的指纹,不是自发推荐。
+`utm_campaign=listing-wave-*` 这类尤其意味着提交方按条收费。即使条目本身合法,
+该参数也会泄露 referrer 数据,并暗示存在清单未披露的商业安排。
 
-**Resolution:** keep the entry, strip the parameters. `scripts/scan_prs.py` prints
-the cleaned URL for you. Explain the change in the thank-you comment so it does
-not read as arbitrary.
+**处理:** 保留条目,剥掉参数。`scripts/scan_prs.py` 会直接打印清洗后的 URL。
+在致谢评论里说明这处改动,免得读起来像是随意改动。
 
-### Third-party reseller posing as the product
+### 冒充官方产品的第三方代理站
 
-**Looks like:** a domain like `minimax3.org`, `veo4.pro`, `sora2-video.io`, or a
-site whose own schema.org description says "Independent AI video generation
-platform". Frequently it resells access to a model that is already in the list
-under its official entry.
+**长这样:** 形如 `minimax3.org`、`veo4.pro`、`sora2-video.io` 的域名,或站点自身的
+schema.org 描述里写着 "Independent AI video generation platform"。它常常转售的正是
+清单里已有官方条目的某个模型。
 
-**Why it matters:** read next to the official entry, the reader assumes both are
-official. The reseller gets free credibility; the reader gets a worse deal; the
-list gets less trustworthy.
+**为什么要紧:** 紧挨着官方条目展示时,读者会以为两者都是官方的。代理站白得了可信度,
+读者拿到更差的交易,清单本身也变得更不可信。
 
-**Resolution:** do **not** silently reject — the site is real and the model
-information may be useful. Relabel so the distinction is unmissable, e.g. product
-name `**MiniMax H3 (第三方)**` with a highlight cell ending
-`; third-party platform, not an official MiniMax product`. Surface the call to
-the user first; they may prefer rejection.
+**处理:** **不要**默默拒绝——该站真实存在,模型信息也可能有用。应当重新标注,让区别
+无法被忽略,例如产品名写成 `**MiniMax H3 (第三方)**`,并在亮点单元格末尾加上
+`;第三方平台,非 MiniMax 官方产品`。先把这个判断抛给用户;他们可能更倾向直接拒绝。
 
-**Detection cues:** domain squatting on the official name (`<product><digit>.<tld>`),
-"independent" / "unofficial" in the site's own metadata, a marketing page with no
-product documentation, only a "start creating" funnel.
+**识别线索:** 在官方名称上做域名抢注(`<产品名><数字>.<后缀>`)、
+站点自身元数据里出现"independent"/"unofficial"、只有营销页没有产品文档、
+只有一个"开始创作"的漏斗入口。
 
-### Dead code / paper links
+### 失效的代码 / 论文链接
 
-**Looks like:** `[[Code](https://github.com/Author/Repo)]` where the repo 404s
-while the paper and project page both resolve.
+**长这样:** `[[Code](https://github.com/Author/Repo)]` 中的仓库 404,但论文链接和
+项目页都正常。
 
-**Why it matters:** a 404 on a *code* link usually means the repo is private or
-not yet published (common for a freshly-accepted paper), not that the submission
-is fake. Verify the other links before judging the whole PR.
+**为什么要紧:** *代码*链接 404 通常意味着仓库还是私有的、或尚未公开(对刚被接收的
+论文很常见),而不是这份提交是假的。判定整个 PR 之前,先核实其余链接。
 
-**Resolution:** drop the dead link, keep the verified ones, merge, and comment
-inviting a follow-up PR when the repo goes public. Do not reject the whole entry
-over one dead link — but do check whether the dead link *is* the entry (a tool
-whose only link is dead is not a valid entry).
+**处理:** 删掉失效链接,保留已验证的,合并,并留言邀请对方在仓库公开后补一个 PR。
+不要因为一个死链就否掉整个条目——但要检查死链**是否就是该条目本身**
+(唯一链接已死的工具不是有效条目)。
 
-### Duplicate entries
+### 重复条目
 
-**Looks like:** the same product added to a second table, or under two names
-(`videos.social` / `Videos Social`).
+**长这样:** 同一产品被加进了第二张表,或以两个名字出现
+(`videos.social` / `Videos Social`)。
 
-**Resolution:** keep one, in the more specific table; note it in the comment.
+**处理:** 保留一个,放在更具体的那张表;在评论里说明。
 
-### Spec inflation
+### 参数注水
 
-**Looks like:** "4K output" on a site whose own pricing page lists 1080p.
+**长这样:** 站点自身定价页写的是 1080p,条目标注却是 "4K output"。
 
-**Resolution:** check the linked page for the claim. If it does not match, either
-correct the row or flag for the user. Never merge a spec you could not verify.
+**处理:** 到链接页面核对声称内容。不符则要么修正该行,要么上报用户。
+**绝不要**合并一个你无法核实的参数。
 
-## House conventions for this repo
+## 本仓库的既有约定
 
-Adjust these when applying the skill to a different list — they are recorded here
-because they are conventions, not rules derivable from the README.
+把本 skill 用到别的清单时,请相应调整这些——它们记录在此,是因为它们是约定,
+无法从 README 里推导出来。
 
-- **Squash-merge** one-entry listing PRs, so the list keeps one commit per addition.
-- **Never merge tracking parameters**, even when otherwise accepting the entry.
-- **Thank every contributor**, including (especially) when you changed their
-  submission, and state exactly what you changed.
-- **Table format:** `| **Name** | Maker | Best For | Max Output | Highlights | Link |`.
-  Name is bold; emoji prefix on most rows but not required; link cell is
-  `[domain.com](https://domain.com)`.
-- **Preserve authorship** when re-committing on a fork PR:
-  `git commit --amend --no-edit --author="<original>"`.
+- **单条目列表类 PR 用 squash 合并**,让清单保持"一次新增一个提交"。
+- **绝不合并带追踪参数的链接**,即使条目本身接受。
+- **给每位贡献者致谢**,改动过他们提交时尤其要致谢,并说明具体改了什么。
+- **表格格式:** `| **名称** | 厂商 | 擅长 | 最大输出 | 亮点 | 链接 |`。
+  名称加粗;多数行带 emoji 前缀但非必需;链接单元格写作
+  `[domain.com](https://domain.com)`。
+- **保留署名:** 在 fork PR 上重做提交时用
+  `git commit --amend --no-edit --author="<原作者>"`。
 
-## Escalation template
+## 上报话术模板
 
-When an entry trips a judgement call, batch it into one `AskUserQuestion` rather
-than interrupting per-PR. Frame each option as a concrete action, put your
-recommendation first, and include the evidence in the description:
+当条目触及需人判断的问题时,用一次 `AskUserQuestion` 批量问,而不是每个 PR 打断一次。
+每个选项都写成具体动作,把建议放第一个,并在描述里带上证据:
 
-> **Q:** PR #26's `minimax3.org` calls itself an "independent" platform — it is a
-> third-party reseller, and the official MiniMax entry is already in the same
-> table. How should I handle it?
+> **问:** PR #26 的 `minimax3.org` 自称 "independent" 平台——它其实是第三方代理站,
+> 而官方 MiniMax 条目已经在同一张表里。怎么处理?
 >
-> - **Merge, relabelled `**MiniMax H3 (第三方)**`** *(Recommended)* — keeps the
->   information, makes the distinction unmissable.
-> - **Reject** — it resells traffic from a product already listed.
-> - **Merge as-is** — no change to the contributor's content.
+> - **合并,改标为 `**MiniMax H3 (第三方)**`** *(推荐)*——保留信息,让区别无法被忽略。
+> - **拒绝**——它转售的正是清单里已有产品的流量。
+> - **原样合并**——不改动贡献者的内容。

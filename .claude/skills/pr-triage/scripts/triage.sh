@@ -1,21 +1,20 @@
 #!/usr/bin/env bash
-# pr-triage — dump open PRs, then run the automatable hard checks over each.
+# pr-triage —— 列出 open PR,并对每个 PR 跑可自动化的硬性检查。
 #
-# Answers "which of these PRs can I merge, and which need a human decision?"
-# Reports facts; does NOT decide. Subjective calls (brand impersonation,
-# competitor confusion, whether a promo entry belongs at all) are surfaced as
-# NEEDS-HUMAN by scan_prs.py.
+# 回答的问题是:"这些 PR 哪些能直接合并,哪些需要人来拍板?"
+# 只报告事实,不做决定。价值判断(品牌冒充、与竞品混淆、推广条目是否该收)
+# 由 scan_prs.py 以「需人判断」的形式抛出。
 #
-# Usage:
-#   triage.sh                      # current repo, all open PRs
-#   triage.sh --repo owner/name    # explicit repo
-#   triage.sh --limit 50           # cap how many PRs to list
-#   triage.sh --pr 26              # triage a single PR
-#   triage.sh --no-link-check      # skip network link checks (fast, offline)
-#   triage.sh --json               # machine-readable
-#   triage.sh --diff 23            # just print PR 23's diff and exit
+# 用法:
+#   triage.sh                      # 当前仓库,全部 open PR
+#   triage.sh --repo owner/name    # 指定仓库
+#   triage.sh --limit 50           # 限制列出数量
+#   triage.sh --pr 26              # 只处理一个 PR
+#   triage.sh --no-link-check      # 跳过网络链接检查(更快、可离线)
+#   triage.sh --json               # 机器可读输出
+#   triage.sh --diff 23            # 只打印 PR 23 的 diff 后退出
 #
-# Exit codes: 0 = ran fine (regardless of findings). 1 = usage/environment error.
+# 退出码:0 = 正常执行完毕(不论检查结果如何)。1 = 用法/环境错误。
 
 set -uo pipefail
 
@@ -37,18 +36,18 @@ while [ $# -gt 0 ]; do
     --no-link-check) NO_LINK=1; shift ;;
     --diff)          DIFF="$2"; shift 2 ;;
     -h|--help)       sed -n '2,22p' "$0"; exit 0 ;;
-    *) echo "unknown arg: $1" >&2; exit 1 ;;
+    *) echo "未知参数: $1" >&2; exit 1 ;;
   esac
 done
 
-command -v gh >/dev/null || { echo "error: gh CLI not found" >&2; exit 1; }
-command -v python3 >/dev/null || { echo "error: python3 not found" >&2; exit 1; }
-gh auth status >/dev/null 2>&1 || { echo "error: gh not authenticated (run: gh auth login)" >&2; exit 1; }
+command -v gh >/dev/null || { echo "错误:未找到 gh CLI" >&2; exit 1; }
+command -v python3 >/dev/null || { echo "错误:未找到 python3" >&2; exit 1; }
+gh auth status >/dev/null 2>&1 || { echo "错误:gh 未认证(请运行 gh auth login)" >&2; exit 1; }
 
-# Auto-detect repo from the current directory when not given.
+# 未指定仓库时,从当前目录自动探测。
 if [ -z "$REPO" ]; then
   REPO=$(gh repo view --json nameWithOwner --jq .nameWithOwner 2>/dev/null) \
-    || { echo "error: not in a git repo with a GitHub remote; pass --repo owner/name" >&2; exit 1; }
+    || { echo "错误:当前不在带 GitHub remote 的 git 仓库中;请用 --repo owner/name 指定" >&2; exit 1; }
 fi
 
 if [ -n "$DIFF" ]; then
@@ -59,25 +58,25 @@ fi
 FIELDS='number,title,author,createdAt,isDraft,mergeable,mergeStateStatus,additions,deletions,changedFiles,headRefName,headRefOid,headRepositoryOwner,headRepository,baseRefName,isCrossRepository,maintainerCanModify,url'
 
 PRS=$(gh pr list --repo "$REPO" --state open --limit "$LIMIT" --json "$FIELDS" 2>/dev/null) \
-  || { echo "error: failed to list PRs for $REPO" >&2; exit 1; }
+  || { echo "错误:无法列出 $REPO 的 PR" >&2; exit 1; }
 
 COUNT=$(printf '%s' "$PRS" | python3 -c 'import sys,json; print(len(json.load(sys.stdin)))')
 
 echo "═══════════════════════════════════════════════════════════════"
-echo " PR triage — $REPO — $COUNT open PR(s)"
+echo " PR 分类 —— $REPO —— $COUNT 个 open PR"
 echo "═══════════════════════════════════════════════════════════════"
 
 if [ "$COUNT" -eq 0 ]; then
-  echo " Nothing to do."
+  echo " 没有需要处理的 PR。"
   exit 0
 fi
 
-# Summary table (header row + one line per PR).
+# 总览表(表头 + 每个 PR 一行)。
 printf '%s' "$PRS" | python3 "$SCRIPT_DIR/scan_prs.py" --table
 
 echo
 echo "═══════════════════════════════════════════════════════════════"
-echo " HARD CHECKS  (automatable — facts, not judgement calls)"
+echo " 硬性检查(可自动化 —— 是事实,不是价值判断)"
 echo "═══════════════════════════════════════════════════════════════"
 
 SCAN_ARGS=(--repo "$REPO" --limit "$LIMIT")
