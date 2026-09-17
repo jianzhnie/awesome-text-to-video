@@ -51,7 +51,8 @@ $TRIAGE/triage.sh --repo <owner/name>
 
 输出一张总览表(是否 draft?是否冲突?fork 是否可推送?),并对每个 PR 跑硬性检查:
 失效链接、追踪参数、是否改动了非文档文件。
-各检查项的含义与完整的"需人工判断"清单见 `references/listing-policy.md`。
+各检查项的含义与完整的"需人工判断"清单见
+`.claude/skills/pr-triage/references/listing-policy.md`。
 
 如果仓库不熟悉,再扫一遍 README 的章节结构和 `Contributing` 约定——条目该落在哪个章节
 是实打实的审查项,不是走过场:
@@ -107,7 +108,7 @@ git push https://github.com/<FORK_OWNER>/<FORK_REPO>.git \
 **解决方式是"两行都保留"**,而不是选一个赢家。
 
 ```bash
-# prep-fork-pr.sh 报冲突之后:
+# $TRIAGE/prep-fork-pr.sh 报冲突之后:
 grep -n '<<<<<<<\|=======\|>>>>>>>' README.md     # 定位冲突位置
 # 编辑文件,让两条条目都保留,顺序合理即可
 git add README.md
@@ -120,12 +121,13 @@ git commit --no-edit
 git commit --amend --no-edit --author="<从 gh pr view --json commits 取到的原作者>"
 ```
 
-然后重跑 `prep-fork-pr.sh <PR>`——它会报告分支已干净——再推回 fork(第三阶段 a 的第 3 步)。
+然后重跑 `$TRIAGE/prep-fork-pr.sh <PR>`——它会报告分支已干净——再推回 fork(第三阶段 a 的第 3 步)。
 
 ### 第四阶段 —— 上报需人判断的问题
 
 问用户时,永远把你的建议放在第一个,并给出理由。
-仓库的既有约定与完整审查清单在 `references/listing-policy.md`;反复出现的几类是:
+仓库的既有约定与完整审查清单在 `.claude/skills/pr-triage/references/listing-policy.md`;
+反复出现的几类是:
 
 - **冒充官方产品的第三方代理站。** 域名抢注特征(`<产品名>3.org`)、
   自称"独立"平台、转售一个已经在清单里的产品。建议标注为第三方,而不是拒绝——
@@ -172,9 +174,9 @@ git branch -D pr-prep/*                     # 清理工作分支
 
 | 脚本 | 用途 |
 | --- | --- |
-| `scripts/triage.sh` | 总览 + 硬性检查。从这里开始。 |
-| `scripts/scan_prs.py` | 逐 PR 检查(链接、参数、非文档文件)。由 `triage.sh` 调用;可加 `--json` 直接运行以获取机器可读输出。 |
-| `scripts/prep-fork-pr.sh` | 解开/准备 fork PR:取 head、merge base、报告冲突。 |
+| `.claude/skills/pr-triage/scripts/triage.sh` | 总览 + 硬性检查。从这里开始。 |
+| `.claude/skills/pr-triage/scripts/scan_prs.py` | 逐 PR 检查(链接、参数、非文档文件)。由 `triage.sh` 调用;可加 `--json` 直接运行以获取机器可读输出。 |
+| `.claude/skills/pr-triage/scripts/prep-fork-pr.sh` | 解开/准备 fork PR:取 head、merge base、报告冲突。 |
 
 三个脚本内部都通过 `BASH_SOURCE` 解析自身目录,因此在任意工作目录下调用均可。
 运行环境只需要 `PATH` 上有 `gh`(已认证)、`git`、`python3`。
@@ -183,4 +185,4 @@ git branch -D pr-prep/*                     # 清理工作分支
 
 | 文件 | 内容 |
 | --- | --- |
-| `references/listing-policy.md` | 什么样的条目算合格、审查清单、仓库既有约定,以及各类审计模式(追踪参数、代理站、死链)的实例。 |
+| `.claude/skills/pr-triage/references/listing-policy.md` | 什么样的条目算合格、审查清单、仓库既有约定,以及各类审计模式(追踪参数、代理站、死链)的实例。 |

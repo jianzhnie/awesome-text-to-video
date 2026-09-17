@@ -66,7 +66,7 @@ Key trends:
 | ✨ **Luma Dream Machine** | Luma AI | Action / sports / physics | 4K | Realistic motion blur, fluid dynamics | [lumalabs.ai](https://lumalabs.ai) |
 | 🎭 **Pika 2.5 / 3.0** | Pika Labs | Social / stylized content | 2K | Fast, cheap, strong style transfer | [pika.art](https://pika.art) |
 | 🌀 **Hailuo AI** | MiniMax | Realistic humans / prompt adherence | 1080p, 10 s | Strong physical realism, #1 in China | [hailuoai.video](https://hailuoai.video) |
-| 🌀 **MiniMax H3 (第三方)** | MiniMax3.org (independent) | Cinematic text/image/video/audio-reference generation | 2K | 768p/2K output and native audio; third-party platform, not an official MiniMax product | [minimax3.org](https://minimax3.org) |
+| 🌀 **MiniMax H3 (Third-Party)** | MiniMax3.org (independent) | Cinematic text/image/video/audio-reference generation | 2K | 768p/2K output and native audio; third-party platform, not an official MiniMax product | [minimax3.org](https://minimax3.org) |
 | 🎬 **PixVerse V6** | PixVerse | Anime / stylized content | 1080p, 15 s | Character consistency engine, 20+ camera controls, native audio | [pixverse.ai](https://pixverse.ai/) |
 | 🎥 **Vidu Q1/Q2** | Shengshu / Tsinghua | Highly consistent T2V | 1080p, 16 s | U-ViT backbone, subject consistency, 1080p generation | [vidu.com](https://www.vidu.com/) |
 | 🔬 **Lumiere** | Google DeepMind | Research T2V / I2V / editing | 720p | Space-time U-Net, single-pass temporal generation | [lumiere-video.github.io](https://lumiere-video.github.io/) |
