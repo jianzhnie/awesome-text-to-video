@@ -101,6 +101,7 @@ Key trends:
 | 🎞️ **Pixo** | Pixo | Story-driven / storyboard-to-film | Varies | Story idea → storyboard → scene-by-scene generation → finished video, agent-assisted editing | [pixo.video](https://pixo.video/) |
 | 📣 **Advibly** | Advibly | On-brand ad creative (UGC / image / video) | Varies | Brand + product context drives generation; UGC and talking-actor ads, carousels, voiceover and music; agent-native via MCP | [advibly.com](https://advibly.com) |
 | 📝 **videos.social** | videos.social | Content marketers / faceless drafts | Varies | Editable draft from blogs, PDFs, and prompts (script, scenes, voiceover); 1 free render; 1 credit = 1 render | [videos.social](https://videos.social/) |
+| 📱 **MakeAIVideo** | MakeAIVideo | Short-form social video (TikTok / Reels / Shorts) | Varies | Prompt, script or photo to finished video: script, AI or stock scenes, AI voiceover in 24 languages, captions and music; posts to social platforms; agent-native via MCP | [makeaivideo.ai](https://makeaivideo.ai/) · [MCP server](https://github.com/makeaivideo-ai/mcp) |
 
 #### Discontinued / Historical
 
