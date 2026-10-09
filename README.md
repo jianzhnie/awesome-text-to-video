@@ -101,6 +101,7 @@ Key trends:
 | 🎞️ **Pixo** | Pixo | Story-driven / storyboard-to-film | Varies | Story idea → storyboard → scene-by-scene generation → finished video, agent-assisted editing | [pixo.video](https://pixo.video/) |
 | 📣 **Advibly** | Advibly | On-brand ad creative (UGC / image / video) | Varies | Brand + product context drives generation; UGC and talking-actor ads, carousels, voiceover and music; agent-native via MCP | [advibly.com](https://advibly.com) |
 | 📝 **videos.social** | videos.social | Content marketers / faceless drafts | Varies | Editable draft from blogs, PDFs, and prompts (script, scenes, voiceover); 1 free render; 1 credit = 1 render | [videos.social](https://videos.social/) |
+| **Sora2 Hub** | Sora2 Hub | Running several video and image models from one account | 1080p | Veo 3.1, Kling 3.0, Seedance 2.0, Hailuo, Nano Banana Pro and GPT Image 2 on one credit balance; text-to-video and image-to-video | [sora2hub.org](https://sora2hub.org) |
 
 #### Discontinued / Historical
 
