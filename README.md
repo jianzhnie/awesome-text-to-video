@@ -101,6 +101,7 @@ Key trends:
 | 🎞️ **Pixo** | Pixo | Story-driven / storyboard-to-film | Varies | Story idea → storyboard → scene-by-scene generation → finished video, agent-assisted editing | [pixo.video](https://pixo.video/) |
 | 📣 **Advibly** | Advibly | On-brand ad creative (UGC / image / video) | Varies | Brand + product context drives generation; UGC and talking-actor ads, carousels, voiceover and music; agent-native via MCP | [advibly.com](https://advibly.com) |
 | 📝 **videos.social** | videos.social | Content marketers / faceless drafts | Varies | Editable draft from blogs, PDFs, and prompts (script, scenes, voiceover); 1 free render; 1 credit = 1 render | [videos.social](https://videos.social/) |
+| 🎭 **Katechon Arc** | Katechon | AI short dramas / video ads | Varies | Idea, script, novel, or product brief → characters, storyboards, video, and voice in one agent-guided studio; remote MCP server | [arc.katechon.technology](https://arc.katechon.technology) |
 
 #### Discontinued / Historical
 
@@ -437,6 +438,7 @@ This list was compiled and updated using information from the following sources.
 - [InVideo AI](https://invideo.io/)
 - [Magic Hour](https://magichour.ai/)
 - [videos.social](https://videos.social/)
+- [Katechon Arc](https://arc.katechon.technology)
 
 ### Open-Source Repositories
 
