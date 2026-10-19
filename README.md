@@ -103,6 +103,7 @@ Key trends:
 | 📝 **videos.social** | videos.social | Content marketers / faceless drafts | Varies | Editable draft from blogs, PDFs, and prompts (script, scenes, voiceover); 1 free render; 1 credit = 1 render | [videos.social](https://videos.social/) |
 | 📅 **Unsora** | Shipped Studio | Generating and scheduling social media content | Varies | Video via Kling, Veo 3.1, and Seedance 2.0, plus images, talking avatars, music, and voiceovers; schedules posts to YouTube, TikTok, Instagram, and other platforms; REST API, MCP server, and CLI | [tryunsora.com](https://tryunsora.com) · [GitHub](https://github.com/Shipped-Studio/unsora) |
 | 📱 **MakeAIVideo** | MakeAIVideo | Short-form social video (TikTok / Reels / Shorts) | Varies | Prompt, script or photo to finished video: script, AI or stock scenes, AI voiceover in 24 languages, captions and music; posts to social platforms; agent-native via MCP | [makeaivideo.ai](https://makeaivideo.ai/) · [MCP server](https://github.com/makeaivideo-ai/mcp) |
+| 🎭 **Katechon Arc** | Katechon | AI short dramas / video ads | Varies | Idea, script, novel, or product brief → characters, storyboards, video, and voice in one agent-guided studio; remote MCP server | [arc.katechon.technology](https://arc.katechon.technology) |
 
 #### Discontinued / Historical
 
@@ -442,6 +443,7 @@ This list was compiled and updated using information from the following sources.
 - [Magic Hour](https://magichour.ai/)
 - [videos.social](https://videos.social/)
 - [Unsora](https://tryunsora.com)
+- [Katechon Arc](https://arc.katechon.technology)
 
 ### Open-Source Repositories
 
