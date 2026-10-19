@@ -107,6 +107,8 @@ Key trends:
 | 🎯 **aiMakeVideo** | aiMakeVideo | One-photo short-form video | Varies | Text/image-to-video plus image tools in one studio; 10 trend templates turn one photo into a 15 s 9:16 clip without a prompt; 9 UI languages | [aimakevideo.com](https://aimakevideo.com) |
 | 🛍️ **Mutator** | Bitnook | Product videos for TikTok and Instagram | Varies | Starts from a product photo, a website or an app screenshot; short videos, photo slideshows and product photos; schedules to your own TikTok and Instagram; MCP server for agents | [mutator.app](https://mutator.app/) |
 | **Sora2 Hub (Third-Party)** | Sora2 Hub (independent platform) | Multi-model video and image generation | Varies | Text-to-video and image-to-video with a shared credit balance; third-party platform, not an official OpenAI product | [sora2hub.org](https://sora2hub.org/) |
+| **GrokVideo Studio (Third-Party)** | Grok Video Generator (independent) | Text-to-video and image-to-video | Varies | Uses the Grok Imagine API; 20 trial credits for new accounts; independent platform, not affiliated with or endorsed by xAI or X | [grokvideogenerator.dev](https://grokvideogenerator.dev/) |
+| **PromptImage** | PromptImage | AI image and video creation | Varies | Multi-model image generation, text-to-video workspace, and a prompt library | [promptimage.cloud](https://promptimage.cloud/) |
 
 #### Discontinued / Historical
 
