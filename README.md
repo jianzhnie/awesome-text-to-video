@@ -184,6 +184,7 @@ Key trends:
 | **Omni-Rewriter** | Open agentic prompt-expansion harness for image/video model dialects (schema + validation + bounded repair; expand ≠ generate). | [github.com/WayneJin0918/Omni-Rewriter](https://github.com/WayneJin0918/Omni-Rewriter) |
 | **BeatDesign** | Open-source, local-first AI media workbench combining a Canvas, short-form video editor, shared Assets, and MCP control for image and video workflows. | [github.com/BeatAPI/BeatDesign](https://github.com/BeatAPI/BeatDesign) |
 | **minimax-h3-1000-prompts** | Curated index of the MiniMax H3 1K prompt dataset: 3-field prompt anatomy, 10 hand-picked reusable prompts, and a model comparison. Interactive atlas of all 1,000 clips. | [github.com/yangzhou-chaofan/minimax-h3-1000-prompts](https://github.com/yangzhou-chaofan/minimax-h3-1000-prompts) · [neta.art atlas](https://neta.art/use-cases/en/h3-1000-prompt-list) |
+| **VideoCreate** | Splits a reference clip into timestamped shots with a per-shot sheet (subject, camera, motion, light, style, sound) and writes prompts adapted for Seedance, Kling 3.0, Wan 2.6 and Grok Imagine; includes a library of prompts tested on real generations. | [videocreate.org](https://videocreate.org/) |
 
 ---
 
