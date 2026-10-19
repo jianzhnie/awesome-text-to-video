@@ -101,6 +101,14 @@ Key trends:
 | 🎞️ **Pixo** | Pixo | Story-driven / storyboard-to-film | Varies | Story idea → storyboard → scene-by-scene generation → finished video, agent-assisted editing | [pixo.video](https://pixo.video/) |
 | 📣 **Advibly** | Advibly | On-brand ad creative (UGC / image / video) | Varies | Brand + product context drives generation; UGC and talking-actor ads, carousels, voiceover and music; agent-native via MCP | [advibly.com](https://advibly.com) |
 | 📝 **videos.social** | videos.social | Content marketers / faceless drafts | Varies | Editable draft from blogs, PDFs, and prompts (script, scenes, voiceover); 1 free render; 1 credit = 1 render | [videos.social](https://videos.social/) |
+| 📅 **Unsora** | Shipped Studio | Generating and scheduling social media content | Varies | Video via Kling, Veo 3.1, and Seedance 2.0, plus images, talking avatars, music, and voiceovers; schedules posts to YouTube, TikTok, Instagram, and other platforms; REST API, MCP server, and CLI | [tryunsora.com](https://tryunsora.com) · [GitHub](https://github.com/Shipped-Studio/unsora) |
+| 📱 **MakeAIVideo** | MakeAIVideo | Short-form social video (TikTok / Reels / Shorts) | Varies | Prompt, script or photo to finished video: script, AI or stock scenes, AI voiceover in 24 languages, captions and music; posts to social platforms; agent-native via MCP | [makeaivideo.ai](https://makeaivideo.ai/) · [MCP server](https://github.com/makeaivideo-ai/mcp) |
+| 🎭 **Katechon Arc** | Katechon | AI short dramas / video ads | Varies | Idea, script, novel, or product brief → characters, storyboards, video, and voice in one agent-guided studio; remote MCP server | [arc.katechon.technology](https://arc.katechon.technology) |
+| 🎯 **aiMakeVideo** | aiMakeVideo | One-photo short-form video | Varies | Text/image-to-video plus image tools in one studio; 10 trend templates turn one photo into a 15 s 9:16 clip without a prompt; 9 UI languages | [aimakevideo.com](https://aimakevideo.com) |
+| 🛍️ **Mutator** | Bitnook | Product videos for TikTok and Instagram | Varies | Starts from a product photo, a website or an app screenshot; short videos, photo slideshows and product photos; schedules to your own TikTok and Instagram; MCP server for agents | [mutator.app](https://mutator.app/) |
+| **Sora2 Hub (Third-Party)** | Sora2 Hub (independent platform) | Multi-model video and image generation | Varies | Text-to-video and image-to-video with a shared credit balance; third-party platform, not an official OpenAI product | [sora2hub.org](https://sora2hub.org/) |
+| **GrokVideo Studio (Third-Party)** | Grok Video Generator (independent) | Text-to-video and image-to-video | Varies | Uses the Grok Imagine API; 20 trial credits for new accounts; independent platform, not affiliated with or endorsed by xAI or X | [grokvideogenerator.dev](https://grokvideogenerator.dev/) |
+| **PromptImage** | PromptImage | AI image and video creation | Varies | Multi-model image generation, text-to-video workspace, and a prompt library | [promptimage.cloud](https://promptimage.cloud/) |
 
 #### Discontinued / Historical
 
@@ -184,8 +192,9 @@ Key trends:
 | **Omni-Rewriter** | Open agentic prompt-expansion harness for image/video model dialects (schema + validation + bounded repair; expand ≠ generate). | [github.com/WayneJin0918/Omni-Rewriter](https://github.com/WayneJin0918/Omni-Rewriter) |
 | **BeatDesign** | Open-source, local-first AI media workbench combining a Canvas, short-form video editor, shared Assets, and MCP control for image and video workflows. | [github.com/BeatAPI/BeatDesign](https://github.com/BeatAPI/BeatDesign) |
 | **minimax-h3-1000-prompts** | Curated index of the MiniMax H3 1K prompt dataset: 3-field prompt anatomy, 10 hand-picked reusable prompts, and a model comparison. Interactive atlas of all 1,000 clips. | [github.com/yangzhou-chaofan/minimax-h3-1000-prompts](https://github.com/yangzhou-chaofan/minimax-h3-1000-prompts) · [neta.art atlas](https://neta.art/use-cases/en/h3-1000-prompt-list) |
-| **GrokVideo Studio** | Independent AI text-to-video generator with a free trial (not affiliated with xAI or X). | [grokvideogenerator.dev](https://grokvideogenerator.dev/) |
-| **PromptImage** | Freemium AI image & video studio with a prompt library and multi-model generation. | [promptimage.cloud](https://promptimage.cloud/) |
+| **VideoCreate** | Splits a reference clip into timestamped shots with a per-shot sheet (subject, camera, motion, light, style, sound) and writes prompts adapted for Seedance, Kling 3.0, Wan 2.6 and Grok Imagine; includes a library of prompts tested on real generations. | [videocreate.org](https://videocreate.org/) |
+| **PowerTokens Video Studio** | Open-source (MIT) Video Studio 1.12 (Windows desktop + web) for batch rendering: turns an Excel/CSV shot list into clips with Wan · Seedance · Kling · and more, adds a shared character sheet to every prompt, and resumes unfinished jobs by task ID. Requires a PowerTokens API key. | [github.com/PowerTokens/video-studio](https://github.com/PowerTokens/video-studio) |
+| **VideoPrompt** | Free on-device AI prompt library & generators: 103 templates across 21 platforms, text/video/image → prompt (WebGPU, zero upload), 14 languages. Template library open-sourced (CC-BY-4.0) with a pip CLI. | [videoprompts.tools](https://videoprompts.tools/) · [github.com/yangchangjiang/videoprompts](https://github.com/yangchangjiang/videoprompts) |
 
 ---
 
@@ -439,6 +448,8 @@ This list was compiled and updated using information from the following sources.
 - [InVideo AI](https://invideo.io/)
 - [Magic Hour](https://magichour.ai/)
 - [videos.social](https://videos.social/)
+- [Unsora](https://tryunsora.com)
+- [Katechon Arc](https://arc.katechon.technology)
 
 ### Open-Source Repositories
 
