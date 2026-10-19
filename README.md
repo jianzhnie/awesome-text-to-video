@@ -105,6 +105,7 @@ Key trends:
 | 📱 **MakeAIVideo** | MakeAIVideo | Short-form social video (TikTok / Reels / Shorts) | Varies | Prompt, script or photo to finished video: script, AI or stock scenes, AI voiceover in 24 languages, captions and music; posts to social platforms; agent-native via MCP | [makeaivideo.ai](https://makeaivideo.ai/) · [MCP server](https://github.com/makeaivideo-ai/mcp) |
 | 🎭 **Katechon Arc** | Katechon | AI short dramas / video ads | Varies | Idea, script, novel, or product brief → characters, storyboards, video, and voice in one agent-guided studio; remote MCP server | [arc.katechon.technology](https://arc.katechon.technology) |
 | 🎯 **aiMakeVideo** | aiMakeVideo | One-photo short-form video | Varies | Text/image-to-video plus image tools in one studio; 10 trend templates turn one photo into a 15 s 9:16 clip without a prompt; 9 UI languages | [aimakevideo.com](https://aimakevideo.com) |
+| 🛍️ **Mutator** | Bitnook | Product videos for TikTok and Instagram | Varies | Starts from a product photo, a website or an app screenshot; short videos, photo slideshows and product photos; schedules to your own TikTok and Instagram; MCP server for agents | [mutator.app](https://mutator.app/) |
 
 #### Discontinued / Historical
 
