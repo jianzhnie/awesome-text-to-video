@@ -109,6 +109,7 @@ Key trends:
 | **Sora2 Hub (Third-Party)** | Sora2 Hub (independent platform) | Multi-model video and image generation | Varies | Text-to-video and image-to-video with a shared credit balance; third-party platform, not an official OpenAI product | [sora2hub.org](https://sora2hub.org/) |
 | **GrokVideo Studio (Third-Party)** | Grok Video Generator (independent) | Text-to-video and image-to-video | Varies | Uses the Grok Imagine API; 20 trial credits for new accounts; independent platform, not affiliated with or endorsed by xAI or X | [grokvideogenerator.dev](https://grokvideogenerator.dev/) |
 | **PromptImage** | PromptImage | AI image and video creation | Varies | Multi-model image generation, text-to-video workspace, and a prompt library | [promptimage.cloud](https://promptimage.cloud/) |
+| 📢 **pitchboom.io** | pitchboom | Motion-design video ads from a product URL or brief | 1080p (4K on Pro/Premium), up to 120 s | Script, editable storyboard, voice-over in 34 languages and a generated music bed; 16:9, 9:16, 1:1, 4:5 and 3:4, each recomposed rather than cropped; paid plans from €30/month, no free tier | [pitchboom.io](https://pitchboom.io) |
 
 #### Discontinued / Historical
 
