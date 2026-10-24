@@ -110,6 +110,7 @@ Key trends:
 | **GrokVideo Studio (Third-Party)** | Grok Video Generator (independent) | Text-to-video and image-to-video | Varies | Uses the Grok Imagine API; 20 trial credits for new accounts; independent platform, not affiliated with or endorsed by xAI or X | [grokvideogenerator.dev](https://grokvideogenerator.dev/) |
 | **PromptImage** | PromptImage | AI image and video creation | Varies | Multi-model image generation, text-to-video workspace, and a prompt library | [promptimage.cloud](https://promptimage.cloud/) |
 | 🕺 **Pixwit** | Pixwit | Photo-to-video / meme dance effects | Varies | Freemium AI photo-to-video and meme dance effects; templates like Tiptoeing in My Jordans and Dime Dime Baby | [pixwit.ai](https://pixwit.ai) |
+| 🧬 **RefVid** | RefVid | Consistent product / character video | 1080p, 30 s | Save a product or character once from 1–5 photos, then generate clips on Kling 4, Seedance 2.5 or Kling 3.0 Omni that keep the same label, face and outfit; up to 3 subjects per shot; free credits on sign-up | [refvid.com](https://refvid.com) |
 
 #### Discontinued / Historical
 
@@ -452,6 +453,7 @@ This list was compiled and updated using information from the following sources.
 - [Unsora](https://tryunsora.com)
 - [Katechon Arc](https://arc.katechon.technology)
 - [Pixwit](https://pixwit.ai)
+- [RefVid](https://refvid.com)
 
 ### Open-Source Repositories
 
