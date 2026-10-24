@@ -109,6 +109,7 @@ Key trends:
 | **Sora2 Hub (Third-Party)** | Sora2 Hub (independent platform) | Multi-model video and image generation | Varies | Text-to-video and image-to-video with a shared credit balance; third-party platform, not an official OpenAI product | [sora2hub.org](https://sora2hub.org/) |
 | **GrokVideo Studio (Third-Party)** | Grok Video Generator (independent) | Text-to-video and image-to-video | Varies | Uses the Grok Imagine API; 20 trial credits for new accounts; independent platform, not affiliated with or endorsed by xAI or X | [grokvideogenerator.dev](https://grokvideogenerator.dev/) |
 | **PromptImage** | PromptImage | AI image and video creation | Varies | Multi-model image generation, text-to-video workspace, and a prompt library | [promptimage.cloud](https://promptimage.cloud/) |
+| **H3 MiniMax (Third-Party)** | H3 MiniMax (independent) | Text-to-video and image-to-video with the MiniMax H3 model | 768P or 2K, 4–15 s | Independent web app for the MiniMax H3 video model: text-to-video and image-to-video clips of 4–15 seconds at 768P or 2K; free trial credits; not an official MiniMax product | [h3minimax.com](https://h3minimax.com/) |
 
 #### Discontinued / Historical
 
