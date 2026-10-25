@@ -90,6 +90,7 @@ Key trends:
 
 | Product | Maker | Best For | Max Output | Highlights | Link |
 |---------|-------|----------|------------|------------|------|
+| 🎞️ **Ideoy** | Ideoy | Viral video 1:1 remakes | Short-form | Remake any viral video 1:1 with AI templates | [ideoy.ai](https://ideoy.ai) |
 | 🛠️ **Krea AI** | Krea | Model-agnostic access | Varies | Unified UI for Kling, Hailuo, Luma, Runway, Pika | [krea.ai](https://www.krea.ai) |
 | 🌀 **Morphic / Morph Studio** | Morph Studio | All-in-one creative platform | Varies | 15+ models, canvas editing, custom model training | [morphic.com](https://www.morphic.com/) |
 | ✂️ **InVideo AI** | InVideo | Social media / marketing | 1080p | 5000+ templates, AI script-to-video workflow | [invideo.io](https://invideo.io/) |
@@ -188,6 +189,7 @@ Key trends:
 | Tool | What it does | Link |
 |------|--------------|------|
 | **Podframes** | Generates two-host AI podcast videos with scripted dialogue, voices, lip-sync, and captions. | [github.com/Jellypod-Inc/podframes](https://github.com/Jellypod-Inc/podframes) |
+| **Ideoy** | Remake viral videos 1:1 with AI (image/video → matching short) | [ideoy.ai](https://ideoy.ai) |
 | **TubePrompter** | Converts existing videos into optimized text-to-video prompts for Sora, Veo, Runway, etc. | [tubeprompter.com](https://tubeprompter.com/) |
 | **Vadoo AI** | AI shorts automation platform for faceless channels and social clips. | [vadoo.tv](https://vadoo.tv/) |
 | **Omni-Rewriter** | Open agentic prompt-expansion harness for image/video model dialects (schema + validation + bounded repair; expand ≠ generate). | [github.com/WayneJin0918/Omni-Rewriter](https://github.com/WayneJin0918/Omni-Rewriter) |
