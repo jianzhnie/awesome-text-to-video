@@ -452,6 +452,9 @@ This list was compiled and updated using information from the following sources.
 - [Unsora](https://tryunsora.com)
 - [Katechon Arc](https://arc.katechon.technology)
 - [Pixwit](https://pixwit.ai)
+| 🕺 **KDA Firestarter AI Dance** | Edison Yang (independent) | Photo→solo dance video | 13s 480p 21:9 | One photo → solo dance; Paid from $7.99; unofficial, not affiliated with Riot Games or K/DA | [kdafirestarterai.dev](https://kdafirestarterai.dev) |
+| 🕺 **A2O LITE NEON AI Dance** | Edison Yang (independent) | Photo→duo neon dance | 15s 480p 16:9 | Two photos → neon duo dance with reference soundtrack; Paid from $7.99 | [a2oliteai.org](https://a2oliteai.org) |
+| 🕺 **dime dime baby ai** | Edison Yang (independent) | Photo→vertical dance | ~5s 480p 9:16 | One photo → AI dance (Quince Classic / Party Groove); Paid from $7.99 | [dimedimebabyai.dev](https://dimedimebabyai.dev) |
 
 ### Open-Source Repositories
 
