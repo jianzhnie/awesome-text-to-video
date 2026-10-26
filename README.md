@@ -109,6 +109,9 @@ Key trends:
 | **Sora2 Hub (Third-Party)** | Sora2 Hub (independent platform) | Multi-model video and image generation | Varies | Text-to-video and image-to-video with a shared credit balance; third-party platform, not an official OpenAI product | [sora2hub.org](https://sora2hub.org/) |
 | **GrokVideo Studio (Third-Party)** | Grok Video Generator (independent) | Text-to-video and image-to-video | Varies | Uses the Grok Imagine API; 20 trial credits for new accounts; independent platform, not affiliated with or endorsed by xAI or X | [grokvideogenerator.dev](https://grokvideogenerator.dev/) |
 | **PromptImage** | PromptImage | AI image and video creation | Varies | Multi-model image generation, text-to-video workspace, and a prompt library | [promptimage.cloud](https://promptimage.cloud/) |
+| **Alors On Danse Video Maker (Third-Party)** | Alors On Danse Video Maker (independent) | Photo-to-video | Paid | Independent AI: two photos → 13s studio dance video (Paid; not affiliated with Stromae/TikTok) | [alorsondansevideo.com](https://alorsondansevideo.com) |
+| **Bad Times AI (Third-Party)** | Bad Times AI (independent) | Photo-to-video | Paid | Independent AI dance effect: one photo → 14–15s portrait dance video (Paid from $7.99) | [badtimesai.dev](https://badtimesai.dev) |
+| **I Found You in the Crowd AI (Third-Party)** | I Found You in the Crowd AI (independent) | Photo-to-video | Paid | Independent AI scene effect: two photos → balcony/spotlight meeting video (Paid from $7.99) | [ifoundyouinthecrowdai.com](https://ifoundyouinthecrowdai.com) |
 | 🕺 **Pixwit** | Pixwit | Photo-to-video / meme dance effects | Varies | Freemium AI photo-to-video and meme dance effects; templates like Tiptoeing in My Jordans and Dime Dime Baby | [pixwit.ai](https://pixwit.ai) |
 
 #### Discontinued / Historical
@@ -452,6 +455,9 @@ This list was compiled and updated using information from the following sources.
 - [Unsora](https://tryunsora.com)
 - [Katechon Arc](https://arc.katechon.technology)
 - [Pixwit](https://pixwit.ai)
+| 🕺 **KDA Firestarter AI Dance** | Edison Yang (independent) | Photo→solo dance video | 13s 480p 21:9 | One photo → solo dance; Paid from $7.99; unofficial, not affiliated with Riot Games or K/DA | [kdafirestarterai.dev](https://kdafirestarterai.dev) |
+| 🕺 **A2O LITE NEON AI Dance** | Edison Yang (independent) | Photo→duo neon dance | 15s 480p 16:9 | Two photos → neon duo dance with reference soundtrack; Paid from $7.99 | [a2oliteai.org](https://a2oliteai.org) |
+| 🕺 **dime dime baby ai** | Edison Yang (independent) | Photo→vertical dance | ~5s 480p 9:16 | One photo → AI dance (Quince Classic / Party Groove); Paid from $7.99 | [dimedimebabyai.dev](https://dimedimebabyai.dev) |
 
 ### Open-Source Repositories
 
