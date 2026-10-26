@@ -196,6 +196,7 @@ Key trends:
 | **VideoCreate** | Splits a reference clip into timestamped shots with a per-shot sheet (subject, camera, motion, light, style, sound) and writes prompts adapted for Seedance, Kling 3.0, Wan 2.6 and Grok Imagine; includes a library of prompts tested on real generations. | [videocreate.org](https://videocreate.org/) |
 | **PowerTokens Video Studio** | Open-source (MIT) Video Studio 1.12 (Windows desktop + web) for batch rendering: turns an Excel/CSV shot list into clips with Wan · Seedance · Kling · and more, adds a shared character sheet to every prompt, and resumes unfinished jobs by task ID. Requires a PowerTokens API key. | [github.com/PowerTokens/video-studio](https://github.com/PowerTokens/video-studio) |
 | **VideoPrompt** | Free on-device AI prompt library & generators: 103 templates across 21 platforms, text/video/image → prompt (WebGPU, zero upload), 14 languages. Template library open-sourced (CC-BY-4.0) with a pip CLI. | [videoprompts.tools](https://videoprompts.tools/) · [github.com/yangchangjiang/videoprompts](https://github.com/yangchangjiang/videoprompts) |
+| **MakeMovie** | Self-hosted open-source AI video production platform: source text → script, storyboards, assets, I2V clips, voice cloning (local Qwen3-TTS), score, composed master with subtitles, and EDL/FCPXML/OTIO handoff to Premiere Pro / DaVinci Resolve. | [github.com/DreamOfXM/makemovie](https://github.com/DreamOfXM/makemovie) |
 
 ---
 
