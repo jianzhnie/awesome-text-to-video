@@ -109,6 +109,10 @@ Key trends:
 | **Sora2 Hub (Third-Party)** | Sora2 Hub (independent platform) | Multi-model video and image generation | Varies | Text-to-video and image-to-video with a shared credit balance; third-party platform, not an official OpenAI product | [sora2hub.org](https://sora2hub.org/) |
 | **GrokVideo Studio (Third-Party)** | Grok Video Generator (independent) | Text-to-video and image-to-video | Varies | Uses the Grok Imagine API; 20 trial credits for new accounts; independent platform, not affiliated with or endorsed by xAI or X | [grokvideogenerator.dev](https://grokvideogenerator.dev/) |
 | **PromptImage** | PromptImage | AI image and video creation | Varies | Multi-model image generation, text-to-video workspace, and a prompt library | [promptimage.cloud](https://promptimage.cloud/) |
+| 🕺 **Pixwit** | Pixwit | Photo-to-video / meme dance effects | Varies | Freemium AI photo-to-video and meme dance effects; templates like Tiptoeing in My Jordans and Dime Dime Baby | [pixwit.ai](https://pixwit.ai) |
+| 🥋 **PixelDojo** | PixelDojo | AI image and video studio / AI director for ads and short films | Varies | 80+ image and video models, plus Sensei, an AI director that makes full ads and short films; freemium | [pixeldojo.ai](https://pixeldojo.ai) |
+| 📢 **pitchboom.io** | pitchboom | Motion-design video ads from a product URL or brief | 1080p (4K on eligible plans), up to 120 s | Script, editable storyboard, voice-over in 34 languages and a generated music bed; 16:9, 9:16, 1:1, 4:5 and 3:4, each recomposed rather than cropped; Free credits at sign-up, then paid plans from €30/month | [pitchboom.io](https://pitchboom.io) |
+| 🧬 **RefVid** | RefVid | Consistent product / character video | 1080p, 30 s | Save a product or character once from 1–5 photos, then generate clips on Kling 4, Seedance 2.5 or Kling 3.0 Omni that keep the same label, face and outfit; up to 3 subjects per shot; free credits on sign-up | [refvid.com](https://refvid.com) |
 | **H3 MiniMax (Third-Party)** | H3 MiniMax (independent) | Text-to-video and image-to-video with the MiniMax H3 model | 768P or 2K, 4–15 s | Independent web app for the MiniMax H3 video model: text-to-video and image-to-video clips of 4–15 seconds at 768P or 2K; free trial credits; not an official MiniMax product | [h3minimax.com](https://h3minimax.com/) |
 
 #### Discontinued / Historical
@@ -196,6 +200,9 @@ Key trends:
 | **VideoCreate** | Splits a reference clip into timestamped shots with a per-shot sheet (subject, camera, motion, light, style, sound) and writes prompts adapted for Seedance, Kling 3.0, Wan 2.6 and Grok Imagine; includes a library of prompts tested on real generations. | [videocreate.org](https://videocreate.org/) |
 | **PowerTokens Video Studio** | Open-source (MIT) Video Studio 1.12 (Windows desktop + web) for batch rendering: turns an Excel/CSV shot list into clips with Wan · Seedance · Kling · and more, adds a shared character sheet to every prompt, and resumes unfinished jobs by task ID. Requires a PowerTokens API key. | [github.com/PowerTokens/video-studio](https://github.com/PowerTokens/video-studio) |
 | **VideoPrompt** | Free on-device AI prompt library & generators: 103 templates across 21 platforms, text/video/image → prompt (WebGPU, zero upload), 14 languages. Template library open-sourced (CC-BY-4.0) with a pip CLI. | [videoprompts.tools](https://videoprompts.tools/) · [github.com/yangchangjiang/videoprompts](https://github.com/yangchangjiang/videoprompts) |
+| **ShortSmash** | Prompt-to-published short videos: AI script, neural voiceover in 50 languages, AI-verified stock footage, karaoke captions, one-click publish to 10 platforms. | [github.com/hydope/shortsmash](https://github.com/hydope/shortsmash) |
+| **MakeMovie** | Self-hosted open-source AI video production platform: source text → script, storyboards, assets, I2V clips, voice cloning (local Qwen3-TTS), score, composed master with subtitles, and EDL/FCPXML handoff to Premiere Pro / DaVinci Resolve. | [github.com/DreamOfXM/makemovie](https://github.com/DreamOfXM/makemovie) |
+| **OpenMontage Drama Studio** | Open-source (AGPL-3.0), self-hostable web studio that turns a one-line idea into a short drama, short-form video or e-commerce product clip through 7 editable stages (script, characters, scenes, props, storyboard & shots, voice, edit); Seedream for reference images and Seedance for shots, bring your own API keys (paid). | [github.com/charliewwdev/OpenMontage](https://github.com/charliewwdev/OpenMontage) · [openmontage.dtok.io](https://openmontage.dtok.io) |
 
 ---
 
@@ -451,6 +458,8 @@ This list was compiled and updated using information from the following sources.
 - [videos.social](https://videos.social/)
 - [Unsora](https://tryunsora.com)
 - [Katechon Arc](https://arc.katechon.technology)
+- [Pixwit](https://pixwit.ai)
+- [RefVid](https://refvid.com)
 
 ### Open-Source Repositories
 
