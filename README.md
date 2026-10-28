@@ -113,6 +113,7 @@ Key trends:
 | 🥋 **PixelDojo** | PixelDojo | AI image and video studio / AI director for ads and short films | Varies | 80+ image and video models, plus Sensei, an AI director that makes full ads and short films; freemium | [pixeldojo.ai](https://pixeldojo.ai) |
 | 📢 **pitchboom.io** | pitchboom | Motion-design video ads from a product URL or brief | 1080p (4K on eligible plans), up to 120 s | Script, editable storyboard, voice-over in 34 languages and a generated music bed; 16:9, 9:16, 1:1, 4:5 and 3:4, each recomposed rather than cropped; Free credits at sign-up, then paid plans from €30/month | [pitchboom.io](https://pitchboom.io) |
 | 🧬 **RefVid** | RefVid | Consistent product / character video | 1080p, 30 s | Save a product or character once from 1–5 photos, then generate clips on Kling 4, Seedance 2.5 or Kling 3.0 Omni that keep the same label, face and outfit; up to 3 subjects per shot; free credits on sign-up | [refvid.com](https://refvid.com) |
+| **H3 MiniMax (Third-Party)** | H3 MiniMax (independent) | Text-to-video and image-to-video with the MiniMax H3 model | 768P or 2K, 4–15 s | Independent web app for the MiniMax H3 video model: text-to-video and image-to-video clips of 4–15 seconds at 768P or 2K; free trial credits; not an official MiniMax product | [h3minimax.com](https://h3minimax.com/) |
 
 #### Discontinued / Historical
 
