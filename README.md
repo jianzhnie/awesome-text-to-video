@@ -201,6 +201,7 @@ Key trends:
 | **VideoPrompt** | Free on-device AI prompt library & generators: 103 templates across 21 platforms, text/video/image → prompt (WebGPU, zero upload), 14 languages. Template library open-sourced (CC-BY-4.0) with a pip CLI. | [videoprompts.tools](https://videoprompts.tools/) · [github.com/yangchangjiang/videoprompts](https://github.com/yangchangjiang/videoprompts) |
 | **ShortSmash** | Prompt-to-published short videos: AI script, neural voiceover in 50 languages, AI-verified stock footage, karaoke captions, one-click publish to 10 platforms. | [github.com/hydope/shortsmash](https://github.com/hydope/shortsmash) |
 | **MakeMovie** | Self-hosted open-source AI video production platform: source text → script, storyboards, assets, I2V clips, voice cloning (local Qwen3-TTS), score, composed master with subtitles, and EDL/FCPXML handoff to Premiere Pro / DaVinci Resolve. | [github.com/DreamOfXM/makemovie](https://github.com/DreamOfXM/makemovie) |
+| **OpenMontage Drama Studio** | Open-source (AGPL-3.0), self-hostable web studio that turns a one-line idea into a short drama, short-form video or e-commerce product clip through 7 editable stages (script, characters, scenes, props, storyboard & shots, voice, edit); Seedream for reference images and Seedance for shots, bring your own API keys (paid). | [github.com/charliewwdev/OpenMontage](https://github.com/charliewwdev/OpenMontage) · [openmontage.dtok.io](https://openmontage.dtok.io) |
 
 ---
 
