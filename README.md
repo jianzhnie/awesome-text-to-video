@@ -110,6 +110,7 @@ Key trends:
 | **GrokVideo Studio (Third-Party)** | Grok Video Generator (independent) | Text-to-video and image-to-video | Varies | Uses the Grok Imagine API; 20 trial credits for new accounts; independent platform, not affiliated with or endorsed by xAI or X | [grokvideogenerator.dev](https://grokvideogenerator.dev/) |
 | **PromptImage** | PromptImage | AI image and video creation | Varies | Multi-model image generation, text-to-video workspace, and a prompt library | [promptimage.cloud](https://promptimage.cloud/) |
 | 🕺 **Pixwit** | Pixwit | Photo-to-video / meme dance effects | Varies | Freemium AI photo-to-video and meme dance effects; templates like Tiptoeing in My Jordans and Dime Dime Baby | [pixwit.ai](https://pixwit.ai) |
+| 🥋 **PixelDojo** | PixelDojo | AI image and video studio / AI director for ads and short films | Varies | 80+ image and video models, plus Sensei, an AI director that makes full ads and short films; freemium | [pixeldojo.ai](https://pixeldojo.ai) |
 
 #### Discontinued / Historical
 
