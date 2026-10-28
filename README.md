@@ -111,6 +111,7 @@ Key trends:
 | **PromptImage** | PromptImage | AI image and video creation | Varies | Multi-model image generation, text-to-video workspace, and a prompt library | [promptimage.cloud](https://promptimage.cloud/) |
 | 🕺 **Pixwit** | Pixwit | Photo-to-video / meme dance effects | Varies | Freemium AI photo-to-video and meme dance effects; templates like Tiptoeing in My Jordans and Dime Dime Baby | [pixwit.ai](https://pixwit.ai) |
 | 🥋 **PixelDojo** | PixelDojo | AI image and video studio / AI director for ads and short films | Varies | 80+ image and video models, plus Sensei, an AI director that makes full ads and short films; freemium | [pixeldojo.ai](https://pixeldojo.ai) |
+| 📢 **pitchboom.io** | pitchboom | Motion-design video ads from a product URL or brief | 1080p (4K on eligible plans), up to 120 s | Script, editable storyboard, voice-over in 34 languages and a generated music bed; 16:9, 9:16, 1:1, 4:5 and 3:4, each recomposed rather than cropped; Free credits at sign-up, then paid plans from €30/month | [pitchboom.io](https://pitchboom.io) |
 
 #### Discontinued / Historical
 
