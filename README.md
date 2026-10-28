@@ -115,6 +115,7 @@ Key trends:
 | 🧬 **RefVid** | RefVid | Consistent product / character video | 1080p, 30 s | Save a product or character once from 1–5 photos, then generate clips on Kling 4, Seedance 2.5 or Kling 3.0 Omni that keep the same label, face and outfit; up to 3 subjects per shot; free credits on sign-up | [refvid.com](https://refvid.com) |
 | **H3 MiniMax (Third-Party)** | H3 MiniMax (independent) | Text-to-video and image-to-video with the MiniMax H3 model | 768P or 2K, 4–15 s | Independent web app for the MiniMax H3 video model: text-to-video and image-to-video clips of 4–15 seconds at 768P or 2K; free trial credits; not an official MiniMax product | [h3minimax.com](https://h3minimax.com/) |
 | 🎞️ **Ideoy** | Ideoy | Photo-to-video meme templates | Varies by template | Turns a photo into short vertical meme videos using preset trend templates | [ideoy.ai](https://ideoy.ai) |
+| **Ozil Goal AI (Third-Party)** | Ozil Goal AI (independent) | Photo-to-video football template | 14 s, vertical | Turns one photo into a goal-inspired clip; independent fan tool, not affiliated with Mesut Özil or any club, league, or competition | [ozilgoalaivideo.org](https://ozilgoalaivideo.org/) |
 
 #### Discontinued / Historical
 
