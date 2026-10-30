@@ -116,6 +116,7 @@ Key trends:
 | **H3 MiniMax (Third-Party)** | H3 MiniMax (independent) | Text-to-video and image-to-video with the MiniMax H3 model | 768P or 2K, 4–15 s | Independent web app for the MiniMax H3 video model: text-to-video and image-to-video clips of 4–15 seconds at 768P or 2K; free trial credits; not an official MiniMax product | [h3minimax.com](https://h3minimax.com/) |
 | 🎞️ **Ideoy** | Ideoy | Photo-to-video meme templates | Varies by template | Turns a photo into short vertical meme videos using preset trend templates | [ideoy.ai](https://ideoy.ai) |
 | **Ozil Goal AI (Third-Party)** | Ozil Goal AI (independent) | Photo-to-video football template | 14 s, vertical | Turns one photo into a goal-inspired clip; independent fan tool, not affiliated with Mesut Özil or any club, league, or competition | [ozilgoalaivideo.org](https://ozilgoalaivideo.org/) |
+| 🧰 **NanoMaker AI Video** | NanoMaker | Browser text-to-video and image-to-video | Varies | Multi-model video studio (incl. Seedance); start from a prompt or photo under one subscription | [nanomaker.im/video](https://nanomaker.im/video/) |
 
 #### Discontinued / Historical
 
