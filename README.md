@@ -117,6 +117,7 @@ Key trends:
 | 🎞️ **Ideoy** | Ideoy | Photo-to-video meme templates | Varies by template | Turns a photo into short vertical meme videos using preset trend templates | [ideoy.ai](https://ideoy.ai) |
 | **Ozil Goal AI (Third-Party)** | Ozil Goal AI (independent) | Photo-to-video football template | 14 s, vertical | Turns one photo into a goal-inspired clip; independent fan tool, not affiliated with Mesut Özil or any club, league, or competition | [ozilgoalaivideo.org](https://ozilgoalaivideo.org/) |
 | 🧰 **NanoMaker AI Video** | NanoMaker | Browser text-to-video and image-to-video | Varies | Multi-model video studio (incl. Seedance); start from a prompt or photo under one subscription | [nanomaker.im/video](https://nanomaker.im/video/) |
+| 🎬 **Seedance Now (Third-Party)** | Seedance Now (independent) | Multi-model text-to-video and image-to-video | 1080p, up to 30 s | Seedance 2.5, Kling 4.0 and Wan 3.0 in one browser studio; no watermark; 5 free credits for new accounts; independent platform, not affiliated with ByteDance | [seedancenow.com](https://seedancenow.com) |
 
 #### Discontinued / Historical
 
