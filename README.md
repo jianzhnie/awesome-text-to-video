@@ -444,7 +444,6 @@ This list was compiled and updated using information from the following sources.
 - [ByteDance Seedance](https://www.seedance.tv) • [Seedance 2.0 Global Release Guide](https://resource.digen.ai/bytedance-seedance-2-0-global-release-2026/) • [Seedance 2.0 Review](https://www.buildfastwithai.com/blogs/seedance-2-bytedance-ai-video-2026)
 - [PixVerse](https://pixverse.ai/)
 - [Morphic / Morph Studio](https://www.morphic.com/)
-- [Hedra](https://www.hedra.com/)
 - [Vidnoz AI](https://www.vidnoz.com/)
 - [Steve.AI](https://www.steve.ai/)
 - [Vidu](https://www.vidu.com/)
