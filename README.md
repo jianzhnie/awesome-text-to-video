@@ -60,7 +60,6 @@ Key trends:
 | Product | Maker | Best For | Max Output | Highlights | Link |
 |---------|-------|----------|------------|------------|------|
 | 🎬 **Runway Gen-4 / Gen-4.5** | RunwayML | Professional creators | 1080p (4K upscale) | `@reference` consistency, world-class physics, Aleph editing | [runwayml.com](https://runwayml.com) |
-| 🎥 **Cyanvid** | Cyanvid | Creators / marketers | Varies | Text/image-to-video with clear credit quotes before generate; multi-model studio | [cyanvid.com](https://cyanvid.com/?utm_source=jianzhnie-awesome-text-to-video&utm_medium=directory&utm_campaign=backlinks) |
 | 🐉 **Kling 3.0** | Kuaishou | Motion-heavy / cinematic | 1080p, 15 s | Best-in-class motion, generous free tier | [klingai.com](https://klingai.com) |
 | 🔍 **Veo 3 / Veo 3.1** | Google DeepMind | 4K broadcast production | Native 4K | Scene extension, native audio + lip-sync | [deepmind.google](https://deepmind.google/technologies/veo/) |
 | 🌱 **Seedance 2.0** | ByteDance | Multi-shot storytelling | 2K, 60 s multi-shot | 12 mixed inputs, native audio-video joint gen | [seedance.tv](https://www.seedance.tv) |
@@ -113,11 +112,14 @@ Key trends:
 | 🕺 **Pixwit** | Pixwit | Photo-to-video / meme dance effects | Varies | Freemium AI photo-to-video and meme dance effects; templates like Tiptoeing in My Jordans and Dime Dime Baby | [pixwit.ai](https://pixwit.ai) |
 | 🥋 **PixelDojo** | PixelDojo | AI image and video studio / AI director for ads and short films | Varies | 80+ image and video models, plus Sensei, an AI director that makes full ads and short films; freemium | [pixeldojo.ai](https://pixeldojo.ai) |
 | 📢 **pitchboom.io** | pitchboom | Motion-design video ads from a product URL or brief | 1080p (4K on eligible plans), up to 120 s | Script, editable storyboard, voice-over in 34 languages and a generated music bed; 16:9, 9:16, 1:1, 4:5 and 3:4, each recomposed rather than cropped; Free credits at sign-up, then paid plans from €30/month | [pitchboom.io](https://pitchboom.io) |
-| 🧬 **RefVid** | RefVid | Consistent product / character video | 1080p, 30 s | Save a product or character once from 1–5 photos, then generate clips on Kling 4, Seedance 2.5 or Kling 3.0 Omni that keep the same label, face and outfit; up to 3 subjects per shot; free credits on sign-up | [refvid.com](https://refvid.com) |
+| 🧬 **RefVid** | RefVid | Consistent product / character video | 1080p, 30 s | Save a product or character once from 1–10 photos, then generate clips on Kling 4, Seedance 2.5 or Kling 3.0 Omni that keep the same label, face and outfit; up to 3 subjects per shot; free credits on sign-up | [refvid.com](https://refvid.com) |
 | **H3 MiniMax (Third-Party)** | H3 MiniMax (independent) | Text-to-video and image-to-video with the MiniMax H3 model | 768P or 2K, 4–15 s | Independent web app for the MiniMax H3 video model: text-to-video and image-to-video clips of 4–15 seconds at 768P or 2K; free trial credits; not an official MiniMax product | [h3minimax.com](https://h3minimax.com/) |
 | 🎞️ **Ideoy** | Ideoy | Photo-to-video meme templates | Varies by template | Turns a photo into short vertical meme videos using preset trend templates | [ideoy.ai](https://ideoy.ai) |
 | **Ozil Goal AI (Third-Party)** | Ozil Goal AI (independent) | Photo-to-video football template | 14 s, vertical | Turns one photo into a goal-inspired clip; independent fan tool, not affiliated with Mesut Özil or any club, league, or competition | [ozilgoalaivideo.org](https://ozilgoalaivideo.org/) |
 | 🧰 **NanoMaker AI Video** | NanoMaker | Browser text-to-video and image-to-video | Varies | Multi-model video studio (incl. Seedance); start from a prompt or photo under one subscription | [nanomaker.im/video](https://nanomaker.im/video/) |
+| 🦗 **Cicadas.ai** | Cicadas.ai | Shorts/UGC multi-model compare | Varies | One credit balance across Kling, Veo, Seedance, Wan, Hailuo; price shown before each generate | [cicadas.ai](https://cicadas.ai) |
+| 🎬 **Seedance Now (Third-Party)** | Seedance Now (independent) | Multi-model text-to-video and image-to-video | 1080p, up to 30 s | Seedance 2.5, Kling 4.0 and Wan 3.0 in one browser studio; no watermark; Free signup credits subject to current offer; independent platform, not affiliated with ByteDance | [seedancenow.com](https://seedancenow.com) |
+| 🎥 **Cyanvid** | Cyanvid | Creators / marketers | Varies | Text/image-to-video with clear credit quotes before generate; multi-model studio | [cyanvid.com](https://cyanvid.com/) |
 
 #### Discontinued / Historical
 
@@ -196,7 +198,6 @@ Key trends:
 | Tool | What it does | Link |
 |------|--------------|------|
 | **Podframes** | Generates two-host AI podcast videos with scripted dialogue, voices, lip-sync, and captions. | [github.com/Jellypod-Inc/podframes](https://github.com/Jellypod-Inc/podframes) |
-| 🎤 **Barz Studio** | Barz | Rap lyric videos | 720p 9:16 WebM | Free browser editor: beat-reactive captions from your track | [barzvideo.com](https://barzvideo.com/?utm_source=jianzhnie-awesome-text-to-video&utm_medium=directory&utm_campaign=backlinks) |
 | **TubePrompter** | Converts existing videos into optimized text-to-video prompts for Sora, Veo, Runway, etc. | [tubeprompter.com](https://tubeprompter.com/) |
 | **Vadoo AI** | AI shorts automation platform for faceless channels and social clips. | [vadoo.tv](https://vadoo.tv/) |
 | **Omni-Rewriter** | Open agentic prompt-expansion harness for image/video model dialects (schema + validation + bounded repair; expand ≠ generate). | [github.com/WayneJin0918/Omni-Rewriter](https://github.com/WayneJin0918/Omni-Rewriter) |
@@ -208,7 +209,10 @@ Key trends:
 | **ShortSmash** | Prompt-to-published short videos: AI script, neural voiceover in 50 languages, AI-verified stock footage, karaoke captions, one-click publish to 10 platforms. | [github.com/hydope/shortsmash](https://github.com/hydope/shortsmash) |
 | **MakeMovie** | Self-hosted open-source AI video production platform: source text → script, storyboards, assets, I2V clips, voice cloning (local Qwen3-TTS), score, composed master with subtitles, and EDL/FCPXML handoff to Premiere Pro / DaVinci Resolve. | [github.com/DreamOfXM/makemovie](https://github.com/DreamOfXM/makemovie) |
 | **OpenMontage Drama Studio** | Open-source (AGPL-3.0), self-hostable web studio that turns a one-line idea into a short drama, short-form video or e-commerce product clip through 7 editable stages (script, characters, scenes, props, storyboard & shots, voice, edit); Seedream for reference images and Seedance for shots, bring your own API keys (paid). | [github.com/charliewwdev/OpenMontage](https://github.com/charliewwdev/OpenMontage) · [openmontage.dtok.io](https://openmontage.dtok.io) |
-| **VidFare** | Free tracker of AI video generation prices in dollars per second of output across APIs and credit plans (9 models, 10 platforms, re-checked daily); each price links to its vendor source; credit-plan conversions are marked as estimates. Includes a deals page with end dates and a credit-plan calculator. | [sheepinboots.github.io/clipcost](https://sheepinboots.github.io/clipcost/) · [github.com/SheepinBoots/clipcost](https://github.com/SheepinBoots/clipcost) |
+| **VidFare** | Free tracker of AI video generation prices in dollars per second of output across APIs and credit plans (9 models, 10 platforms, re-checked daily); each price links to its vendor source; credit-plan conversions are marked as estimates. Includes a deals page with end dates and a credit-plan calculator. | [vidfare.com](https://vidfare.com/) · [github.com/SheepinBoots/clipcost](https://github.com/SheepinBoots/clipcost) |
+| **Atlas Cloud** | Pay-as-you-go API platform that serves text-to-video and image-to-video models from several vendors (including Seedance, Kling, Wan, Veo, Vidu and Hailuo) behind one API key: submit an async generation request, then poll for the result. Also offers image, audio and LLM models. | [atlascloud.ai](https://www.atlascloud.ai) |
+| **Phosphene** | Generates video from text and images locally on Apple Silicon Macs using MLX. | [github.com/mrbizarro/Phosphene](https://github.com/mrbizarro/Phosphene) |
+| 🎤 **Barz Studio** | Browser lyric-video editor: timed captions and beat-reactive visuals from your own track; free 720 × 1280 WebM export, with optional automatic lyrics. | [barzvideo.com](https://barzvideo.com/) |
 
 ---
 
@@ -466,6 +470,7 @@ This list was compiled and updated using information from the following sources.
 - [Katechon Arc](https://arc.katechon.technology)
 - [Pixwit](https://pixwit.ai)
 - [RefVid](https://refvid.com)
+- [Cicadas.ai](https://cicadas.ai)
 
 ### Open-Source Repositories
 
