@@ -117,6 +117,7 @@ Key trends:
 | 🎞️ **Ideoy** | Ideoy | Photo-to-video meme templates | Varies by template | Turns a photo into short vertical meme videos using preset trend templates | [ideoy.ai](https://ideoy.ai) |
 | **Ozil Goal AI (Third-Party)** | Ozil Goal AI (independent) | Photo-to-video football template | 14 s, vertical | Turns one photo into a goal-inspired clip; independent fan tool, not affiliated with Mesut Özil or any club, league, or competition | [ozilgoalaivideo.org](https://ozilgoalaivideo.org/) |
 | 🧰 **NanoMaker AI Video** | NanoMaker | Browser text-to-video and image-to-video | Varies | Multi-model video studio (incl. Seedance); start from a prompt or photo under one subscription | [nanomaker.im/video](https://nanomaker.im/video/) |
+| 🦗 **Cicadas.ai** | Cicadas.ai | Shorts/UGC multi-model compare | Varies | One credit balance across Kling, Veo, Seedance, Wan, Hailuo; price shown before each generate | [cicadas.ai](https://cicadas.ai) |
 
 #### Discontinued / Historical
 
@@ -464,6 +465,7 @@ This list was compiled and updated using information from the following sources.
 - [Katechon Arc](https://arc.katechon.technology)
 - [Pixwit](https://pixwit.ai)
 - [RefVid](https://refvid.com)
+- [Cicadas.ai](https://cicadas.ai)
 
 ### Open-Source Repositories
 
