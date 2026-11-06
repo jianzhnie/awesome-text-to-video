@@ -60,6 +60,7 @@ Key trends:
 | Product | Maker | Best For | Max Output | Highlights | Link |
 |---------|-------|----------|------------|------------|------|
 | 🎬 **Runway Gen-4 / Gen-4.5** | RunwayML | Professional creators | 1080p (4K upscale) | `@reference` consistency, world-class physics, Aleph editing | [runwayml.com](https://runwayml.com) |
+| 🎥 **Cyanvid** | Cyanvid | Creators / marketers | Varies | Text/image-to-video with clear credit quotes before generate; multi-model studio | [cyanvid.com](https://cyanvid.com/?utm_source=jianzhnie-awesome-text-to-video&utm_medium=directory&utm_campaign=backlinks) |
 | 🐉 **Kling 3.0** | Kuaishou | Motion-heavy / cinematic | 1080p, 15 s | Best-in-class motion, generous free tier | [klingai.com](https://klingai.com) |
 | 🔍 **Veo 3 / Veo 3.1** | Google DeepMind | 4K broadcast production | Native 4K | Scene extension, native audio + lip-sync | [deepmind.google](https://deepmind.google/technologies/veo/) |
 | 🌱 **Seedance 2.0** | ByteDance | Multi-shot storytelling | 2K, 60 s multi-shot | 12 mixed inputs, native audio-video joint gen | [seedance.tv](https://www.seedance.tv) |
@@ -195,6 +196,7 @@ Key trends:
 | Tool | What it does | Link |
 |------|--------------|------|
 | **Podframes** | Generates two-host AI podcast videos with scripted dialogue, voices, lip-sync, and captions. | [github.com/Jellypod-Inc/podframes](https://github.com/Jellypod-Inc/podframes) |
+| 🎤 **Barz Studio** | Barz | Rap lyric videos | 720p 9:16 WebM | Free browser editor: beat-reactive captions from your track | [barzvideo.com](https://barzvideo.com/?utm_source=jianzhnie-awesome-text-to-video&utm_medium=directory&utm_campaign=backlinks) |
 | **TubePrompter** | Converts existing videos into optimized text-to-video prompts for Sora, Veo, Runway, etc. | [tubeprompter.com](https://tubeprompter.com/) |
 | **Vadoo AI** | AI shorts automation platform for faceless channels and social clips. | [vadoo.tv](https://vadoo.tv/) |
 | **Omni-Rewriter** | Open agentic prompt-expansion harness for image/video model dialects (schema + validation + bounded repair; expand ≠ generate). | [github.com/WayneJin0918/Omni-Rewriter](https://github.com/WayneJin0918/Omni-Rewriter) |
