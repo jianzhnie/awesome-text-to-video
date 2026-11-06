@@ -119,6 +119,7 @@ Key trends:
 | 🧰 **NanoMaker AI Video** | NanoMaker | Browser text-to-video and image-to-video | Varies | Multi-model video studio (incl. Seedance); start from a prompt or photo under one subscription | [nanomaker.im/video](https://nanomaker.im/video/) |
 | 🦗 **Cicadas.ai** | Cicadas.ai | Shorts/UGC multi-model compare | Varies | One credit balance across Kling, Veo, Seedance, Wan, Hailuo; price shown before each generate | [cicadas.ai](https://cicadas.ai) |
 | 🎬 **Seedance Now (Third-Party)** | Seedance Now (independent) | Multi-model text-to-video and image-to-video | 1080p, up to 30 s | Seedance 2.5, Kling 4.0 and Wan 3.0 in one browser studio; no watermark; Free signup credits subject to current offer; independent platform, not affiliated with ByteDance | [seedancenow.com](https://seedancenow.com) |
+| 🎥 **Cyanvid** | Cyanvid | Creators / marketers | Varies | Text/image-to-video with clear credit quotes before generate; multi-model studio | [cyanvid.com](https://cyanvid.com/) |
 
 #### Discontinued / Historical
 
@@ -211,6 +212,7 @@ Key trends:
 | **VidFare** | Free tracker of AI video generation prices in dollars per second of output across APIs and credit plans (9 models, 10 platforms, re-checked daily); each price links to its vendor source; credit-plan conversions are marked as estimates. Includes a deals page with end dates and a credit-plan calculator. | [vidfare.com](https://vidfare.com/) · [github.com/SheepinBoots/clipcost](https://github.com/SheepinBoots/clipcost) |
 | **Atlas Cloud** | Pay-as-you-go API platform that serves text-to-video and image-to-video models from several vendors (including Seedance, Kling, Wan, Veo, Vidu and Hailuo) behind one API key: submit an async generation request, then poll for the result. Also offers image, audio and LLM models. | [atlascloud.ai](https://www.atlascloud.ai) |
 | **Phosphene** | Generates video from text and images locally on Apple Silicon Macs using MLX. | [github.com/mrbizarro/Phosphene](https://github.com/mrbizarro/Phosphene) |
+| 🎤 **Barz Studio** | Browser lyric-video editor: timed captions and beat-reactive visuals from your own track; free 720 × 1280 WebM export, with optional automatic lyrics. | [barzvideo.com](https://barzvideo.com/) |
 
 ---
 
