@@ -210,6 +210,7 @@ Key trends:
 | **OpenMontage Drama Studio** | Open-source (AGPL-3.0), self-hostable web studio that turns a one-line idea into a short drama, short-form video or e-commerce product clip through 7 editable stages (script, characters, scenes, props, storyboard & shots, voice, edit); Seedream for reference images and Seedance for shots, bring your own API keys (paid). | [github.com/charliewwdev/OpenMontage](https://github.com/charliewwdev/OpenMontage) · [openmontage.dtok.io](https://openmontage.dtok.io) |
 | **VidFare** | Free tracker of AI video generation prices in dollars per second of output across APIs and credit plans (9 models, 10 platforms, re-checked daily); each price links to its vendor source; credit-plan conversions are marked as estimates. Includes a deals page with end dates and a credit-plan calculator. | [vidfare.com](https://vidfare.com/) · [github.com/SheepinBoots/clipcost](https://github.com/SheepinBoots/clipcost) |
 | **Atlas Cloud** | Pay-as-you-go API platform that serves text-to-video and image-to-video models from several vendors (including Seedance, Kling, Wan, Veo, Vidu and Hailuo) behind one API key: submit an async generation request, then poll for the result. Also offers image, audio and LLM models. | [atlascloud.ai](https://www.atlascloud.ai) |
+| **Phosphene** | Generates video from text and images locally on Apple Silicon Macs using MLX. | [github.com/mrbizarro/Phosphene](https://github.com/mrbizarro/Phosphene) |
 
 ---
 
