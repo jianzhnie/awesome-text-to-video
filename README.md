@@ -295,6 +295,8 @@ For detailed inference configs, LoRA fine-tuning, and ComfyUI workflows, see eac
 
 ### 2026
 
+- **Motion-aware generative frame interpolation (MoG)** - SCIS 2026, Guozhen Zhang et al. [[Paper](https://link.springer.com/article/10.1007/s11432-025-4920-3)] [[arXiv](https://arxiv.org/abs/2501.03699)] [[Code](https://github.com/MCG-NJU/MoG-VFI)]
+  - Image-conditioned generative interpolation between two boundary frames using intermediate-flow-guided latent/feature injection and selective spatial-layer fine-tuning.
 - **Efficient Video Diffusion Models: Advancements and Challenges**, Shitong Shao. [[Paper](https://arxiv.org/abs/2604.15911)]
   - First comprehensive survey focused on efficient video diffusion: step distillation, efficient attention, model compression, caching/trajectory optimization.
 - **Partition the Support, Reconstruct the Residual: Training-Free Sparse Attention for Video Generation and World Models**, Pardis Taghavi, Reza Langari, and Gaurav Pandey. [[Paper](https://arxiv.org/abs/2608.18484)] [[Project](https://pardistaghavi.github.io/SparsePR-website/)]
