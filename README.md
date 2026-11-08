@@ -120,6 +120,7 @@ Key trends:
 | 🦗 **Cicadas.ai** | Cicadas.ai | Shorts/UGC multi-model compare | Varies | One credit balance across Kling, Veo, Seedance, Wan, Hailuo; price shown before each generate | [cicadas.ai](https://cicadas.ai) |
 | 🎬 **Seedance Now (Third-Party)** | Seedance Now (independent) | Multi-model text-to-video and image-to-video | 1080p, up to 30 s | Seedance 2.5, Kling 4.0 and Wan 3.0 in one browser studio; no watermark; Free signup credits subject to current offer; independent platform, not affiliated with ByteDance | [seedancenow.com](https://seedancenow.com) |
 | 🎥 **Cyanvid** | Cyanvid | Creators / marketers | Varies | Text/image-to-video with clear credit quotes before generate; multi-model studio | [cyanvid.com](https://cyanvid.com/) |
+| 📋 **Shotboard** | Shotboard | Ad research and ad creative on Mac | Varies | Mac app (macOS 14+, Apple Silicon): Meta/TikTok ad search and script extraction from TikTok/YouTube/Instagram links, then images, video and voice with 100 media models (Veo 3.1, Sora 2, Kling, Seedance, ElevenLabs); bring your Claude or ChatGPT subscription and your own provider keys, no markup; freemium | [getshotboard.com](https://getshotboard.com) |
 
 #### Discontinued / Historical
 
