@@ -213,6 +213,7 @@ Key trends:
 | **Atlas Cloud** | Pay-as-you-go API platform that serves text-to-video and image-to-video models from several vendors (including Seedance, Kling, Wan, Veo, Vidu and Hailuo) behind one API key: submit an async generation request, then poll for the result. Also offers image, audio and LLM models. | [atlascloud.ai](https://www.atlascloud.ai) |
 | **Phosphene** | Generates video from text and images locally on Apple Silicon Macs using MLX. | [github.com/mrbizarro/Phosphene](https://github.com/mrbizarro/Phosphene) |
 | 🎤 **Barz Studio** | Browser lyric-video editor: timed captions and beat-reactive visuals from your own track; free 720 × 1280 WebM export, with optional automatic lyrics. | [barzvideo.com](https://barzvideo.com/) |
+| **UberLLM** | One API key for 130+ video models (Veo 3.1, Seedance 2.0, Kling 3.0, Wan 2.7, Vidu Q3, Hailuo 02 and others) through one OpenAI-style endpoint, `/v1/video/generations`: send a job, then poll it. The reply states the most the job can cost before it runs, and a video that fails is not billed. The same key also calls text, image and music models. | [uberllm.dev](https://uberllm.dev) |
 
 ---
 
