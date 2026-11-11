@@ -213,6 +213,7 @@ Key trends:
 | **Atlas Cloud** | Pay-as-you-go API platform that serves text-to-video and image-to-video models from several vendors (including Seedance, Kling, Wan, Veo, Vidu and Hailuo) behind one API key: submit an async generation request, then poll for the result. Also offers image, audio and LLM models. | [atlascloud.ai](https://www.atlascloud.ai) |
 | **Phosphene** | Generates video from text and images locally on Apple Silicon Macs using MLX. | [github.com/mrbizarro/Phosphene](https://github.com/mrbizarro/Phosphene) |
 | 🎤 **Barz Studio** | Browser lyric-video editor: timed captions and beat-reactive visuals from your own track; free 720 × 1280 WebM export, with optional automatic lyrics. | [barzvideo.com](https://barzvideo.com/) |
+| **CloudGPU** | GPUs rented by the minute for running open-source video models yourself (ComfyUI template, SSH, or a Jobs API that starts a GPU, runs one command and shuts it down), plus an OpenAI-compatible model API that includes text-to-video models. An MIT-licensed MCP server lets coding agents rent a GPU with a server-enforced spend cap. | [cloudgpu.app](https://cloudgpu.app) · [github.com/mrhy7176/cloudgpu-mcp](https://github.com/mrhy7176/cloudgpu-mcp) |
 
 ---
 
