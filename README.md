@@ -308,6 +308,8 @@ For detailed inference configs, LoRA fine-tuning, and ComfyUI workflows, see eac
 - **Runway Gen-4.5 Technical Report** — Runway (2026) [[Runway Help](https://help.runwayml.com/hc/en-us/articles/37327109429011-Creating-with-Gen-4-Video)]
 - **ByteDance Seedance 2.0** — Global launch April 2026 [[Overview](https://resource.digen.ai/bytedance-seedance-2-0-global-release-2026/)]
 - **LTX-2.3: Native 4K Video + Audio Generation** — Lightricks (March 2026) [[Project](https://github.com/Lightricks/LTX-Video)]
+- **Motion-aware generative frame interpolation (MoG)** - SCIS 2026, Guozhen Zhang et al. [[Paper](https://link.springer.com/article/10.1007/s11432-025-4920-3)] [[arXiv](https://arxiv.org/abs/2501.03699)] [[Code](https://github.com/MCG-NJU/MoG-VFI)]
+  - Image-conditioned generative interpolation between two boundary frames using intermediate-flow-guided latent/feature injection and selective spatial-layer fine-tuning.
 
 ### 2025
 
