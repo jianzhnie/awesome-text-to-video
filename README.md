@@ -213,6 +213,7 @@ Key trends:
 | **Atlas Cloud** | Pay-as-you-go API platform that serves text-to-video and image-to-video models from several vendors (including Seedance, Kling, Wan, Veo, Vidu and Hailuo) behind one API key: submit an async generation request, then poll for the result. Also offers image, audio and LLM models. | [atlascloud.ai](https://www.atlascloud.ai) |
 | **Phosphene** | Generates video from text and images locally on Apple Silicon Macs using MLX. | [github.com/mrbizarro/Phosphene](https://github.com/mrbizarro/Phosphene) |
 | 🎤 **Barz Studio** | Browser lyric-video editor: timed captions and beat-reactive visuals from your own track; free 720 × 1280 WebM export, with optional automatic lyrics. | [barzvideo.com](https://barzvideo.com/) |
+| **AgentCraft Video Prompts** | Free library of text-to-video prompts for Seedance 2.5, Kling 4.0, MiniMax H3, Wan 3.0, Veo and Gemini Omni, each shown with the clip it produced and credited to its creator; filter by model or use case, then copy. No sign-up. | [agentcraft.dev/en/prompts/video](https://agentcraft.dev/en/prompts/video/) |
 
 ---
 
