@@ -218,6 +218,7 @@ Key trends:
 | **Phosphene** | Generates video from text and images locally on Apple Silicon Macs using MLX. | [github.com/mrbizarro/Phosphene](https://github.com/mrbizarro/Phosphene) |
 | 🎤 **Barz Studio** | Browser lyric-video editor: timed captions and beat-reactive visuals from your own track; free 720 × 1280 WebM export, with optional automatic lyrics. | [barzvideo.com](https://barzvideo.com/) |
 | **AgentCraft Video Prompts** | Free library of text-to-video prompts for Seedance 2.5, Kling 4.0, MiniMax H3, Wan 3.0, Veo and Gemini Omni, each shown with the clip it produced and credited to its creator; filter by model or use case, then copy. No sign-up. | [agentcraft.dev/en/prompts/video](https://agentcraft.dev/en/prompts/video/) |
+| **UberLLM** | One API key for video models (Veo 3.1, Seedance 2.0, Kling 3.0, Wan 2.7, Vidu Q3, Hailuo 02 and others) through one OpenAI-style endpoint, `/v1/video/generations`: send a job, then poll it. The reply states the most the job can cost before it runs, and a video that fails is not billed. The same key also calls text, image and music models. | [uberllm.dev](https://uberllm.dev) |
 
 ---
 
