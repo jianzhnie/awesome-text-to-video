@@ -223,6 +223,7 @@ Key trends:
 | **UberLLM** | One API key for video models (Veo 3.1, Seedance 2.0, Kling 3.0, Wan 2.7, Vidu Q3, Hailuo 02 and others) through one OpenAI-style endpoint, `/v1/video/generations`: send a job, then poll it. The reply states the most the job can cost before it runs, and a video that fails is not billed. The same key also calls text, image and music models. | [uberllm.dev](https://uberllm.dev) |
 | **Prompt Generator** | Writes video prompts for Veo, Sora, Kling, Seedance and Runway with shot, camera, motion and light cues; free daily allowance (10 prompts a day without an account), paid plans from $9/month. | [trypromptgenerator.com](https://trypromptgenerator.com) |
 | **CloudGPU** | GPUs rented by the minute for running open-source video models yourself (ComfyUI template, SSH, or a Jobs API that starts a GPU, runs one command and shuts it down), plus an OpenAI-compatible model API that includes text-to-video models. An MIT-licensed MCP server lets coding agents rent a GPU with a server-enforced spend cap. | [cloudgpu.app](https://cloudgpu.app) · [github.com/mrhy7176/cloudgpu-mcp](https://github.com/mrhy7176/cloudgpu-mcp) |
+| **Vidmoat** | Hosted AI video editor: describe the edit in chat, review it on a multi-track timeline, and render MP4s; also reachable from Telegram and, for developers, a REST API and remote MCP server. | [vidmoat.com](https://www.vidmoat.com/) |
 
 ---
 
