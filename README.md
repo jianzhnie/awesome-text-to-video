@@ -220,6 +220,7 @@ Key trends:
 | **AgentCraft Video Prompts** | Free library of text-to-video prompts for Seedance 2.5, Kling 4.0, MiniMax H3, Wan 3.0, Veo and Gemini Omni, each shown with the clip it produced and credited to its creator; filter by model or use case, then copy. No sign-up. | [agentcraft.dev/en/prompts/video](https://agentcraft.dev/en/prompts/video/) |
 | **UberLLM** | One API key for video models (Veo 3.1, Seedance 2.0, Kling 3.0, Wan 2.7, Vidu Q3, Hailuo 02 and others) through one OpenAI-style endpoint, `/v1/video/generations`: send a job, then poll it. The reply states the most the job can cost before it runs, and a video that fails is not billed. The same key also calls text, image and music models. | [uberllm.dev](https://uberllm.dev) |
 | **Prompt Generator** | Writes video prompts for Veo, Sora, Kling, Seedance and Runway with shot, camera, motion and light cues; free daily allowance (10 prompts a day without an account), paid plans from $9/month. | [trypromptgenerator.com](https://trypromptgenerator.com) |
+| **CloudGPU** | GPUs rented by the minute for running open-source video models yourself (ComfyUI template, SSH, or a Jobs API that starts a GPU, runs one command and shuts it down), plus an OpenAI-compatible model API that includes text-to-video models. An MIT-licensed MCP server lets coding agents rent a GPU with a server-enforced spend cap. | [cloudgpu.app](https://cloudgpu.app) · [github.com/mrhy7176/cloudgpu-mcp](https://github.com/mrhy7176/cloudgpu-mcp) |
 
 ---
 
