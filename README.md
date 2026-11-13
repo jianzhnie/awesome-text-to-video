@@ -123,6 +123,7 @@ Key trends:
 | **Vidney** | Vidney | Pet videos / family photo editing | Varies by model | Text/image-to-video and image editing in one browser workspace; one-time signup credits, paid plans | [vidney.ai](https://vidney.ai/) |
 | 🎬 **ReelAI** | ReelAI | Short-form photo-to-video | Varies | Creates short AI videos from photos using ready-to-use templates; paid subscriptions | [tryreelai.com](https://tryreelai.com/) |
 | 📋 **Shotboard** | Shotboard | Ad research and ad creative on Mac | Varies | Mac app (macOS 14+, Apple Silicon): Meta/TikTok ad search and script extraction from TikTok/YouTube/Instagram links, then images, video and voice with 100 media models (Veo 3.1, Sora 2, Kling, Seedance, ElevenLabs); bring your Claude or ChatGPT subscription and your own provider keys, no markup; freemium | [getshotboard.com](https://getshotboard.com) |
+| 🎭 **Twistavo** | AZERIA IT | Character swap in real videos | Varies | Replaces a person in a real video using 1 to 4 photos; runs in the browser; paid plans or credit packs; 1 free image after signup | [twistavo.com](https://twistavo.com) |
 
 #### Discontinued / Historical
 
