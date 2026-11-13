@@ -205,7 +205,7 @@ Key trends:
 | **BeatDesign** | Open-source, local-first AI media workbench combining a Canvas, short-form video editor, shared Assets, and MCP control for image and video workflows. | [github.com/BeatAPI/BeatDesign](https://github.com/BeatAPI/BeatDesign) |
 | **minimax-h3-1000-prompts** | Curated index of the MiniMax H3 1K prompt dataset: 3-field prompt anatomy, 10 hand-picked reusable prompts, and a model comparison. Interactive atlas of all 1,000 clips. | [github.com/yangzhou-chaofan/minimax-h3-1000-prompts](https://github.com/yangzhou-chaofan/minimax-h3-1000-prompts) · [neta.art atlas](https://neta.art/use-cases/en/h3-1000-prompt-list) |
 | **VideoCreate** | Splits a reference clip into timestamped shots with a per-shot sheet (subject, camera, motion, light, style, sound) and writes prompts adapted for Seedance, Kling 3.0, Wan 2.6 and Grok Imagine; includes a library of prompts tested on real generations. | [videocreate.org](https://videocreate.org/) |
-| **PowerTokens Video Studio** | Open-source (MIT) Video Studio 1.12 (Windows desktop + web) for batch rendering: turns an Excel/CSV shot list into clips with Wan · Seedance · Kling · and more, adds a shared character sheet to every prompt, and resumes unfinished jobs by task ID. Requires a PowerTokens API key. | [github.com/PowerTokens/video-studio](https://github.com/PowerTokens/video-studio) |
+| **PowerTokens Video Studio** | Open-source (MIT) Video Studio 1.17 (Windows, unsigned Apple Silicon Mac Beta, and web) for chat-to-video and batch rendering: turns an Excel/CSV shot list into clips with Wan · Seedance · Kling · and more, adds a shared character sheet to every prompt, and resumes unfinished jobs by task ID. Requires a PowerTokens API key. | [github.com/PowerTokens/video-studio](https://github.com/PowerTokens/video-studio) |
 | **VideoPrompt** | Free on-device AI prompt library & generators: 103 templates across 21 platforms, text/video/image → prompt (WebGPU, zero upload), 14 languages. Template library open-sourced (CC-BY-4.0) with a pip CLI. | [videoprompts.tools](https://videoprompts.tools/) · [github.com/yangchangjiang/videoprompts](https://github.com/yangchangjiang/videoprompts) |
 | **ShortSmash** | Prompt-to-published short videos: AI script, neural voiceover in 50 languages, AI-verified stock footage, karaoke captions, one-click publish to 10 platforms. | [github.com/hydope/shortsmash](https://github.com/hydope/shortsmash) |
 | **MakeMovie** | Self-hosted open-source AI video production platform: source text → script, storyboards, assets, I2V clips, voice cloning (local Qwen3-TTS), score, composed master with subtitles, and EDL/FCPXML handoff to Premiere Pro / DaVinci Resolve. | [github.com/DreamOfXM/makemovie](https://github.com/DreamOfXM/makemovie) |
@@ -214,6 +214,7 @@ Key trends:
 | **Atlas Cloud** | Pay-as-you-go API platform that serves text-to-video and image-to-video models from several vendors (including Seedance, Kling, Wan, Veo, Vidu and Hailuo) behind one API key: submit an async generation request, then poll for the result. Also offers image, audio and LLM models. | [atlascloud.ai](https://www.atlascloud.ai) |
 | **Phosphene** | Generates video from text and images locally on Apple Silicon Macs using MLX. | [github.com/mrbizarro/Phosphene](https://github.com/mrbizarro/Phosphene) |
 | 🎤 **Barz Studio** | Browser lyric-video editor: timed captions and beat-reactive visuals from your own track; free 720 × 1280 WebM export, with optional automatic lyrics. | [barzvideo.com](https://barzvideo.com/) |
+| **AgentCraft Video Prompts** | Free library of text-to-video prompts for Seedance 2.5, Kling 4.0, MiniMax H3, Wan 3.0, Veo and Gemini Omni, each shown with the clip it produced and credited to its creator; filter by model or use case, then copy. No sign-up. | [agentcraft.dev/en/prompts/video](https://agentcraft.dev/en/prompts/video/) |
 
 ---
 
@@ -309,6 +310,8 @@ For detailed inference configs, LoRA fine-tuning, and ComfyUI workflows, see eac
 - **Runway Gen-4.5 Technical Report** — Runway (2026) [[Runway Help](https://help.runwayml.com/hc/en-us/articles/37327109429011-Creating-with-Gen-4-Video)]
 - **ByteDance Seedance 2.0** — Global launch April 2026 [[Overview](https://resource.digen.ai/bytedance-seedance-2-0-global-release-2026/)]
 - **LTX-2.3: Native 4K Video + Audio Generation** — Lightricks (March 2026) [[Project](https://github.com/Lightricks/LTX-Video)]
+- **Motion-aware generative frame interpolation (MoG)** - SCIS 2026, Guozhen Zhang et al. [[Paper](https://link.springer.com/article/10.1007/s11432-025-4920-3)] [[arXiv](https://arxiv.org/abs/2501.03699)] [[Code](https://github.com/MCG-NJU/MoG-VFI)]
+  - Image-conditioned generative interpolation between two boundary frames using intermediate-flow-guided latent/feature injection and selective spatial-layer fine-tuning.
 
 ### 2025
 
