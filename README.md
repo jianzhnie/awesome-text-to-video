@@ -122,6 +122,7 @@ Key trends:
 | 🎥 **Cyanvid** | Cyanvid | Creators / marketers | Varies | Text/image-to-video with clear credit quotes before generate; multi-model studio | [cyanvid.com](https://cyanvid.com/) |
 | **Vidney** | Vidney | Pet videos / family photo editing | Varies by model | Text/image-to-video and image editing in one browser workspace; one-time signup credits, paid plans | [vidney.ai](https://vidney.ai/) |
 | 🎬 **ReelAI** | ReelAI | Short-form photo-to-video | Varies | Creates short AI videos from photos using ready-to-use templates; paid subscriptions | [tryreelai.com](https://tryreelai.com/) |
+| 📋 **Shotboard** | Shotboard | Ad research and ad creative on Mac | Varies | Mac app (macOS 14+, Apple Silicon): Meta/TikTok ad search and script extraction from TikTok/YouTube/Instagram links, then images, video and voice with 100 media models (Veo 3.1, Sora 2, Kling, Seedance, ElevenLabs); bring your Claude or ChatGPT subscription and your own provider keys, no markup; freemium | [getshotboard.com](https://getshotboard.com) |
 
 #### Discontinued / Historical
 
