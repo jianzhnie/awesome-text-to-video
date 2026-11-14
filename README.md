@@ -60,7 +60,8 @@ Key trends:
 | Product | Maker | Best For | Max Output | Highlights | Link |
 |---------|-------|----------|------------|------------|------|
 | 🎬 **Runway Gen-4 / Gen-4.5** | RunwayML | Professional creators | 1080p (4K upscale) | `@reference` consistency, world-class physics, Aleph editing | [runwayml.com](https://runwayml.com) |
-| 🐉 **Kling 3.0** | Kuaishou | Motion-heavy / cinematic | 1080p, 15 s | Best-in-class motion, generous free tier | [klingai.com](https://klingai.com) |
+| 🐉 **Kling VIDEO 3.0** | Kuaishou | Native-audio / multi-shot workflows | Official product guide: 3–15 s | Earlier model with published documentation; current account availability not verified | [3.0 guide](https://kling.ai/quickstart/klingai-video-3-model-user-guide) |
+| 🐉 **Kling 4.0 (standard)** | Kuaishou | Multimodal-reference / keyframe workflows | Official product guide: 720p / 1080p / 4K, 3–30 s | Up to 10 keyframes. Flash is a separate mode documented at 720p, 3–20 s, not the same specifications. These are product-guide specifications, not verified MCP/CLI entitlements: check supported models for your region and account; MCP/CLI use OAuth and paid Personal-workspace credits | [4.0 guide](https://kling.ai/quickstart/kling-4-model-user-guide) · [MCP/CLI guide](https://kling.ai/app/mcp/guide) |
 | 🔍 **Veo 3 / Veo 3.1** | Google DeepMind | 4K broadcast production | Native 4K | Scene extension, native audio + lip-sync | [deepmind.google](https://deepmind.google/technologies/veo/) |
 | 🌱 **Seedance 2.0** | ByteDance | Multi-shot storytelling | 2K, 60 s multi-shot | 12 mixed inputs, native audio-video joint gen | [seedance.tv](https://www.seedance.tv) |
 | ✨ **Luma Dream Machine** | Luma AI | Action / sports / physics | 4K | Realistic motion blur, fluid dynamics | [lumalabs.ai](https://lumalabs.ai) |
