@@ -60,7 +60,7 @@ Key trends:
 | Product | Maker | Best For | Max Output | Highlights | Link |
 |---------|-------|----------|------------|------------|------|
 | 🎬 **Runway Gen-4 / Gen-4.5** | RunwayML | Professional creators | 1080p (4K upscale) | `@reference` consistency, world-class physics, Aleph editing | [runwayml.com](https://runwayml.com) |
-| 🐉 **Kling 3.0** | Kuaishou | Motion-heavy / cinematic | 1080p, 15 s | Best-in-class motion, generous free tier | [klingai.com](https://klingai.com) · [MCP/CLI guide](https://kling.ai/app/mcp/guide) |
+| 🐉 **Kling 4.0** | Kuaishou | Motion-heavy / cinematic | Up to 4K, 30 s (mode/account dependent) | Multimodal references, up to 10 keyframes; MCP requires OAuth and paid credits | [klingai.com](https://klingai.com) · [4.0 specs](https://kling.ai/quickstart/kling-4-model-user-guide) · [MCP/CLI guide](https://kling.ai/app/mcp/guide) |
 | 🔍 **Veo 3 / Veo 3.1** | Google DeepMind | 4K broadcast production | Native 4K | Scene extension, native audio + lip-sync | [deepmind.google](https://deepmind.google/technologies/veo/) |
 | 🌱 **Seedance 2.0** | ByteDance | Multi-shot storytelling | 2K, 60 s multi-shot | 12 mixed inputs, native audio-video joint gen | [seedance.tv](https://www.seedance.tv) |
 | ✨ **Luma Dream Machine** | Luma AI | Action / sports / physics | 4K | Realistic motion blur, fluid dynamics | [lumalabs.ai](https://lumalabs.ai) |
