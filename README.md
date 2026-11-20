@@ -126,6 +126,7 @@ Key trends:
 | 🎭 **Twistavo** | AZERIA IT | Character swap in real videos | Varies | Replaces a person in a real video using 1 to 4 photos; runs in the browser; paid plans or credit packs; 1 free image after signup | [twistavo.com](https://twistavo.com) |
 | 🎬 **Pavo AI** | Pavo | Short drama / social-clip stories | Varies by plan | AI video generator with text-to-video and image-to-video, scene-to-shot planning and a reusable cast so characters stay consistent across clips; free tier | [pavoai.app](https://pavoai.app/) |
 | **MemeVibe** | MemeVibe | Photo-to-video meme templates | Varies by template | Create short dance, pet, holiday, or two-person clips from one or two photos | [memevibe.ai](https://memevibe.ai/) |
+| 🪄 **Seedance AI Video Generator (Third-Party)** | Seeddance.io (independent) | Multi-model text-to-video and image-to-video | 1080p, 4–30 s | Seedance 2.5 / 2.0, Kling 4.0, Veo 3.1 and MiniMax H3 for video, plus Seedream 5.5 and GPT Image 2.6 for images, in one browser workspace with Canvas and Agent modes; free credits for new users; independent platform, not affiliated with ByteDance | [seeddance.io](https://www.seeddance.io) |
 
 #### Discontinued / Historical
 
