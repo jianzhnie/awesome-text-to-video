@@ -224,6 +224,7 @@ Key trends:
 | **Prompt Generator** | Writes video prompts for Veo, Sora, Kling, Seedance and Runway with shot, camera, motion and light cues; free daily allowance (10 prompts a day without an account), paid plans from $9/month. | [trypromptgenerator.com](https://trypromptgenerator.com) |
 | **CloudGPU** | GPUs rented by the minute for running open-source video models yourself (ComfyUI template, SSH, or a Jobs API that starts a GPU, runs one command and shuts it down), plus an OpenAI-compatible model API that includes text-to-video models. An MIT-licensed MCP server lets coding agents rent a GPU with a server-enforced spend cap. | [cloudgpu.app](https://cloudgpu.app) · [github.com/mrhy7176/cloudgpu-mcp](https://github.com/mrhy7176/cloudgpu-mcp) |
 | **Vidmoat** | Hosted AI video editor: describe the edit in chat, review it on a multi-track timeline, and render MP4s; also reachable from Telegram and, for developers, a REST API and remote MCP server. | [vidmoat.com](https://www.vidmoat.com/) |
+| **H3 Video Generator** | Browser-based text-to-video and image-to-video generator built on the MiniMax H3 model, with a free daily credit allowance and no install required. | [h3minimax.com](https://h3minimax.com) |
 
 ---
 
