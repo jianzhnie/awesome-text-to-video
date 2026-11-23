@@ -72,6 +72,7 @@ Key trends:
 | 🎥 **Vidu Q1/Q2** | Shengshu / Tsinghua | Highly consistent T2V | 1080p, 16 s | U-ViT backbone, subject consistency, 1080p generation | [vidu.com](https://www.vidu.com/) |
 | 🔬 **Lumiere** | Google DeepMind | Research T2V / I2V / editing | 720p | Space-time U-Net, single-pass temporal generation | [lumiere-video.github.io](https://lumiere-video.github.io/) |
 | 🎞️ **Seele TV** | Seele AI | Cinematic sequence workflows | Varies by selected model | Visual references, shot-level camera direction, and continuity-oriented video creation | [seele.tv](https://seele.tv) |
+| 🎬 **Kavel** | Kavel | Free browser AI video & image creation | 4K with sound | Kavel is a free AI video generator and AI image generator — 4K clips with sound, and images you can run without an account or a card. | [kavel.ai](https://www.kavel.ai/) |
 
 #### AI Avatar / Presenter Tools
 
