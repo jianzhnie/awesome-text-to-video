@@ -127,6 +127,7 @@ Key trends:
 | 🎭 **Twistavo** | AZERIA IT | Character swap in real videos | Varies | Replaces a person in a real video using 1 to 4 photos; runs in the browser; paid plans or credit packs; 1 free image after signup | [twistavo.com](https://twistavo.com) |
 | 🎬 **Pavo AI** | Pavo | Short drama / social-clip stories | Varies by plan | AI video generator with text-to-video and image-to-video, scene-to-shot planning and a reusable cast so characters stay consistent across clips; free tier | [pavoai.app](https://pavoai.app/) |
 | **MemeVibe** | MemeVibe | Photo-to-video meme templates | Varies by template | Create short dance, pet, holiday, or two-person clips from one or two photos | [memevibe.ai](https://memevibe.ai/) |
+| 🕺 **Angry Dance** | Angry Dance | Single-photo dance & 2-step meme studio | Varies by model | Text/image-to-video workspace with Kling 2.5 Turbo, Muse Video and Nano Banana 2, plus photo-to-video dance and restyle presets; one-time credit packs, upfront credit quotes and refunds on failed generations | [angrydance.com](https://angrydance.com) · [Prompts](https://github.com/siuserxiaowei/ai-photo-to-video-prompt-recipes) |
 
 #### Discontinued / Historical
 
