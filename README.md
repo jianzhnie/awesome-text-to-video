@@ -201,15 +201,6 @@ Key trends:
   <a href="https://www.morphic.com/">Try Morphic →</a>
 </td>
 </tr>
-<tr>
-<td width="50%" align="center">
-  <img src="https://yovid.ai/preview.png" width="100%">
-  <h3>Yovid</h3>
-  <p>Free AI video generator with Seedance 2.5, Kling 4.0, Veo 3.1, Sora 2, Hailuo and Wan under one credit balance. One free clip with no sign-up.</p>
-  <a href="https://yovid.ai">Try Yovid →</a>
-</td>
-<td width="50%" align="center"></td>
-</tr>
 </table>
 
 </div>
