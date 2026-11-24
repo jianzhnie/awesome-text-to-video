@@ -130,6 +130,7 @@ Key trends:
 | 🪄 **SeedVideo AI (Third-Party)** | Seeddance.io (independent) | Multi-model text-to-video and image-to-video | Varies by model | Seedance 2.5 / 2.0, Kling 4.0, Veo 3.1 and MiniMax H3 for video, plus Seedream 5.5 and GPT Image 2.6 for images, in one browser workspace with a Canvas; free credits for new users; independent platform, not affiliated with ByteDance | [seeddance.io](https://www.seeddance.io) |
 | 📣 **Starpop** | Starpop | UGC, static and video ad generation | Varies | Researches customer language and winning ads, then generates UGC, static and video ads for e-commerce, apps and SaaS; also available via MCP | [starpop.ai](https://starpop.ai) |
 | 🕺 **Angry Dance** | Angry Dance | Single-photo dance & 2-step meme studio | Varies by model | Text/image-to-video workspace with Kling 2.5 Turbo, Muse Video and Nano Banana 2, plus photo-to-video dance and restyle presets; one-time credit packs, upfront credit quotes and refunds on failed generations | [angrydance.com](https://angrydance.com) · [Prompts](https://github.com/siuserxiaowei/ai-photo-to-video-prompt-recipes) |
+| 📣 **Hermoso** | Hermoso | Image and video ads made from your AI agent | Varies | Claude, ChatGPT, Cursor and other agents use it over MCP, CLI or API to research competitors' ads, make image and video ads, and post and schedule them to social channels; free plan | [hermoso.ai](https://hermoso.ai/) |
 
 #### Discontinued / Historical
 
